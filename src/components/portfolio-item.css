@@ -1,0 +1,7 @@
+.is-horizontal-center {
+    justify-content: center;
+}
+
+.is-circular {
+    border-radius: 50%;
+}

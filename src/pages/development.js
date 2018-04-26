@@ -1,0 +1,40 @@
+import React from 'react'
+import HeaderPage from '../components/header-page'
+import PortfolioItem from '../components/portfolio-item'
+
+const Development = () => (
+  <div>
+    <HeaderPage title={'Development'} subtitle={'My development portfolio'} />
+    <div className="section">
+      <div className="content">
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem title={'Cyclopt QaaS'} description={'My startup. Quality as a Service, built using the MERN stack.'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem title={'npm-miner'} description={'Mining the npm registry'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem title={'kyrcha.info'} description={'My website built using Gatsby/Bulma and Contentful.'}/>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem title={'SEAF'} description={'Sustainable Energy Asset Evaluation and Optimisation Framework (SEAF) project built on the MEAN stack.'}/>
+          </div>
+        </div>
+        < hr />
+        <p className="title is-3">Archive</p>
+        <p className="subtitle is-5">Past Projects</p>
+        <div className="columns">
+          <div className="column">
+          </div>
+          <div className="column">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+)
+
+export default Development

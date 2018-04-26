@@ -1,0 +1,59 @@
+.orange-bg {
+    background-color: #FF7D58;
+}
+
+.hero h1 {
+    color: white;
+}
+
+.hero h2 {
+    color: white;
+}
+
+#sidebar {
+    background-color: ghostwhite;
+    min-height: 100%;
+}
+
+.main {
+    min-height: 100%;
+}
+
+.img-right {
+    float: right;
+    padding: 2px;
+}
+
+.img-left {
+    float: left;
+    padding-right: 1em;
+}
+
+.no-bottom-margin {
+    padding-bottom: 0rem;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+/* .columns {
+    background-color: white;
+    padding: 3rem 1.5rem;
+} */
+
+.post-excert {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+ul.is-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.blog-post {
+    padding: 1rem;
+    margin: 1rem;
+}

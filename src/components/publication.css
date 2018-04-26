@@ -1,0 +1,12 @@
+.is-italic {
+    font-style: italic;
+}
+
+.publication {
+    margin-bottom: 1rem;
+}
+
+.pdf a {
+    text-decoration: none;
+    color: inherit;
+}
