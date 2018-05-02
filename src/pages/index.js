@@ -18,25 +18,25 @@ const IndexPage = () => (
           More specifically:
         </p>
         <ul>
-          <li><strong>Big Code</strong>: <strong>Software Analytics</strong> (Descriptive, Diagnostic, Predictive, Prescriptive, etc.) and <strong>Mining Software Repositories</strong> and software related data streams for patterns, mainly for answering <strong>Software Quality </strong>related questions and for improving the stages of the software development lifecycle.
-            <ul>
+          <li><strong>Big Code</strong>: <strong>Software Analytics</strong> (Descriptive, Diagnostic, Predictive, Prescriptive, etc.) and <strong>Mining Software Repositories</strong> and software related data streams for patterns, mainly for answering <strong>Software Quality</strong> related questions and for improving the stages of the software development lifecycle.
+            {/* <ul>
               <li><strong>Longitudinal studies</strong> of how software evolves.</li>
-            </ul>
+            </ul> */}
           </li>
           <li><strong>Knowledge Representation</strong> systems through Machine Learning, Deep learning and neurosymbolic reasoning, for uses in Software Engineering and Development like Machine to Machine communication, Intelligent Web Clients, Call by Meaning etc.</li>
           <li>Software tools for Machine Learning automation (<strong>AutoML</strong>), in order to bring the value of ML closer to non-experts.</li>
-          <li>Uses of <strong>Reinforcement Learning</strong> for adaptable software behaviour like in autonomic computing or adaptable interfaces.</li>
+          {/* <li>Uses of <strong>Reinforcement Learning</strong> for adaptable software behaviour like in autonomic computing or adaptable interfaces.</li> */}
           <li><strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics that can efficiently express big data operations and in particular enable the scalability of machine learning algorithms.</li>
-          <li><strong>Quality of Intelligent Systems</strong> with respect to safety, reliability and security.</li>
-          <li><strong>Virtual Personal Assistants</strong> (VPAs) and <strong>Natural User Interfaces</strong> (NUIs) and in general creating real-life, valuable, autonomous software agents.</li>
-          <li>Uses of <strong>Blockchain technology</strong> and <strong>Distributed Applications</strong> (Dapps) for enabling distribution, credit, trust and reputation mechanisms for the open source community.</li>
+          {/* <li><strong>Quality of Intelligent Systems</strong> with respect to safety, reliability and security.</li> */}
+          {/* <li><strong>Virtual Personal Assistants</strong> (VPAs) and <strong>Natural User Interfaces</strong> (NUIs) and in general creating real-life, valuable, autonomous software agents.</li> */}
+          {/* <li>Uses of <strong>Blockchain technology</strong> and <strong>Distributed Applications</strong> (Dapps) for enabling distribution, credit, trust and reputation mechanisms for the open source community.</li> */}
         </ul>
-        <p>and some moonshot ideas like:</p>
+        {/* <p>and some moonshot ideas like:</p>
         <ul>
           <li><strong>Learn machines to learn how to code (Software 3.0)</strong></li>
           <li>Devise <strong>new methods for training neural networks</strong> other than back propagation.</li>
           <li><strong>Quantum Computing</strong> and especially its repercussions to Machine Learning and Software Development (how we should program, what tools should we use, what abstractions, how to simulate the computations in classic hardware, etc.).</li>
-        </ul>
+        </ul> */}
         <p>As I developer, I am fond of the MERN stack for building web applications, JavaScript and node.js but I also work with Java, Python and R in the projects. My site is structured as follows:</p>
         <ul>
           <li>About</li>
