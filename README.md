@@ -1,13 +1,50 @@
-# gatsby-starter-default
-The default Gatsby starter
+# kyrcha.info
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+My personal website built with **Gatsbyjs**
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Stack
+
+- Gatsbyjs
+- Bulma.io
+- Contentful
+- surge.sh
+- GitHub
+
+## Setup
+
+Create an `.env` file with the following environment variables:
+
+- CONTENTFUL_SPACE_ID
+- CONTENTFUL_ACCESS_TOKEN
+- GOOGLE_ANALYTICS
+
+Install `gatsby-cli` globally to use it easily:
+
+`npm install -global gatsby-cli`
+
+Install all dependencies:
+
+`npm install`
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Install `surge` globally to use it easily (once):
+
+`npm install --global surge`
+
+Build it:
+
+`gatsby build`
+
+Deploy it on surge:
+
+`surge public/`
+
+## Used by others than me
+
+Feel free to copy any code you like and don't forget to:
+
+- Use you own environment variables
+- Use your own CNAME file with your own domain
+- Use your own redirects
+- Use your own pages, images, files etc.

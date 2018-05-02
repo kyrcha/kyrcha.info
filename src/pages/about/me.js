@@ -10,40 +10,42 @@ const Me = () => (
         <p>
           Dr. Kyriakos Chatzidimitriou has obtained both his doctorate and engineering diplomas 
           from the Electrical and Computer Engineering (ECE) department of the Aristotle University 
-          of Thessaloniki (AUTH), Greece, in 2012 and 2003 respectively. He has also a MSc degree 
-          from the Computer Science department of Colorado State University (CSU), USA, received 
-          in 2006. In 2009, he received the excellence award as a PhD candidate by the Research 
-          Committee of AUTH, while in 2012 with team Mertacor they got the 1st place in the 
+          of Thessaloniki (AUTH), Greece, in 2012 and 2003 respectively. He has also a Master of 
+          Science degree from the Computer Science department of Colorado State University (CSU), USA, 
+          completed in 2006. In 2009, he received the excellence award as a PhD candidate by the Research 
+          Committee of AUTH, while in 2012, with team Mertacor, he got the 1st place in the 
           international Trading Agent Competition (TAC) Ad Auctions (AA) game. He has worked as a 
           researcher and technical leader for European (Mobile-Age, SEAF, S-CASE, CASSANDRA, Agent 
-          Academy), national and private sector funded R&D projects and as a software engineer in 
-          the industry. He is currently a research and teaching associate at ECE, AUTH working as 
+          Academy), national (eTHMMY) and private sector funded R&D projects and as a software engineer 
+          in the industry. He is currently a research and teaching associate at ECE, AUTH working as 
           a technical lead and software architect in R&D projects. He is also an adjunct instructor 
           in the "Advanced Computer and Communication Systems" postgraduate programme, giving 
           lectures about Software Engineering, Databases and Data Mining. In 2017, along with 
-          Dr. Andreas Symeonidis they founded Cyclopt, a spin-off company of AUTH focused on software 
+          Dr. Andreas Symeonidis they founded Cyclopt, a spin-off company of AUTH, focused on software 
           quality assessment and software analytics.
         </p>
         <p className="title is-3">CV</p>
-        <p>I try to keep my <a href="http://gr.linkedin.com/in/kyrcha">LinkedIn</a> profile up to date.</p>
-        <p>In pdf format:</p>
+        <p>
+          I try to keep my <a href="http://gr.linkedin.com/in/kyrcha">LinkedIn</a> profile up to date 
+          as much as possible so it is there were you will find the latest information about me.</p>
+        <p>Occasionally I update my CVs in document format as well:</p>
         <ul>
           <li>CV in English (under construction)</li>
-          <li><a href="/files/chatzidimitriou-cv-2017.pdf">CV in Greek</a> (2017 version)</li>
+          <li><a href="/files/chatzidimitriou-cv-2017.pdf">CV in Greek</a> (13 pages, early 2017 version)</li>
         </ul>
 
         <p className="title is-3">Email</p>
         <img className="alignnone size-full wp-image-179" src="/images/email.png" alt="" width="243" height="18"/>
 
         <p className="title is-3">Social Media</p>
-        <p>You can find me on the following social media (even though in favor of deep work, I abstain from them):</p>
+        <p>You can find me on the following social media (even though in favor of <a href='https://amzn.to/2jl9Qwt'>deep work</a>, I abstain from them):</p>
         <ul>
           <li>Updates:
             <ul>
               <li><a href="https://twitter.com/kyrcha">Twitter</a></li>
               <li><a href="https://www.facebook.com/kyrcha">Facebook</a>- Add me as a friend if you know me, else subscribe to my feed. Either way, most of my posts are public.</li>
               <li><a href="https://plus.google.com/+KyriakosChatzidimitriou/posts">Google+</a> - Thinking of dropping that :)</li>
-              <li><a href="https://foursquare.com/kyrcha">Foursquare</a> - Add me only if you know I know you well.</li>
+              <li><a href="https://foursquare.com/kyrcha">Foursquare</a> - Add me only if you know, I know you well.</li>
             </ul>
           </li>
           <li>Professional:

@@ -15,8 +15,8 @@ const Timeline = () => (
           <div className="timeline-item">
             <div className="timeline-marker"></div>
             <div className="timeline-content">
-              <p className="heading">Undergrad studies</p>
-              <p> Start undergraduate studies in Electrical and Computer Engineering at the Artistotle University of Thessaloniki. Specialisation: Electronics and Computers</p>
+              <p className="heading">October</p>
+              <p><strong>Undergraduate studies</strong> - Start undergraduate studies in Electrical and Computer Engineering at the Artistotle University of Thessaloniki. Specialisation: Electronics and Computers</p>
             </div>
           </div>
           <header className="timeline-header">
@@ -26,8 +26,8 @@ const Timeline = () => (
             <div className="timeline-marker">
             </div>
             <div className="timeline-content">
-              <p className="heading">Graduation</p>
-              <p>Graduated 2nd of class from ECE, AUTH</p>
+              <p className="heading">March</p>
+              <p><strong>Graduation</strong> - Graduated 2nd of class from ECE, AUTH</p>
             </div>
           </div>
           <div className="timeline-item">
@@ -64,16 +64,16 @@ const Timeline = () => (
             <div className="timeline-marker">
             </div>
             <div className="timeline-content">
-              <p className="heading">Graduation</p>
-              <p>Graduated with 4.0 GPA. Specialised in AI/ML and algorithms</p>
+              <p className="heading">June</p>
+              <p><strong>Graduation</strong> - Graduated with 4.0 GPA. Specialised in AI/ML and algorithms</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-marker">
             </div>
             <div className="timeline-content">
-              <p className="heading">Army</p>
-              <p>Went to the army to serve my one year obligation</p>
+              <p className="heading">August</p>
+              <p><strong>Army</strong> - Went to the army to serve my one year obligation</p>
             </div>
           </div>
           <header className="timeline-header">
@@ -83,8 +83,8 @@ const Timeline = () => (
             <div className="timeline-marker">
             </div>
             <div className="timeline-content">
-              <p className="heading">PhD Candidate</p>
-              <p>Started my PhD (Tech: Java, R)</p>
+              <p className="heading">October</p>
+              <p><strong>PhD Candidate</strong> - Started my PhD (Tech: Java, R)</p>
             </div>
           </div>
           <header className="timeline-header">
@@ -132,8 +132,8 @@ const Timeline = () => (
             <div className="timeline-marker">
             </div>
             <div className="timeline-content">
-              <p className="heading">Dr.</p>
-              <p>Defended my PhD dissertation</p>
+              <p className="heading">November</p>
+              <p><strong>Dr.</strong> - Defended my PhD dissertation</p>
             </div>
           </div>
           <header className="timeline-header">
