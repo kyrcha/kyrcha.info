@@ -5,7 +5,6 @@ import Publication from '../components/publication'
 const Publications = ({data}) => {
   const { edges: publications} = data.allContentfulPublications
   const years = new Set();
-  console.log(data)
   return (
     <div>
       <HeaderPage title={'Publications'} subtitle={'My Publish or Perish statistics and my publications'} />

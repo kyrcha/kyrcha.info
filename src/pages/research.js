@@ -9,7 +9,11 @@ const Research = () => (
       <div className="content">
         <div className="columns">
           <div className="column">
-            <PortfolioItem title={'Big Code'} description={'... aka mining software repositories (MSR) and software related data, software analytics etc. with the goal of improving the various facets the software lifecycle.'}/>
+            <PortfolioItem 
+              title={'Big Code'} 
+              img={'/images/big-code.png'}
+              path={'/research/big-code'}
+              description={'... AKA mining software repositories (MSR) and software related data, software analytics etc. with the goal of improving the various facets the software lifecycle.'}/>
           </div>
           <div className="column">
             <PortfolioItem title={'Software Quality'} description={'Research on assessing the quality of a software project and quantifying the various (ISO 25010) quality characteristics: Functional Suitability, Performance Efficiency, Maintainability, Usability, Security, Portability, Reliability, Compatibility.'}/>

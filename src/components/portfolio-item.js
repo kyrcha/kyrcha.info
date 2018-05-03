@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link';
 import './portfolio-item.css'
 
 const PortfolioItem = ({title, description, path, img}) => (
@@ -10,7 +11,7 @@ const PortfolioItem = ({title, description, path, img}) => (
         </div>
         <h4 className="title is-4">{title}</h4>
         <p>{description}</p>
-        <a className="button">Read more...</a>
+        <Link to={path} className="button">Read more...</Link>
     </div>    
 )
 
