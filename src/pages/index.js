@@ -18,16 +18,33 @@ const IndexPage = () => (
           More specifically:
         </p>
         <ul>
-          <li><strong>Big Code</strong>: <strong>Software Analytics</strong> (Descriptive, Diagnostic, Predictive, Prescriptive, etc.) and <strong>Mining Software Repositories</strong> and software related data streams for patterns, mainly for answering <strong>Software Quality</strong> related questions and for improving the stages of the software development lifecycle.
-            {/* <ul>
-              <li><strong>Longitudinal studies</strong> of how software evolves.</li>
-            </ul> */}
+          <li>
+            <strong>Big Code</strong>: <strong>Software Analytics</strong> (Descriptive, Diagnostic, Predictive, 
+            Prescriptive, etc.) and <strong>Mining Software Repositories</strong> and software related data streams 
+            for patterns for improving the various stages of the software development lifecycle.
           </li>
-          <li><strong>Knowledge Representation</strong> systems through Machine Learning, Deep learning and neurosymbolic reasoning, for uses in Software Engineering and Development like Machine to Machine communication, Intelligent Web Clients, Call by Meaning etc.</li>
-          <li>Software tools for Machine Learning automation (<strong>AutoML</strong>), in order to bring the value of ML closer to non-experts.</li>
-          {/* <li>Uses of <strong>Reinforcement Learning</strong> for adaptable software behaviour like in autonomic computing or adaptable interfaces.</li> */}
-          <li><strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics that can efficiently express big data operations and in particular enable the scalability of machine learning algorithms.</li>
-          {/* <li><strong>Quality of Intelligent Systems</strong> with respect to safety, reliability and security.</li> */}
+          <li>
+            Applying <strong>Machine learning on the source code</strong> and building 
+            useful <strong>knowledge representations</strong> of software related artefacts.
+          </li>
+          <li>
+            Devising tools and models for <strong>assessing the quality of software and intelligent systems</strong> 
+            with respect to the ISO 25010 standard.
+          </li>
+          <li>
+            Software tools for Machine Learning automation (<strong>AutoML</strong>), in order to bring the 
+            value of ML closer to non-experts.
+          </li>
+          <li>
+            <strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, 
+            formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics 
+            that can efficiently express big data operations and in particular enable the scalability 
+            of machine learning algorithms.
+          </li>
+          <li>
+            <strong>Engineering intelligent software systems (software agents)</strong> for automating 
+            various tasks humans do.
+          </li>
           {/* <li><strong>Virtual Personal Assistants</strong> (VPAs) and <strong>Natural User Interfaces</strong> (NUIs) and in general creating real-life, valuable, autonomous software agents.</li> */}
           {/* <li>Uses of <strong>Blockchain technology</strong> and <strong>Distributed Applications</strong> (Dapps) for enabling distribution, credit, trust and reputation mechanisms for the open source community.</li> */}
         </ul>
