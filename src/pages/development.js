@@ -9,27 +9,30 @@ const Development = () => (
       <div className="content">
         <div className="columns">
           <div className="column">
-            <PortfolioItem title={'Cyclopt QaaS'} description={'My startup. Quality as a Service, built using the MERN stack.'}/>
+            <PortfolioItem 
+              path={'/development/cyclopt'}
+              title={'Cyclopt QaaS'} 
+              description={'My startup. Quality as a Service, built using the MERN stack.'}/>
           </div>
           <div className="column">
-            <PortfolioItem title={'npm-miner'} description={'Mining the npm registry'}/>
+            <PortfolioItem 
+              path={'/development/npm-miner'}
+              title={'npm-miner'} 
+              description={'Mining the npm registry'}/>
           </div>
           <div className="column">
-            <PortfolioItem title={'kyrcha.info'} description={'My website built using Gatsby/Bulma and Contentful.'}/>
+            <PortfolioItem 
+              path={'/development/kyrcha-info'}
+              title={'kyrcha.info'} 
+              description={'My website built using Gatsby/Bulma and Contentful.'}/>
           </div>
         </div>
         <div className="columns">
           <div className="column">
-            <PortfolioItem title={'SEAF'} description={'Sustainable Energy Asset Evaluation and Optimisation Framework (SEAF) project built on the MEAN stack.'}/>
-          </div>
-        </div>
-        < hr />
-        <p className="title is-3">Archive</p>
-        <p className="subtitle is-5">Past Projects</p>
-        <div className="columns">
-          <div className="column">
-          </div>
-          <div className="column">
+            <PortfolioItem 
+              path={'/development/seaf'}
+              title={'SEAF'} 
+              description={'Sustainable Energy Asset Evaluation and Optimisation Framework (SEAF) project built on the MEAN stack.'}/>
           </div>
         </div>
       </div>

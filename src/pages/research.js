@@ -83,7 +83,7 @@ const Research = () => (
         <div className="columns">
           <div className="column">
             <PortfolioItem 
-              path={'/research/agents'}
+              path={'/research/near'}
               title={'NEAR'} 
               description={'My PhD dissertation! NeuroEvolution of Augmenting Reservoirs, or for short NEAR, is an algorithm that combines Neuroevolution and Learning in order to optimize and train Echo State Networks for solving reinforcement learning and time series forecasting problems.'}/>
           </div>
