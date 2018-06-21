@@ -111,6 +111,16 @@ const Sidebar = () => (
       </div>
       <div className="columns">
         <div className="column">
+          <h4>Practical Machine Learning in R</h4>
+          <p>
+            <a href='https://leanpub.com/practical-machine-learning-r' target='_blank'><img src='/images/pmlr-cover-small.png' width='50%' className='img-left'/></a>
+            Our recent book <a href='https://leanpub.com/practical-machine-learning-r' target='_blank'>Practical Machine Learning with R</a> for quickly entering 
+            the world of creating machine learning models in R.
+          </p>
+        </div>
+      </div>
+      <div className="columns">
+        <div className="column">
           <h4>Follow</h4>
           <div className="content">
             <ul className='is-unstyled'>
@@ -128,7 +138,7 @@ const Sidebar = () => (
         <div className="column">
           <h4>Let's work together</h4>
           <p>
-            For <a href="/colab">hiring me and my team</a> or <a href="/colab">pursuing
+            For <a href="/colab">hiring our team</a> or <a href="/colab">pursuing
             other joint research, development and writing activities </a>(like H2020 EU proposals, tenders etc.) 
             feel free to <a href="/colab">contact me</a>.
           </p>

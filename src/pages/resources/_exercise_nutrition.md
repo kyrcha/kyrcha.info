@@ -71,7 +71,7 @@ subtitle: "... for optimal health"
 
   ###### Bench Press
 
-  Definitive guide + videos + stronglifts
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IwpbvOc2g7I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
   ###### Overhead Press
 
@@ -136,11 +136,13 @@ subtitle: "... for optimal health"
 
   #### Weightlifting
   
-  - Squat (3x5): 140 kgr
-  - Deadlift (1x5): 120 kgr
-  - Bench press (5x5): 85 kgr
-  - Over-Head Press (5x5): 55 kgr
-  - Barbell Row (5x5): 87,5 kgr
+  | Exercise       | 8 Reps | 5 Reps | 3 Reps | 1 Rep |
+  |----------------|--------|--------|--------|-------|
+  | Squat          |        |        |        | 165kg |
+  | Deadlift       |        |        |        | 160kg |
+  | Bench press    |        |        |        | 100kg |
+  | Overhead press |        |        |        |  70kg |
+  | Barbell Row    |        |        |        | 110kg |
 
   #### Running
   

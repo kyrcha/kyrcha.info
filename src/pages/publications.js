@@ -25,6 +25,9 @@ const Publications = ({data}) => {
             <p className='subtitle is-5'>In reverse chronological order</p>
             <p><span className='tag is-primary'>conference</span> Conference, Symposium, Workshop etc.</p>
             <p><span className='tag is-danger'>journal</span> Journal, Magazine</p> 
+            <p><span className='tag is-dark'>thesis</span> Dissertation, Thesis</p> 
+            <p><span className='tag is-warning'>book</span> Book</p> 
+            <p><span className='tag is-light'>other</span> Pre-prints, without proceedings, no peer-reviewed</p> 
             {
               publications.map(({node: publication}, index) => {
                 // console.log(years.push([publication.year]))

@@ -3,7 +3,7 @@ import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 
 const MLSrc = ({data}) => {
-    const { edges: publications} = data.allContentfulPublications
+    // const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
         <div>
@@ -15,7 +15,7 @@ const MLSrc = ({data}) => {
             </p>
 
             <p className='title is-3'>Related Publications</p>
-            {
+            {/* {
               publications.map(({node: publication}, index) => {
                 // console.log(years.push([publication.year]))
                 return years.has(publication.year) ?
@@ -28,7 +28,7 @@ const MLSrc = ({data}) => {
                   </div>;
                 }
               )
-            }
+            } */}
             </div>
         </div>
         </div>
