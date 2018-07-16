@@ -101,13 +101,12 @@ const Me = () => (
         <p className="title is-3">Places I've visited...in case you care</p>
         <p>(Airports don't count)</p>
         <h4>World</h4>
-        <p>According to <a href="http://www.world66.com/">World66</a> I've visited 8% of the world's countries (18 countries)</p>
-        <a href="http://www.world66.com/myworld66/visitedCountries/worldmap?visited=USTNATBEBGHRFRDEGRHUITNLPTESUKVAILTR"><img className="alignnone size-large" src="http://www.world66.com/myworld66/visitedCountries/worldmap?visited=USTNATBEBGHRFRDEGRHUITNLPTESUKVAILTR" width="600" height="300"/></a>
+        <p>Visited 19 countries</p>
+        <a href="https://map1.maploco.com/visited-countries/mine.php?c1=m67kdf8rgg-b3vmhw426a-gn8ckt8phc-b33r639lhc-2rve3odl34"><img src="https://map1.maploco.com/visited-countries/ml/m67kdf8rgg-b3vmhw426a-gn8ckt8phc-b33r639lhc-2rve3odl34.gif" border="0"/><br/>Create Your Own Visited Countries Map</a>
         <h4>Europe</h4>
-        <img className="alignnone size-large" src="http://www.world66.com/myworld66/visitedEurope/countrymap?visited=AUBEBUCRENFRGEGRHUITNLPTSCSPTUVC" width="552" height="400"/>
+        <a href="https://m.maploco.com/visited-europe/mine.php?euro=AT-BE-BG-DE-ES-FR-GB-GR-HR-HU-IL-IT-NL-PT-SE-TN-TR-VA"><img src="https://map1.maploco.com/visited-europe/ml/AT-BE-BG-DE-ES-FR-GB-GR-HR-HU-IL-IT-NL-PT-SE-TN-TR-VA.gif" border="0"/><br/>Create Your Own Visited European Countries Map</a>
         <h4>USA</h4>
-        <img className="alignnone size-large" src="http://www.world66.com/myworld66/visitedStates/statemap?visited=AZCACONV" width="580" height="300"/>
-        <p><a href="http://www.world66.com/myworld66">create your own visited country map</a></p>
+        <a href="https://m.maploco.com/visited-states/mine.php?states=CA-CO-NV"><img src="https://map1.maploco.com/visited-states/ml/CA-CO-NV.png" border="0"/><br/>Create Your Own Visited States Map</a>
         <h4>Cities and Places</h4>
         <p>(Except in Greece)</p>
         <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zP4Wfadws8UE.k3XFlk7JYnNI" width="640" height="480" data-mce-fragment="1"></iframe>
