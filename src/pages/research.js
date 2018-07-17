@@ -18,6 +18,7 @@ const Research = () => (
           <div className="column">
             <PortfolioItem 
               title={'Software Quality'} 
+              img={'/images/software-quality.png'}
               path={'/research/software-quality'}
               description={'Research on assessing the quality of a software project and quantifying the various (ISO 25010) quality characteristics: Functional Suitability, Performance Efficiency, Maintainability, Usability, Security, Portability, Reliability, Compatibility.'}/>
           </div>

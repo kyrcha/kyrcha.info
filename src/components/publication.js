@@ -42,6 +42,7 @@ const Publication = ({pub}) => {
         {pub.file ? <span> [<a href={pub.file.file.url} target='_blank'>PDF</a>] </span> : ''}
         {pub.dataset ? <span> [<a href={pub.dataset} target='_blank'>Dataset</a>] </span> : ''}
         {pub.code ? <span> [<a href={pub.code} target='_blank'>Code</a>] </span> : ''}
+        {pub.presentation ? <span> [<a href={pub.presentation} target='_blank'>Slides</a>] </span> : ''}
         {
             pub.doi ?    
             <span> [DOI: <a href={`http://dx.doi.org/${pub.doi}`} target='_blank'>{pub.doi}</a>] </span> :

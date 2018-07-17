@@ -17,9 +17,11 @@ const Publications = ({data}) => {
             <p><a href="http://citeseerx.ist.psu.edu/viewauth/summary?aid=48699"> <strong>CiteSeerX</strong></a></p>
             <p><a href="http://academic.research.microsoft.com/Author/3348000/kyriakos-c-chatzidimitrio"> <strong>Microsoft</strong> Academic Search</a></p>
             <p><a href="http://scholar.google.com/citations?user=KRG5Mg8AAAA"> <strong>Google</strong> Scholar Profile</a></p>
+            <p><a href="https://www.mendeley.com/profiles/kyriakos-chatzidimitriou/stats/"> <strong>Mendeley</strong> Profile</a></p>
             <p><a href="http://scholar.google.com/scholar?as_q=&amp;num=100&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=Kyriakos+Chatzidimitriou&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_sdt=1.&amp;as_sdtp=on&amp;as_sdtf=&amp;as_sdts=5&amp;btnG=Search+Scholar&amp;hl=en&amp;num=100"> <strong>Google</strong> Scholar Search</a></p>
             <p><a href="http://ieeexplore.ieee.org/search/searchresult.jsp?matchBoolean=true&searchWithin=%22First%20Name%22:Kyriakos&searchWithin=%22Last%20Name%22:Chatzidimitriou&newsearch=true"> <strong>IEEE</strong></a></p>
             <p><a href="https://www.scopus.com/authid/detail.uri?authorId=6505586965"> <strong>Scopus</strong></a></p>
+            <p><a href="http://apps.webofknowledge.com/OneClickSearchNoHistory.do?product=WOS&search_mode=OneClickSearchNoHistory&qid=4&SID=E4iLDPq486N1LEGeury&needRegisterQuery=no&field=AU&value=Chatzidimitriou,%20KC&from_dais=yes"> <strong>Web of Science</strong></a></p>
             <p><a href="https://orcid.org/0000-0003-0715-1197"> <strong>ORCID</strong></a></p>
             <p className='title is-3'>Publications</p>
             <p className='subtitle is-5'>In reverse chronological order</p>
@@ -68,6 +70,7 @@ export const query = graphql`
             doi
             slug
             code
+            presentation
             dataset
             pages
             notes {

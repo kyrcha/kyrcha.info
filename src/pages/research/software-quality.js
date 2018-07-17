@@ -11,13 +11,13 @@ const SoftwareQuality = ({data}) => {
         <div className="section">
             <div className="content">
             <p>
-                Under Development
+               In this area the goal is to develop models, methodologies and tools in order to assess and quantify the quality of software. In particular
+               I am interested in the quality of Software as a Service applications and in instantiating the ISO 25010 model with specific models and metrics.
             </p>
 
             <p className='title is-3'>Related Publications</p>
             {
               publications.map(({node: publication}, index) => {
-                // console.log(years.push([publication.year]))
                 return years.has(publication.year) ?
                   <div key={index}>
                     <Publication pub={publication} />
