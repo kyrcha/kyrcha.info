@@ -26,6 +26,12 @@ Install all dependencies:
 
 `npm install`
 
+## Test production build
+
+For the 404 page and the rss.xml:
+
+`gatsby build && gatsby serve public`
+
 ## Deploy
 
 Install `surge` globally to use it easily (once):

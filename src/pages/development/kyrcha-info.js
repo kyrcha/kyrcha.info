@@ -28,6 +28,9 @@ const KyrchaInfo = () => {
                                     <li>surge.sh</li>
                                     <li>HTML</li>
                                     <li>CSS</li>
+                                    <li>SCSS</li>
+                                    <li>Markdown</li>
+                                    <li>RSS</li>
                                     <li>Wufoo forms</li>
                                     <li>Google Analytics</li>
                                 </ul>

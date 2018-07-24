@@ -2,7 +2,9 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Kyriakos`,
+    title: `Kyriakos Chatzidimitriou`,
+    description: `Personal Website of Kyriakos Chatzidimitriou`,
+    siteUrl: `http://kyrcha.info/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,5 +38,61 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allContentfulBlogPost } }) => {
+              return allContentfulBlogPost.edges.map(edge => {
+                return Object.assign({}, edge.node, {
+                  description: edge.node.excert,
+                  url: site.siteMetadata.siteUrl + edge.node.url,
+                  guid: site.siteMetadata.siteUrl + edge.node.url,
+                  custom_elements: [{ "content:encoded": edge.node.body }],
+                });
+              });
+            },
+            query: `
+              {
+                allContentfulBlogPost(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [published] }
+                ) {
+                  edges {
+                    node {
+                      id
+                      title
+                      published
+                      tags
+                      category
+                      excert
+                      url
+                      body {
+                        id
+                        body
+                     }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+          },
+        ],
+      },
+    },
   ],
 }
