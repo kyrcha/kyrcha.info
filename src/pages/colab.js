@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import HeaderPage from '../components/header-page'
 
 const wufoo = `<iframe height="436"

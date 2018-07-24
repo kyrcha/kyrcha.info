@@ -1,5 +1,6 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Me = () => (
   <div>
