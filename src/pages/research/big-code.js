@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const BigCode = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
@@ -25,7 +26,7 @@ const BigCode = ({data}) => {
 
             <p className='title is-4'>npm-miner and mining the npm-registry</p>
             <p>
-                <a href='http://npm-miner.com'>npm-miner</a> is an infrastructure dedicated into mining the <a href='https://www.npmjs.com'>npm registry</a> 
+                <OutboundLink href='http://npm-miner.com'>npm-miner</OutboundLink> is an infrastructure dedicated into mining the <OutboundLink href='https://www.npmjs.com'>npm registry</OutboundLink> 
                 (the biggest registry of software packages) and reporting the results of applying software quality open source tools to the packages.
             </p>
 

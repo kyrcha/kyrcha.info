@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import HeaderPage from '../components/header-page'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const IndexPage = () => (
   <div>
@@ -8,10 +8,10 @@ const IndexPage = () => (
     <div className="section">
       <div className="content">
         <p>
-          My name is Kyriakos Chatzidimitriou and I strive to be a <a href="https://www.sei.cmu.edu/architecture/research/previousresearch/duties.cfm">Software Architect</a>, an 
-          (applied) Machine Learning Researcher and an Entrepreneur. Currently, I am working on my first company <a href="http://cyclopt.com">Cyclopt</a> and 
-          I am also a research associate at the <a href="http://www.auth.gr">Aristotle University of Thessaloniki</a>, working as a technical manager, software architect and researcher 
-          in R&amp;D projects at <a href="http://issel.ee.auth.gr">ISSEL</a> and conducting research in the remaining time in the areas below.
+          My name is Kyriakos Chatzidimitriou and I strive to be a <OutboundLink href="https://www.sei.cmu.edu/architecture/research/previousresearch/duties.cfm">Software Architect</OutboundLink>, an 
+          (applied) Machine Learning Researcher and an Entrepreneur. Currently, I am working on my first company <OutboundLink href="http://cyclopt.com">Cyclopt</OutboundLink> and 
+          I am also a research associate at the <OutboundLink href="http://www.auth.gr">Aristotle University of Thessaloniki</OutboundLink>, working as a technical manager, software architect and researcher 
+          in R&amp;D projects at <OutboundLink href="http://issel.ee.auth.gr">ISSEL</OutboundLink> and conducting research in the remaining time in the areas below.
         </p>
         <p>
           My research, development and business interests are in the broad area of <em><strong>Machine Learning and Big Data for and with Software Engineering and Software Development</strong></em>. 
@@ -58,14 +58,14 @@ const IndexPage = () => (
         <ul>
           <li>About</li>
           <ul>
-            <li><a href="/about/me">Me</a> - Information about me, including my CV and my social media profiles.</li>
-            <li><a href="/about/timeline">Timeline</a> - My personal timeline.</li>
+            <li><OutboundLink href="/about/me">Me</OutboundLink> - Information about me, including my CV and my social media profiles.</li>
+            <li><OutboundLink href="/about/timeline">Timeline</OutboundLink> - My personal timeline.</li>
           </ul>
-          <li><a href="/blog">Blog</a> - My blog on personal, research and development activities, tutorials and 'how tos', personal opinions, book reviews, exercise and nutrition posts etc.</li>
-          <li><a href="/research">Research</a> - My portfolio of research projects that includes areas of research and funded projects I worked or I am working on.</li>
-          <li><a href="/development">Development</a> - My portfolio development projects that includes open source software, libraries and tools I am involved in, as well as any running applications web or mobile.</li>
-          <li><a href="/publications">Publications</a> - My publish or perish profile and my publications list.</li>
-          <li>Resources - Pages that provide links to the best things (articles, videos, books, podcasts etc.) I found on the web on specific subjects along with my narration and links to my posts. I got this idea from <a href="http://martinfowler.com/">Martin Fowler</a>'s Resource Guides, as for example that on <a href="http://martinfowler.com/microservices/">Microservices</a>.</li>
+          <li><OutboundLink href="/blog">Blog</OutboundLink> - My blog on personal, research and development activities, tutorials and 'how tos', personal opinions, book reviews, exercise and nutrition posts etc.</li>
+          <li><OutboundLink href="/research">Research</OutboundLink> - My portfolio of research projects that includes areas of research and funded projects I worked or I am working on.</li>
+          <li><OutboundLink href="/development">Development</OutboundLink> - My portfolio development projects that includes open source software, libraries and tools I am involved in, as well as any running applications web or mobile.</li>
+          <li><OutboundLink href="/publications">Publications</OutboundLink> - My publish or perish profile and my publications list.</li>
+          <li>Resources - Pages that provide links to the best things (articles, videos, books, podcasts etc.) I found on the web on specific subjects along with my narration and links to my posts. I got this idea from <OutboundLink href="http://martinfowler.com/">Martin Fowler</OutboundLink>'s Resource Guides, as for example that on <OutboundLink href="http://martinfowler.com/microservices/">Microservices</OutboundLink>.</li>
         </ul>
       </div>
     </div>

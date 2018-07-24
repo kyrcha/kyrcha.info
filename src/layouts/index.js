@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import "../../static/css/base.scss"
 import './index.css'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Header = () => (
 <nav className="navbar is-black">
@@ -78,21 +79,21 @@ const Footer = () => (
   <div className="container">
     <div className="content has-text-centered">
     <p>
-      Powered by <strong><a href="https://www.gatsbyjs.org">Gatsby</a></strong> |
-      Styled using <strong><a href="https://bulma.io">Bulma</a></strong> |
-      Deployed on <strong><a href="http://surge.sh/">Surge</a></strong> |
-      Edited through <strong><a href="https://www.contentful.com/">Contentful</a></strong> |
-      Source on <strong><a href="https://github.com/kyrcha/kyrcha.info">GitHub</a></strong>
+      Powered by <strong><OutboundLink href="https://www.gatsbyjs.org">Gatsby</OutboundLink></strong> |
+      Styled using <strong><OutboundLink href="https://bulma.io">Bulma</OutboundLink></strong> |
+      Deployed on <strong><OutboundLink href="http://surge.sh/">Surge</OutboundLink></strong> |
+      Edited through <strong><OutboundLink href="https://www.contentful.com/">Contentful</OutboundLink></strong> |
+      Source on <strong><OutboundLink href="https://github.com/kyrcha/kyrcha.info">GitHub</OutboundLink></strong>
     </p>
     <p>
-      The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      The website content is licensed <OutboundLink href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</OutboundLink>.
     </p>
     </div>
   </div>
 </footer>
 )
 
-const twitter = `<a class="twitter-timeline"  href="https://twitter.com/kyrcha" data-widget-id="327363638996369408">Tweets by @kyrcha</a>
+const twitter = `<a class="twitter-timeline"  href="https://twitter.com/kyrcha" data-widget-id="327363638996369408">Tweets by @kyrcha</OutboundLink>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>`
 
 const Sidebar = () => (
@@ -113,8 +114,8 @@ const Sidebar = () => (
         <div className="column">
           <h4>Practical Machine Learning in R</h4>
           <p>
-            <a href='https://leanpub.com/practical-machine-learning-r' target='_blank'><img src='/images/pmlr-cover-small.png' width='50%' className='img-left'/></a>
-            Our recent book <a href='https://leanpub.com/practical-machine-learning-r' target='_blank'>Practical Machine Learning with R</a> for quickly entering 
+            <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank'><img src='/images/pmlr-cover-small.png' width='50%' className='img-left'/></OutboundLink>
+            Our recent book <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank'>Practical Machine Learning with R</OutboundLink> for quickly entering 
             the world of creating machine learning models in R.
           </p>
         </div>
@@ -124,23 +125,31 @@ const Sidebar = () => (
           <h4>Follow</h4>
           <div className="content">
             <ul className='is-unstyled'>
-              <li><i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><a href="https://github.com/kyrcha">GitHub</a></li>
-              <li><i className="fab fa-lg fa-twitter mr-5" aria-hidden="true"></i><a href="https://twitter.com/kyrcha">Twitter</a></li>
-              <li><i className="fab fa-lg fa-linkedin mr-5" aria-hidden="true"></i><a href="http://www.linkedin.com/in/kyrcha">LinkedIn</a></li>
-              <li><i className="fab fa-lg fa-facebook mr-5" aria-hidden="true"></i><a href="https://www.facebook.com/kyrcha">Facebook</a></li>
-              <li><i className="fab fa-lg fa-instagram mr-5" aria-hidden="true"></i><a href="http://instagram.com/kyrcha/">Instagram</a></li>
-              <li><i className="fas fa-lg fa-rss mr-5" aria-hidden="true"></i><span>RSS (todo)</span></li>
+              <li><i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/kyrcha">GitHub</OutboundLink></li>
+              <li><i className="fab fa-lg fa-twitter mr-5" aria-hidden="true"></i><OutboundLink href="https://twitter.com/kyrcha">Twitter</OutboundLink></li>
+              <li><i className="fab fa-lg fa-linkedin mr-5" aria-hidden="true"></i><OutboundLink href="http://www.linkedin.com/in/kyrcha">LinkedIn</OutboundLink></li>
+              <li><i className="fab fa-lg fa-facebook mr-5" aria-hidden="true"></i><OutboundLink href="https://www.facebook.com/kyrcha">Facebook</OutboundLink></li>
+              <li><i className="fab fa-lg fa-instagram mr-5" aria-hidden="true"></i><OutboundLink href="http://instagram.com/kyrcha/">Instagram</OutboundLink></li>
+              <li><i className="fas fa-lg fa-rss mr-5" aria-hidden="true"></i><span><OutboundLink href="http://feeds.feedburner.com/kyrcha">RSS</OutboundLink></span></li>
             </ul>
           </div>
         </div>
       </div>
       <div className="columns">
         <div className="column">
+          <h4>Subscribe to the blog</h4>
+          <p>
+            <a href="https://feedburner.google.com/fb/a/mailverify?uri=kyrcha&amp;loc=en_US">Subscribe to kyrcha.info by Email</a>
+          </p>
+        </div>
+      </div>
+      <div className="columns">
+        <div className="column">
           <h4>Let's work together</h4>
           <p>
-            For <a href="/colab">hiring our team</a> or <a href="/colab">pursuing
-            other joint research, development and writing activities </a>(like H2020 EU proposals, tenders etc.) 
-            feel free to <a href="/colab">contact me</a>.
+            For <OutboundLink href="/colab">hiring our team</OutboundLink> or <OutboundLink href="/colab">pursuing
+            other joint research, development and writing activities </OutboundLink>(like H2020 EU proposals, tenders etc.) 
+            feel free to <OutboundLink href="/colab">contact me</OutboundLink>.
           </p>
         </div>
       </div>

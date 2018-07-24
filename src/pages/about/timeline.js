@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import '../../../node_modules/bulma-extensions/bulma-timeline/dist/bulma-timeline.min.css';
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Timeline = () => (
   <div>
@@ -221,7 +222,7 @@ const Timeline = () => (
             <div className="timeline-content">
               <p className="heading">April</p>
               <p>
-                Launched our <a href='https://qaas.cyclopt.com'>Cyclopt Quality as a Service Minimum Viable Product</a> that assesses your JavaScript source code a provides a rating 
+                Launched our <OutboundLink href='https://qaas.cyclopt.com'>Cyclopt Quality as a Service Minimum Viable Product</OutboundLink> that assesses your JavaScript source code a provides a rating 
                 for your project based on a benchmark.</p>
             </div>
           </div>

@@ -25,14 +25,14 @@ const CollabPage = () => (
       <div className="content">
         <p className="title is-3">EU Projects Collaborations</p>
         <p>
-            Our <a href="http://issel.ee.auth.gr/">lab group, ISSEL</a> at the Aristotle University of Thessaloniki are actively pursuing opportunities to collaborate 
+            Our <OutboundLink href="http://issel.ee.auth.gr/">lab group, ISSEL</OutboundLink> at the Aristotle University of Thessaloniki are actively pursuing opportunities to collaborate 
             with other researchers, organizations and companies in the field of Software Technologies, Web Services, Data Mining, Big Data and Internet of Things per se or 
             applying the above to Societal Challenges in the domains of Energy, Health, Transportation for Horizon 2020 calls. Please feel free to contact me with your propositions.
         </p>
 
         <p className="title is-3">Software Quality Services</p>
         <p>
-            Contact us at <a href="http://cyclopt.com/">Cyclopt</a>.
+            Contact us at <OutboundLink href="http://cyclopt.com/">Cyclopt</OutboundLink>.
         </p>
 
         <p className="title is-3">Any Other Business</p>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './publication.css'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Publication = ({pub}) => {
     const lastAuthor = pub.authors.splice(-1, 1);
@@ -39,13 +40,13 @@ const Publication = ({pub}) => {
         {pub.type === 'conference' || pub.type === 'other' ? <span>, {pub.proceedings}</span> : ''}
         {/* <span>, </span> */}
         {pub.pages ? <span>, pp. {pub.pages}</span> : ''}
-        {pub.file ? <span> [<a href={pub.file.file.url} target='_blank'>PDF</a>] </span> : ''}
-        {pub.dataset ? <span> [<a href={pub.dataset} target='_blank'>Dataset</a>] </span> : ''}
-        {pub.code ? <span> [<a href={pub.code} target='_blank'>Code</a>] </span> : ''}
-        {pub.presentation ? <span> [<a href={pub.presentation} target='_blank'>Slides</a>] </span> : ''}
+        {pub.file ? <span> [<OutboundLink href={pub.file.file.url} target='_blank'>PDF</OutboundLink>] </span> : ''}
+        {pub.dataset ? <span> [<OutboundLink href={pub.dataset} target='_blank'>Dataset</OutboundLink>] </span> : ''}
+        {pub.code ? <span> [<OutboundLink href={pub.code} target='_blank'>Code</OutboundLink>] </span> : ''}
+        {pub.presentation ? <span> [<OutboundLink href={pub.presentation} target='_blank'>Slides</OutboundLink>] </span> : ''}
         {
             pub.doi ?    
-            <span> [DOI: <a href={`http://dx.doi.org/${pub.doi}`} target='_blank'>{pub.doi}</a>] </span> :
+            <span> [DOI: <OutboundLink href={`http://dx.doi.org/${pub.doi}`} target='_blank'>{pub.doi}</OutboundLink>] </span> :
             ''
         }
         {pub.notes ? 
