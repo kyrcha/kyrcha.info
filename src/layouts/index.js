@@ -153,9 +153,13 @@ const Sidebar = () => (
           </p>
         </div>
       </div>
-      <div
+      <div className="columns">
+        <div className="column">
+          <div
             dangerouslySetInnerHTML={{ __html: twitter }}
           />
+        </div>
+      </div>
     </div>
   </div>
 )
