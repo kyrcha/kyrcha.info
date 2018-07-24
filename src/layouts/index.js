@@ -7,71 +7,69 @@ import './index.css'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Header = () => (
-<nav className="navbar is-black">
-<div className="navbar-brand">
-  <Link className="navbar-item" to="/">
-    <img className="logo-img" src="/logo.png" alt="Kyriakos Chatzidimitriou"/>
-  </Link>
-  <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-
-<div id="navbarExampleTransparentExample" className="navbar-menu">
-  <div className="navbar-end">
-  <div className="navbar-item has-dropdown is-hoverable">
-      <a className="navbar-link" href="#">
-        About
-      </a>
-      <div className="navbar-dropdown is-boxed is-right">
-        <Link className="navbar-item" to="/about/me">
-          Me
-        </Link>
-        <Link className="navbar-item" to="/about/timeline">
-          Timeline
-        </Link>
+  <nav className="navbar is-black">
+    <div className="navbar-brand">
+      <Link className="navbar-item" to="/">
+        <img className="logo-img" src="/logo.png" alt="Kyriakos Chatzidimitriou"/>
+      </Link>
+      <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
-    <Link className="navbar-item" to="/blog">
-      Blog
-    </Link>
-    <Link className="navbar-item" to="/research">
-      Research
-    </Link>
-    <Link className="navbar-item" to="/development">
-      Development
-    </Link>
-    <Link className="navbar-item" to="/publications">
-      Publications
-    </Link>
-    <div className="navbar-item has-dropdown is-hoverable">
-      <a className="navbar-link" href="#">
-        Resources
-      </a>
-      <div className="navbar-dropdown is-boxed is-right">
-        <Link className="navbar-item" to="/resources/javascript">
-          JavaScript
+    <div id="navbarExampleTransparentExample" className="navbar-menu">
+      <div className="navbar-end">
+        <div className="navbar-item has-dropdown is-hoverable">
+          <a className="navbar-link" href="#">
+            About
+          </a>
+          <div className="navbar-dropdown is-boxed is-right">
+            <Link className="navbar-item" to="/about/me">
+              Me
+            </Link>
+            <Link className="navbar-item" to="/about/timeline">
+              Timeline
+            </Link>
+          </div>
+        </div>
+        <Link className="navbar-item" to="/blog">
+          Blog
         </Link>
-        <Link className="navbar-item" to="/resources/machine-learning">
-          Machine Learning
+        <Link className="navbar-item" to="/research">
+          Research
         </Link>
-        <Link className="navbar-item" to="/resources/exercise-nutrition">
-          Exercise & Nutrition
+        <Link className="navbar-item" to="/development">
+          Development
         </Link>
-        <Link className="navbar-item" to="/resources/book-club">
-          Book Club
+        <Link className="navbar-item" to="/publications">
+          Publications
         </Link>
-        <Link className="navbar-item" to="/resources/life">
-          Life
-        </Link>
+        <div className="navbar-item has-dropdown is-hoverable">
+          <a className="navbar-link" href="#">
+            Resources
+          </a>
+          <div className="navbar-dropdown is-boxed is-right">
+            <Link className="navbar-item" to="/resources/javascript">
+              JavaScript
+            </Link>
+            <Link className="navbar-item" to="/resources/machine-learning">
+              Machine Learning
+            </Link>
+            <Link className="navbar-item" to="/resources/exercise-nutrition">
+              Exercise & Nutrition
+            </Link>
+            <Link className="navbar-item" to="/resources/book-club">
+              Book Club
+            </Link>
+            <Link className="navbar-item" to="/resources/life">
+              Life
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-</div>
-</nav>
+  </nav>
 )
 
 const Footer = () => (
@@ -93,7 +91,7 @@ const Footer = () => (
 </footer>
 )
 
-const twitter = `<a class="twitter-timeline"  href="https://twitter.com/kyrcha" data-widget-id="327363638996369408">Tweets by @kyrcha</OutboundLink>
+const twitter = `<a class="twitter-timeline"  href="https://twitter.com/kyrcha" data-widget-id="327363638996369408">Tweets by @kyrcha</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>`
 
 const Sidebar = () => (
