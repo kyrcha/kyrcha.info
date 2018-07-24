@@ -23,8 +23,12 @@ const Development = () => (
           <div className="column">
             <PortfolioItem 
               path={'/development/kyrcha-info'}
-              title={'kyrcha.info'} 
-              description={'My website built using Gatsby/Bulma and Contentful.'}/>
+              title={'kyrcha.info'}
+              img={'/images/kyrcha-info.png'}
+              square={true}
+              description={`This website built and deployed using 
+                Gatsby, Bulma, Contentful, surge.sh and GitHub.`
+              }/>
           </div>
         </div>
         <div className="columns">
