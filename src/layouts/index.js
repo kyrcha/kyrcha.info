@@ -12,7 +12,11 @@ const Header = () => (
       <Link className="navbar-item" to="/">
         <img className="logo-img" src="/logo.png" alt="Kyriakos Chatzidimitriou"/>
       </Link>
-      <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <div
+        className="navbar-burger burger nav-toggle"
+        data-target="navMenu"
+        onClick={() => { let toggle = document.querySelector(".nav-toggle"); let menu = document.querySelector(".navbar-menu"); toggle.classList.toggle("is-active"); menu.classList.toggle("is-active"); }}
+        >
         <span></span>
         <span></span>
         <span></span>
