@@ -21,30 +21,30 @@ const IndexPage = () => (
           <li>
             <strong>Big Code</strong>: <strong>Software Analytics</strong> (Descriptive, Diagnostic, Predictive, 
             Prescriptive, etc.) and <strong>Mining Software Repositories</strong> and software related data streams 
-            for patterns for improving the various stages of the software development lifecycle.
+            for patterns to improve the various stages of the software lifecycle.
           </li>
           <li>
-            Applying <strong>Machine learning on the source code</strong> and building 
+            Applying <strong>machine learning on the source code</strong> and building 
             useful <strong>knowledge representations</strong> of software related artefacts.
           </li>
           <li>
-            Devising tools and models for <strong>assessing the quality of software and intelligent systems</strong> 
+            Devising tools and models for <strong>assessing the quality of software (and intelligent) systems</strong> 
             with respect to the ISO 25010 standard.
           </li>
           <li>
-            Software tools for Machine Learning automation (<strong>AutoML</strong>), in order to bring the 
-            value of ML closer to non-experts.
+            <strong>Engineering intelligent software systems (software agents)</strong> for automating 
+            (and improving) various tasks humans do, with focus on lifelong machine learning techniques and their quality.
           </li>
           <li>
+            Software tools for machine learning automation (<strong>AutoML</strong>), in order to bring the 
+            value of ML closer to non-experts (or autonomic systems).
+          </li>
+          {/* <li>
             <strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, 
             formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics 
             that can efficiently express big data operations and in particular enable the scalability 
             of machine learning algorithms.
-          </li>
-          <li>
-            <strong>Engineering intelligent software systems (software agents)</strong> for automating 
-            various tasks humans do.
-          </li>
+          </li> */}
           {/* <li><strong>Virtual Personal Assistants</strong> (VPAs) and <strong>Natural User Interfaces</strong> (NUIs) and in general creating real-life, valuable, autonomous software agents.</li> */}
           {/* <li>Uses of <strong>Blockchain technology</strong> and <strong>Distributed Applications</strong> (Dapps) for enabling distribution, credit, trust and reputation mechanisms for the open source community.</li> */}
         </ul>
@@ -54,7 +54,8 @@ const IndexPage = () => (
           <li>Devise <strong>new methods for training neural networks</strong> other than back propagation.</li>
           <li><strong>Quantum Computing</strong> and especially its repercussions to Machine Learning and Software Development (how we should program, what tools should we use, what abstractions, how to simulate the computations in classic hardware, etc.).</li>
         </ul> */}
-        <p>As I developer, I am fond of the MERN stack for building web applications, JavaScript and node.js but I also work with Java, Python and R in the projects. My site is structured as follows:</p>
+        <p>As I developer (and for the time being), I am fond of the MERN stack for building web applications, 
+          JavaScript and node.js but I also work with Java, Python and R in the projects. My site is structured as follows:</p>
         <ul>
           <li>About</li>
           <ul>
