@@ -28,7 +28,8 @@ const IndexPage = () => (
             useful <strong>knowledge representations</strong> of software related artefacts.
           </li>
           <li>
-            Devising tools and models for <strong>assessing the quality of software (and intelligent) systems</strong> 
+            Devising tools and models for assessing the <strong>quality of software</strong> (and 
+            intelligent - <OutboundLink href="https://medium.com/@karpathy/software-2-0-a64152b37c35">Software 2.0</OutboundLink>) systems
             with respect to the ISO 25010 standard.
           </li>
           <li>
@@ -36,15 +37,16 @@ const IndexPage = () => (
             (and improving) various tasks humans do, with focus on lifelong machine learning techniques and their quality.
           </li>
           <li>
-            Software tools for machine learning automation (<strong>AutoML</strong>), in order to bring the 
-            value of ML closer to non-experts (or autonomic systems).
+            Software tools for machine learning automation (<strong>AutoML</strong>), 
+            for <OutboundLink href="https://seths.blog/2018/07/avoiding-the-gigo-trap/">garbage-in, gorgeous-out</OutboundLink> 
+            outcomes and autonomic systems.
           </li>
-          {/* <li>
+          <li>
             <strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, 
             formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics 
             that can efficiently express big data operations and in particular enable the scalability 
             of machine learning algorithms.
-          </li> */}
+          </li>
           {/* <li><strong>Virtual Personal Assistants</strong> (VPAs) and <strong>Natural User Interfaces</strong> (NUIs) and in general creating real-life, valuable, autonomous software agents.</li> */}
           {/* <li>Uses of <strong>Blockchain technology</strong> and <strong>Distributed Applications</strong> (Dapps) for enabling distribution, credit, trust and reputation mechanisms for the open source community.</li> */}
         </ul>
