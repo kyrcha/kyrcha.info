@@ -59,6 +59,19 @@ const Development = () => (
               description={'JS starter kit: A JS web application starter kit for the MERN stack, along with a software development lifecycle proposal.'}/>
           </div>
         </div>
+        <hr/>
+        <p className="title is-3">As a project manager</p>
+        <p className="subtitle is-5">Software projects I worked as a technical lead</p>
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/brainrun'}
+              title={'Brain Run'}
+              img={'/images/brainrun.webp'}
+              square={true}
+              description={'A mobile application to boost your cognitive skills! Used as part of our continuous implicit authentication research project.'}/>
+          </div>
+        </div>
       </div>
     </div>
   </div>
