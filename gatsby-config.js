@@ -59,9 +59,10 @@ module.exports = {
               return allContentfulBlogPost.edges.map(edge => {
                 return Object.assign({}, edge.node, {
                   description: edge.node.excert,
+                  date: edge.node.published,
                   url: site.siteMetadata.siteUrl + edge.node.url,
                   guid: site.siteMetadata.siteUrl + edge.node.url,
-                  custom_elements: [{ "content:encoded": edge.node.body }],
+                  custom_elements: [{ "content:encoded": edge.node.body.body }],
                 });
               });
             },
@@ -90,6 +91,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
+            title: "kyrcha.info",
           },
         ],
       },

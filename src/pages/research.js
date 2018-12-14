@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderPage from '../components/header-page'
 import PortfolioItem from '../components/portfolio-item'
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const Research = () => (
   <div>
@@ -69,12 +70,15 @@ const Research = () => (
         <div className="columns">
           <div className="column content">
             <ul>
+              <li>eeRIS</li>
+              <li>VITAL</li>
+              <li>CIA</li>
               <li>SEAF</li>
               <li>Mobile-Age</li>
               <li>S-CASE</li>
               <li>Cassandra</li>
               <li>eTHMMY</li>
-              <li>Agent Academy</li>
+              <li><OutboundLink href='http://agentacademy.iti.gr/'>Agent Academy</OutboundLink></li>
             </ul>
           </div>
         </div>

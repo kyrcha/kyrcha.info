@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { Link } from 'react-router-dom';
 
 const BrainRun = () => {
     return (
@@ -11,6 +12,11 @@ const BrainRun = () => {
             <h2>Description</h2>
             <p>
                 Improve your memory, concentration, reaction, logic and mathematical skills with 5 fun and challenging games over 10 stages and 200 levels.
+            </p>
+            <p>
+                The game was used as a way to get gesture (taps and swipes) from mobile devices and kiosks for <Link to="/research/cia">Continuous Implicit Authentication</Link> research. 
+                More than 2000 users were subscribed, while the infrastructure managed to handle millions of gesture and gigabytes of sensor data. The game appeared in the top games page 
+                (number 345) in the Google Play Store.
             </p>
             <h2>Links</h2>
             <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://brainrun.issel.ee.auth.gr/">Website</OutboundLink>

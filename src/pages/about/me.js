@@ -45,7 +45,7 @@ const Me = () => (
             <ul>
               <li><OutboundLink href="https://twitter.com/kyrcha">Twitter</OutboundLink></li>
               <li><OutboundLink href="https://www.facebook.com/kyrcha">Facebook</OutboundLink>- Add me as a friend if you know me, else subscribe to my feed. Either way, most of my posts are public.</li>
-              <li><OutboundLink href="https://plus.google.com/+KyriakosChatzidimitriou/posts">Google+</OutboundLink> - Thinking of dropping that :)</li>
+              <li><strike><OutboundLink href="https://plus.google.com/+KyriakosChatzidimitriou/posts">Google+</OutboundLink> - Thinking of dropping that :)</strike> Actually Google dropped it...</li>
               <li><OutboundLink href="https://foursquare.com/kyrcha">Foursquare</OutboundLink> - Add me only if you know, I know you well.</li>
             </ul>
           </li>
@@ -87,7 +87,7 @@ const Me = () => (
               <li><OutboundLink href="http://instagram.com/kyrcha/">Instagram</OutboundLink></li>
               <li><OutboundLink href="https://www.flickr.com/photos/kyrcha/">Flickr</OutboundLink></li>
               <li><OutboundLink href="http://www.pinterest.com/kyrcha/">Pinterest</OutboundLink></li>
-              <li><OutboundLink href="http://www.panoramio.com/user/4351022">Panoramio</OutboundLink></li>
+              <li><strike><OutboundLink href="http://www.panoramio.com/user/4351022">Panoramio</OutboundLink></strike> Dropped by Google</li>
             </ul>
           </li>
           <li>Fitness/Running:

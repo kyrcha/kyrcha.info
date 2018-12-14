@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import "../../static/css/base.scss"
 import './index.css'
+import favicon from '../../static/favicon.png';
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Header = () => (
@@ -173,6 +174,9 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
+      ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     >
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
