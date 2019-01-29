@@ -1,4 +1,5 @@
 require('dotenv').config();
+const marked = require('marked');
 
 module.exports = {
   siteMetadata: {
@@ -62,7 +63,7 @@ module.exports = {
                   date: edge.node.published,
                   url: site.siteMetadata.siteUrl + edge.node.url,
                   guid: site.siteMetadata.siteUrl + edge.node.url,
-                  custom_elements: [{ "content:encoded": edge.node.body.body }],
+                  custom_elements: [{ "content:encoded": marked(edge.node.body.body) }],
                 });
               });
             },

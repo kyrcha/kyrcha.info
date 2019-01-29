@@ -133,7 +133,7 @@ const Sidebar = () => (
               <li><i className="fab fa-lg fa-linkedin mr-5" aria-hidden="true"></i><OutboundLink href="http://www.linkedin.com/in/kyrcha">LinkedIn</OutboundLink></li>
               <li><i className="fab fa-lg fa-facebook mr-5" aria-hidden="true"></i><OutboundLink href="https://www.facebook.com/kyrcha">Facebook</OutboundLink></li>
               <li><i className="fab fa-lg fa-instagram mr-5" aria-hidden="true"></i><OutboundLink href="http://instagram.com/kyrcha/">Instagram</OutboundLink></li>
-              <li><i className="fas fa-lg fa-rss mr-5" aria-hidden="true"></i><span><OutboundLink href="http://feeds.feedburner.com/kyrcha">RSS</OutboundLink></span></li>
+              <li><i className="fas fa-lg fa-rss mr-5" aria-hidden="true"></i><span><OutboundLink href="http://kyrcha.info/rss.xml">RSS</OutboundLink></span></li>
             </ul>
           </div>
         </div>
@@ -142,7 +142,7 @@ const Sidebar = () => (
         <div className="column">
           <h4>Subscribe to the blog</h4>
           <p>
-            <a href="https://feedburner.google.com/fb/a/mailverify?uri=kyrcha&amp;loc=en_US">Subscribe to kyrcha.info by Email</a>
+            <a href="http://eepurl.com/gfbyxX">Subscribe to kyrcha.info by Email</a>
           </p>
         </div>
       </div>

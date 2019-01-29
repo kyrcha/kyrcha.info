@@ -26,6 +26,7 @@ const Research = () => (
           <div className="column">
             <PortfolioItem 
               title={'Web Services and APIs'} 
+              img={'/images/api.png'}
               path={'/research/apis'}
               description={'Research on web services and APIs'}/>
           </div>
@@ -47,21 +48,10 @@ const Research = () => (
           </div>
           <div className="column">
             <PortfolioItem 
+              img={'/images/automl.jpg'}
               path={'/research/automl'}
               title={'AutoML'} 
               description={'The making of an automated/autonomous data scientist.'}/>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column">
-          </div>
-          <div className="column">
-            <PortfolioItem 
-              path={'/research/agents'}
-              title={'Engineering Intelligent Software Agents'} 
-              description={'Autonomous software agents'}/>
-          </div>
-          <div className="column">
           </div>
         </div>
         <hr />
@@ -70,12 +60,12 @@ const Research = () => (
         <div className="columns">
           <div className="column content">
             <ul>
-              <li>eeRIS</li>
+              <li><OutboundLink href='http://eeris.web.auth.gr/'>eeRIS</OutboundLink></li>
               <li>VITAL</li>
               <li>CIA</li>
-              <li>SEAF</li>
-              <li>Mobile-Age</li>
-              <li>S-CASE</li>
+              <li><OutboundLink href='https://www.seaf-h2020.eu/'>SEAF</OutboundLink></li>
+              <li><OutboundLink href='https://www.mobile-age.eu/'>Mobile-Age</OutboundLink></li>
+              <li><OutboundLink href='https://s-case.github.io/'>S-CASE</OutboundLink></li>
               <li>Cassandra</li>
               <li>eTHMMY</li>
               <li><OutboundLink href='http://agentacademy.iti.gr/'>Agent Academy</OutboundLink></li>
@@ -84,7 +74,7 @@ const Research = () => (
         </div>
         <hr />
         <p className="title is-3">Archive</p>
-        <p className="subtitle is-5">Past Research</p>
+        <p className="subtitle is-5">Past research</p>
         <div className="columns">
           <div className="column">
             <PortfolioItem 

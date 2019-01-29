@@ -6,7 +6,7 @@ const PortfolioItem = ({title, description, path, img, square}) => (
     <div className="has-text-centered ">
         <div className='is-flex is-horizontal-center'>
             { square ? 
-            <figure className="image">
+            <figure className="image is-128x128">
                 <img src={img} />
             </figure> :
             <figure className="image is-128x128">

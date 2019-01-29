@@ -7,6 +7,7 @@
  // You can delete this file if you're not using it
 
  const path = require('path')
+ const _ = require('lodash')
 
  exports.onCreateNode = ({ node }) => {
   if (node.internal.type === `MarkdownRemark`) {
@@ -19,6 +20,7 @@
  exports.createPages = ({ boundActionCreators, graphql }) => {
    const { createPage } = boundActionCreators
    const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
+   const categoryTemplate = path.resolve(`src/templates/category.js`)
    const resourcePageTemplate = path.resolve(`src/templates/resource-page.js`)
 
    const { createRedirect } = boundActionCreators
@@ -68,6 +70,9 @@
        const posts = result.data.allContentfulBlogPost.edges
 
        const resources = result.data.allMarkdownRemark.edges
+
+       const categorySet = new Set();
+
        console.log(`Length: ${resources.length}`)
 
        resources.forEach(({ node }) => {
@@ -80,6 +85,7 @@
  
        posts.forEach(({node}, index) =>  {
         console.log(node.url)
+        categorySet.add(node.category);
         createPage({
           path: node.url,
           component: blogPostTemplate,
@@ -90,6 +96,18 @@
           }
         })
       })
+
+      const categoryList = Array.from(categorySet);
+      categoryList.forEach(category => {
+        console.log(_.kebabCase(category));
+        createPage({
+          path: `/categories/${_.kebabCase(category)}/`,
+          component: categoryTemplate,
+          context: {
+            category
+          }
+        });
+      });
 
       
 

@@ -15,7 +15,7 @@ const Template = ({data, location, pathContext}) => {
     <section className="section">
       <div>
         <p className="title is-3">{title}</p>
-        <p className="subtitle is-5">by Kyriakos Chatzidimitriou | {dateFormat(published, "mmm d, yyyy HH:MM")} | {category}</p>
+        <p className="subtitle is-5">by Kyriakos Chatzidimitriou | {dateFormat(published, "mmm d, yyyy HH:MM")} | <Link to={`/categories/${category}`}>{category}</Link></p>
         <div 
           className="content blog-post"
           dangerouslySetInnerHTML={{__html: data.contentfulBlogPost.body.childMarkdownRemark.html}} 

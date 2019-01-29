@@ -1,6 +1,8 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import Link from 'gatsby-link'
 
 const APIs = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
@@ -11,22 +13,34 @@ const APIs = ({data}) => {
         <div className="section">
             <div className="content">
             <p>
-                Short description
+                The goal in this line of research is to automate the creation of APIs and the interconnection between 
+                machines through APIs.
             </p>
             <p className='title is-3'>Projects</p>
 
             <p className='title is-4'>S-CASE</p>
             <p>
-                Add a short description of S-CASE. Add also the link...S-CASE is presented in this blog post as well.
+                The project's goal was to automatically generate RESTful Web Services from multi-modal requirements
+                (text, UML or flow diagrams) in order to increase the productivity and simplify the development 
+                process from inception to deployment and maintenance.
+                More information can be found in the <OutboundLink href='http://s-case.github.io/'>S-CASE website</OutboundLink>, 
+                while technical details can be found in this <Link to="/2014/10/24/the-s-case-concept">blog post</Link>.
             </p>
             <p>
-                The main outcomes of this project were: the reqs2code methodology that...add also a link and the 
-                and the ABAC MDE that add a layer on top of REST APIs (Add link to publication).
+                The main outcomes of this project were: the <strong>reqs2code</strong> methodology.  Input in the form of 
+                textual requirements and graphical storyboards is analyzed using natural language processing techniques and semantics, 
+                to semi-automatically produce a RESTful, ready-to-deploy web service through Model Driven Engineering transformations.
+            </p>
+            <p>
+                Further more we augmented the reqs2code methodology and platform with RESTsec, a Low-Code platform that supports rapid security
+                requirements modelling and which, in a few words, adds ABAC (Attribute-Based Access Control) authorization capabilities to the 
+                produced RESTful service.
             </p>
 
             <p className='title is-4'>Gherkin2OAS</p>
             <p>
-                Add abstract and links
+                In this work (paper and code can be found below) we tried to automatically create RESTful APIs based on specifications
+                written in a more human readable format, that of a Behavior Driven Development language like Gherkin.
             </p>
 
             <p className='title is-3'>Related Publications</p>
