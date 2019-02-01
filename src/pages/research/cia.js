@@ -10,8 +10,9 @@ const CIA = ({data}) => {
         <HeaderPage title={'Continuous Implicit Authentication'} subtitle={'Behavioral Biometrics'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
-                Under Development
+                Continuous implicit authentication through gestures for mobile devices and kiosks.
             </p>
 
             <p className='title is-3'>Related Publications</p>

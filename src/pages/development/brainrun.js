@@ -18,13 +18,13 @@ const BrainRun = () => {
                 More than 2000 users were subscribed, while the infrastructure managed to handle millions of gesture and gigabytes of sensor data. The game appeared in the top games page 
                 (number 345) in the Google Play Store.
             </p>
-            <h2>Links</h2>
-            <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://brainrun.issel.ee.auth.gr/">Website</OutboundLink>
             <h2>Tech Stack</h2>
             <span className="tag is-rounded is-primary">javascript</span><span> </span>
             <span className="tag is-rounded is-primary">react native</span><span> </span>
             <span className="tag is-rounded is-primary">node.js</span><span> </span>
             <span className="tag is-rounded is-primary">mongodb</span>
+            <h2>Links</h2>
+            <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://brainrun.issel.ee.auth.gr/">Website</OutboundLink>
             </div>
         </div>
         </div>

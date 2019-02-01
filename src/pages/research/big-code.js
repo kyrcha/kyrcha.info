@@ -11,6 +11,7 @@ const BigCode = ({data}) => {
         <HeaderPage title={'Big Code'} subtitle={'Mining Software Repositories and Software Analytics'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
                 <em>Big Code</em> is about analyzing vast amounts of rich data (hence the term Big) available in software repositories to uncover interesting and actionable 
                 analytics about software systems and projects and enable a new class of applications that leverage these repositories. I use the term Big Code interchangeably 

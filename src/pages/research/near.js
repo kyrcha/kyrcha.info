@@ -10,8 +10,10 @@ const NEAR = ({data}) => {
         <HeaderPage title={'NEAR'} subtitle={'NeuroEvolution of Augmented Reservoirs'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
-                Under Development
+                My PhD thesis, where I developed a methodology (NEAR) for building reservoir computing systems 
+                (echo state networks to be exact) through evolution and learning.
             </p>
 
             <p className='title is-3'>Related Publications</p>

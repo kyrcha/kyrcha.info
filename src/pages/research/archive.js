@@ -9,8 +9,9 @@ const Archive = ({data}) => {
         <HeaderPage title={'Archive'} subtitle={'Past research'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
-                Under Development
+                A list of some past research projects I worked on.
             </p>
             </div>
         </div>

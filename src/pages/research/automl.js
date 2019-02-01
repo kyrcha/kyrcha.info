@@ -3,19 +3,20 @@ import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 
 const AutoML = ({data}) => {
-    // const { edges: publications} = data.allContentfulPublications
+    const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
         <div>
         <HeaderPage title={'AutoML'} subtitle={'Autonomous Machine Learning'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
-                Under Development
+                Making perfomant and robust machine learning models without (much) human intervention.
             </p>
 
             <p className='title is-3'>Related Publications</p>
-            {/* {
+            {
               publications.map(({node: publication}, index) => {
                 // console.log(years.push([publication.year]))
                 return years.has(publication.year) ?
@@ -28,7 +29,7 @@ const AutoML = ({data}) => {
                   </div>;
                 }
               )
-            } */}
+            }
             </div>
         </div>
         </div>
@@ -39,7 +40,7 @@ export const query = graphql`
     query AutoMLQuery {
       allContentfulPublications(
         sort: {order: DESC, fields: [year]},
-        filter: {tag: { in: ["auto-ml"] }}
+        filter: {tag: { in: ["automl"] }}
       ) {
         totalCount
         edges {

@@ -10,8 +10,14 @@ const Mertacor = ({data}) => {
         <HeaderPage title={'Mertacor'} subtitle={'Our trading agent competition agent'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
-                Under Development
+                This is the page for our autonomous trading agent Mertacor that since 2003 participated 
+                in the Trading Agent Competition (Travel, Supply Chain Management, Market Design, 
+                Ad Auctions, Power Markets). Besides being the godfather of Mertacor
+                (an anagram of Mercator, merchant in Latin) I participated as the lead researcher 
+                in the Supply Chain Management (SCM) and Ad Auctions (AA) games, where we got one first 
+                place (2012 for AA) and two third places (2005 for SCM and 2011 for AA).
             </p>
 
             <p className='title is-3'>Related Publications</p>

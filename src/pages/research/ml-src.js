@@ -10,12 +10,13 @@ const MLSrc = ({data}) => {
         <HeaderPage title={'Machine Learning on src'} subtitle={'Applying machine learning and deep learning representations on source code for various problems'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
-                Under Development
+              Applying machine learning and deep learning representations on source code for various problems
             </p>
 
-            <p className='title is-3'>Related Publications</p>
-            {/* {
+            {/* <p className='title is-3'>Related Publications</p>
+            {
               publications.map(({node: publication}, index) => {
                 // console.log(years.push([publication.year]))
                 return years.has(publication.year) ?

@@ -12,6 +12,7 @@ const APIs = ({data}) => {
         <HeaderPage title={'Web Services and APIs'} subtitle={'Research on web services and APIs'} />
         <div className="section">
             <div className="content">
+            <p className='title is-3'>Description</p>
             <p>
                 The goal in this line of research is to automate the creation of APIs and the interconnection between 
                 machines through APIs.
