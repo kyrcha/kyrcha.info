@@ -24,7 +24,7 @@ const Publication = ({pub}) => {
     }
     let showAbstract = false;
     return (<div className='publication' key={pub.title}>
-        <span className={`tag ${color}`}>{pub.type}</span>
+        <strong><span className={`tag ${color}`}>{pub.type}</span></strong>
         <span> </span>
         {pub.authors.map(author => {
             return <span key={author}>{author}, </span>
