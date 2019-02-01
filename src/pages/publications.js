@@ -2,10 +2,12 @@ import React from 'react'
 import HeaderPage from '../components/header-page'
 import Publication from '../components/publication'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import _ from 'lodash'
 
 const Publications = ({data}) => {
   const { edges: publications} = data.allContentfulPublications
   const years = new Set();
+  const typeCounts = _.countBy(publications, 'node.type');
   return (
     <div>
       <HeaderPage title={'Publications'} subtitle={'My Publish or Perish statistics and my publications'} />
@@ -26,11 +28,37 @@ const Publications = ({data}) => {
             <p><OutboundLink href="https://orcid.org/0000-0003-0715-1197"> <strong>ORCID</strong></OutboundLink></p>
             <p className='title is-3'>Publications</p>
             <p className='subtitle is-5'>In reverse chronological order</p>
-            <p><span className='tag is-primary'>conference</span> Conference, Symposium, Workshop etc.</p>
             <p><span className='tag is-danger'>journal</span> Journal, Magazine</p> 
+            <p><span className='tag is-primary'>conference</span> Conference, Symposium, Workshop etc.</p>
             <p><span className='tag is-dark'>thesis</span> Dissertation, Thesis</p> 
             <p><span className='tag is-warning'>book</span> Book</p> 
             <p><span className='tag is-light'>other</span> Pre-prints, without proceedings, no peer-reviewed</p> 
+            <div className="tile is-ancestor">
+              <div className="tile is-parent">
+                <article className="tile is-child notification is-danger">
+                  <p className="title">{typeCounts.journal}</p>
+                  <p className="subtitle">Journals</p>
+                </article>
+              </div>
+              <div className="tile is-parent">
+                <article className="tile is-child notification is-primary">
+                  <p className="title">{typeCounts.conference}</p>
+                  <p className="subtitle">Conferences</p>
+                </article>
+              </div>
+              <div className="tile is-parent">
+                <article className="tile is-child notification is-warning">
+                  <p className="title">{typeCounts.book}</p>
+                  <p className="subtitle">Book</p>
+                </article>
+              </div>
+              <div className="tile is-parent">
+                <article className="tile is-child notification is-light">
+                  <p className="title">{typeCounts.other}</p>
+                  <p className="subtitle">Others</p>
+                </article>
+              </div>
+            </div>
             {
               publications.map(({node: publication}, index) => {
                 // console.log(years.push([publication.year]))
