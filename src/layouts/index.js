@@ -148,6 +148,20 @@ const Sidebar = () => (
       </div>
       <div className="columns">
         <div className="column">
+          <h4>Blog Categories</h4>
+          <div className="content">
+            <ul className='is-unstyled'>
+              <li><Link to="/categories/life">Life</Link></li>
+              <li><Link to="/categories/research">Research</Link></li>
+              <li><Link to="/categories/development">Development</Link></li>
+              <li><Link to="/categories/tutorials">Tutorials</Link></li>
+              <li><Link to="/categories/books">Book Club</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="columns">
+        <div className="column">
           <h4>Let's work together</h4>
           <p>
             For <OutboundLink href="/colab">hiring our team</OutboundLink> or <OutboundLink href="/colab">pursuing
