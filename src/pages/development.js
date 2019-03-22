@@ -10,11 +10,11 @@ const Development = () => (
         <div className="columns">
           <div className="column">
             <PortfolioItem 
-              path={'/development/cyclopt'}
-              title={'Cyclopt QaaS'}
-              img={'/images/qaas-cyclopt-com.png'}
+              path={'/development/cyclopt-bot'}
+              title={'Cyclopt Chatbot'}
+              img={'/images/bot-cyclopt-com.png'}
               square={true}
-              description={'My startup. Quality as a Service, built using the MERN stack.'}/>
+              description={'My startup. Chatbot for Software and Team analytics, built as a GitHub App using the MERN stack.'}/>
           </div>
           <div className="column">
             <PortfolioItem 
@@ -60,7 +60,7 @@ const Development = () => (
           </div>
         </div>
         <hr/>
-        <p className="title is-3">As a project manager</p>
+        <p className="title is-3">As a team leader - advisor</p>
         <p className="subtitle is-5">Software projects I worked as a technical lead</p>
         <div className="columns">
           <div className="column">
@@ -78,6 +78,26 @@ const Development = () => (
               img={'/images/cenote.png'}
               square={true}
               description={'A Big Data Management System for event processing and analytics'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/eslint-config-pop'}
+              title={'eslint-config-pop'} 
+              img={'/images/fire-alt-solid.svg'}
+              description={'An eslint configuration with the most popular configurations found in the npm registry.'}/>
+          </div>
+        </div>
+        <hr/>
+        <p className="title is-3">Project cemetary</p>
+        <p className="subtitle is-5">Old, non-maintained projects</p>
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/cyclopt'}
+              title={'Cyclopt QaaS'}
+              img={'/images/qaas-cyclopt-com.png'}
+              square={true}
+              description={"Old Cyclopt's Quality as a Service web application, built using the MERN stack. Dropped in favor of the bot above."}/>
           </div>
         </div>
       </div>
