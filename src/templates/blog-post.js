@@ -1,14 +1,74 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
 import dateFormat from 'dateformat';
 import ReactDisqusComments from 'react-disqus-comments';
 
-const Template = ({data, location, pathContext}) => {
-  const { title, published, category, url } = data.contentfulBlogPost
+import "katex/dist/katex.min.css"
+
+  class Template extends React.Component {
+
+    constructor(props) {
+      super(props);
+    }
+
+  
+  waitForGlobal = (name, timeout = 300) => {
+    return new Promise((resolve, reject) => {
+      let waited = 0
+  
+      function wait(interval) {
+        setTimeout(() => {
+          waited += interval
+          // some logic to check if script is loaded
+          // usually it something global in window object
+          if (window[name] !== undefined) {
+            return resolve()
+          }
+          if (waited >= timeout * 1000) {
+            return reject({ message: 'Timeout' })
+          }
+          wait(interval * 2)
+        }, interval)
+      }
+  
+      wait(30)
+    });
+  }
+
+  componentDidMount() {
+    this.waitForGlobal('MathJax').then(() => {
+      top.MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['[', ']']],
+          processEscapes: true,
+          processEnvironments: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          TeX: {
+            equationNumbers: { autoNumber: 'AMS' },
+            extensions: ['AMSmath.js', 'AMSsymbols.js'],
+          },
+        },
+      })
+    })
+    if (top.MathJax != null) {
+      top.MathJax.Hub.Queue(['Typeset', top.MathJax.Hub])
+    }
+  }
+
+  componentDidUpdate() {
+    if (top.MathJax != null) {
+      top.MathJax.Hub.Queue(['Typeset', top.MathJax.Hub])
+    }
+  }
+
+  render() {
+    const {data, location, pathContext} = this.props;
+    const { title, published, category, url, tags } = data.contentfulBlogPost
   const { next, prev } = pathContext
-  console.log(url)
-  return (
+  tags.map(t => console.log(t))
+
+    return (
     // <section className="section">
     //   <Helmet title={`${title} - My Blog`} />
     //   <div className="container">
@@ -16,6 +76,12 @@ const Template = ({data, location, pathContext}) => {
       <div>
         <p className="title is-3">{title}</p>
         <p className="subtitle is-5">by Kyriakos Chatzidimitriou | {dateFormat(published, "mmm d, yyyy HH:MM")} | <Link to={`/categories/${category}`}>{category}</Link></p>
+        <div className="tags">
+          { tags.map(tag => {
+              return (<span key={tag} className="tag is-light">{tag}</span>)
+            })
+          }
+        </div>
         <div 
           className="content blog-post"
           dangerouslySetInnerHTML={{__html: data.contentfulBlogPost.body.childMarkdownRemark.html}} 
@@ -43,7 +109,7 @@ const Template = ({data, location, pathContext}) => {
         </div>
     </section>
   )
-}
+}}
 
 export const pageQuery = graphql`
   query BlogPostByUrl($url: String!) {
@@ -63,4 +129,4 @@ export const pageQuery = graphql`
     }
   }
 `
-export default Template
+export default Template;

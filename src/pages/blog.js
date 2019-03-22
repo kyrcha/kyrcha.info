@@ -13,7 +13,7 @@ const BlogPage = ({data}) => {
                 <div className="column is-11">
                     {posts.map(({node: post}) => {
                         return (
-                            <section className="section post-excert">
+                            <section key={post.id} className="section post-excert">
                                 <h1 className="title">
                                     <Link to={post.url}>
                                         {post.title}
