@@ -2,8 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import HeaderPage from '../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../layouts/index';
 
 const IndexPage = () => (
+  <TemplateWrapper>
   <div>
     <HeaderPage title={'Home'} subtitle={'Hi and welcome to the main point of entry of my digital self.'} />
     <div className="section">
@@ -77,6 +79,7 @@ const IndexPage = () => (
       </div>
     </div>
   </div>
+  </TemplateWrapper>
 )
 
 export default IndexPage
