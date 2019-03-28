@@ -16,6 +16,7 @@
     "gatsby-plugin-postcss-sass": "^1.0.22",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-plugin-sitemap": "^1.2.25",
     "gatsby-plugin-twitter": "^1.0.20",
     "gatsby-plugin-typography": "^1.7.19",
     "gatsby-remark-katex": "^3.0.4",

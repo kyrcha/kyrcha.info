@@ -5,10 +5,11 @@ module.exports = {
   siteMetadata: {
     title: `Kyriakos Chatzidimitriou`,
     description: `Personal Website of Kyriakos Chatzidimitriou`,
-    siteUrl: `http://kyrcha.info/`
+    siteUrl: `http://kyrcha.info`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

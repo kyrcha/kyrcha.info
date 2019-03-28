@@ -142,7 +142,8 @@ const Sidebar = () => (
         <div className="column">
           <h4>Subscribe to the blog</h4>
           <p>
-            <a href="http://eepurl.com/gfbyxX">Subscribe to kyrcha.info by Email</a>
+            {/* <a href="http://eepurl.com/gfbyxX">Subscribe to kyrcha.info by Email</a> */}
+            <a href="https://feedburner.google.com/fb/a/mailverify?uri=kyrcha&amp;loc=en_US">Subscribe to kyrcha.info by Email</a>
           </p>
         </div>
       </div>
