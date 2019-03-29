@@ -2,15 +2,21 @@ import React from 'react'
 import Link from 'gatsby-link';
 import './portfolio-item.css'
 
-const PortfolioItem = ({title, description, path, img, square}) => (
+const PortfolioItem = ({title, description, path, img, square, webp}) => (
     <div className="has-text-centered ">
         <div className='is-flex is-horizontal-center'>
             { square ? 
             <figure className="image is-128x128">
-                <img src={img} />
+                <picture>
+                    <source type="image/webp" srcset={webp}/>
+                    <img src={img} alt={title}/>
+                </picture>
             </figure> :
             <figure className="image is-128x128">
-                <img className='is-circular' src={img} />
+                <picture>
+                    <source type="image/webp" srcset={webp}/>
+                    <img className='is-circular' src={img} alt={title}/>
+                </picture>
             </figure>
             }
         </div>

@@ -117,7 +117,12 @@ const Sidebar = () => (
         <div className="column">
           <h4>Practical Machine Learning in R</h4>
           <p>
-            <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank'><img src='/images/pmlr-cover-small.png' width='50%' className='img-left'/></OutboundLink>
+            <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank' rel="noopener noreferrer">
+              <picture>
+                <source type="image/webp" srcset="images/pmlr-cover-small.webp"/>
+                <img src='/images/pmlr-cover-small.png' width='50%' className='img-left'/>
+              </picture>
+            </OutboundLink>
             Our recent book <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank'>Practical Machine Learning with R</OutboundLink> for quickly entering 
             the world of creating machine learning models in R.
           </p>

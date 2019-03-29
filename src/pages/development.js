@@ -67,7 +67,8 @@ const Development = () => (
             <PortfolioItem 
               path={'/development/brainrun'}
               title={'Brain Run'}
-              img={'/images/brainrun.webp'}
+              img={'/images/brainrun.png'}
+              webp={'/images/brainrun.webp'}
               square={true}
               description={'A mobile application to boost your cognitive skills! Used as part of our continuous implicit authentication research project.'}/>
           </div>
@@ -83,7 +84,7 @@ const Development = () => (
             <PortfolioItem 
               path={'/development/eslint-config-pop'}
               title={'eslint-config-pop'} 
-              img={'/images/fire-alt-solid.svg'}
+              img={'/images/popular.png'}
               description={'An eslint configuration with the most popular configurations found in the npm registry.'}/>
           </div>
         </div>
