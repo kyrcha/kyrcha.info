@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import HeaderPage from '../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
-import TemplateWrapper from '../layouts/index';
+import TemplateWrapper from '../components/layout';
 
 const IndexPage = () => (
   <TemplateWrapper>

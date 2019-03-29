@@ -1,12 +1,13 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
+import TemplateWrapper from '../../components/layout';
 
 const Mertacor = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Mertacor'} subtitle={'Our trading agent competition agent'} />
         <div className="section">
             <div className="content">
@@ -37,7 +38,7 @@ const Mertacor = ({data}) => {
             }
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

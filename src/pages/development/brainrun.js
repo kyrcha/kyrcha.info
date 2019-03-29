@@ -2,10 +2,11 @@ import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { Link } from 'react-router-dom';
+import TemplateWrapper from '../../components/layout';
 
 const BrainRun = () => {
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Brain Run'} subtitle={'Brain Run is a brain training game aiming at giving your cognitive skills a boost!'} />
         <div className="section">
             <div className="content">
@@ -27,7 +28,7 @@ const BrainRun = () => {
             <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://brainrun.issel.ee.auth.gr/">Website</OutboundLink>
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

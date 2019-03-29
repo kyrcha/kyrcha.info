@@ -1,10 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const EslintConfigPop = () => {
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'eslint-config-pop'} subtitle={'Eslint configuration with the most popular configurations found in the npm registry'} />
         <div className="section">
             <div className="content">
@@ -43,7 +44,7 @@ const EslintConfigPop = () => {
             <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/AuthEceSoftEng/eslint-config-pop">GitHub</OutboundLink>
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

@@ -1,12 +1,13 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
+import TemplateWrapper from '../../components/layout';
 
 const AutoML = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'AutoML'} subtitle={'Autonomous Machine Learning'} />
         <div className="section">
             <div className="content">
@@ -32,7 +33,7 @@ const AutoML = ({data}) => {
             }
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

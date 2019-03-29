@@ -2,9 +2,10 @@ import React from 'react'
 import HeaderPage from '../../components/header-page'
 import '../../../node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.min.css'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const Timeline = () => (
-  <div>
+  <TemplateWrapper>
     <HeaderPage title={'Timline'} subtitle={'Some major milestones ...'} />
     <div className="section">
       <div className="content">
@@ -232,7 +233,7 @@ const Timeline = () => (
         </div>        
       </div>
     </div>
-  </div>
+  </TemplateWrapper>
 )
 
 export default Timeline

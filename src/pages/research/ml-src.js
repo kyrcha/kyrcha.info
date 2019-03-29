@@ -1,12 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
-import Publication from '../../components/publication'
+import TemplateWrapper from '../../components/layout';
 
 const MLSrc = ({data}) => {
     // const { edges: publications} = data.allContentfulPublications
-    const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Machine Learning on src'} subtitle={'Applying machine learning and deep learning representations on source code for various problems'} />
         <div className="section">
             <div className="content">
@@ -32,7 +31,7 @@ const MLSrc = ({data}) => {
             } */}
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

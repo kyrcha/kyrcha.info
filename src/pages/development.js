@@ -1,9 +1,10 @@
 import React from 'react'
 import HeaderPage from '../components/header-page'
 import PortfolioItem from '../components/portfolio-item'
+import TemplateWrapper from '../components/layout';
 
 const Development = () => (
-  <div>
+  <TemplateWrapper>
     <HeaderPage title={'Development'} subtitle={'My development portfolio'} />
     <div className="section">
       <div className="content">
@@ -103,7 +104,7 @@ const Development = () => (
         </div>
       </div>
     </div>
-  </div>
+  </TemplateWrapper>
 )
 
 export default Development

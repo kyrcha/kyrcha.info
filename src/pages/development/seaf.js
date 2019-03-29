@@ -1,10 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const SEAF = () => {
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'SEAF'} subtitle={''} />
         <div className="section">
             <div className="content">
@@ -25,7 +26,7 @@ const SEAF = () => {
             <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="https://app.equadcapital.com/">Website</OutboundLink>
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

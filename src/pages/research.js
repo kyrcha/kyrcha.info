@@ -2,9 +2,10 @@ import React from 'react'
 import HeaderPage from '../components/header-page'
 import PortfolioItem from '../components/portfolio-item'
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
+import TemplateWrapper from '../components/layout';
 
 const Research = () => (
-  <div>
+  <TemplateWrapper>
     <HeaderPage title={'Research'} subtitle={'Research areas of interest'} />
     <div className="section">
       <div className="content">
@@ -131,7 +132,7 @@ const Research = () => (
         </div>
       </div>
     </div>
-  </div>
+  </TemplateWrapper>
 )
 
 export default Research

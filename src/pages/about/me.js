@@ -1,9 +1,10 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const Me = () => (
-  <div>
+  <TemplateWrapper>
     <HeaderPage title={'About Me'} subtitle={'Some things about me ...'} />
     <div className="section">
       <div className="content">
@@ -104,17 +105,17 @@ const Me = () => (
         <p>(Airports don't count)</p>
         <h4>World</h4>
         <p>Visited 19 countries</p>
-        <OutboundLink href="https://map1.maploco.com/visited-countries/mine.php?c1=m67kdf8rgg-b3vmhw426a-gn8ckt8phc-b33r639lhc-2rve3odl34"><img src="https://map1.maploco.com/visited-countries/ml/m67kdf8rgg-b3vmhw426a-gn8ckt8phc-b33r639lhc-2rve3odl34.gif" border="0"/><br/>Create Your Own Visited Countries Map</OutboundLink>
+        <OutboundLink href="https://map1.maploco.com/visited-countries/mine.php?c1=m67kdf8rgg-b3vmhw426a-gn8ckt8phc-b33r639lhc-2rve3odl34"><img alt="World visited map" src="https://map1.maploco.com/visited-countries/ml/m67kdf8rgg-b3vmhw426a-gn8ckt8phc-b33r639lhc-2rve3odl34.gif" border="0"/><br/>Create Your Own Visited Countries Map</OutboundLink>
         <h4>Europe</h4>
-        <OutboundLink href="https://m.maploco.com/visited-europe/mine.php?euro=AT-BE-BG-DE-ES-FR-GB-GR-HR-HU-IL-IT-NL-PT-SE-TN-TR-VA"><img src="https://map1.maploco.com/visited-europe/ml/AT-BE-BG-DE-ES-FR-GB-GR-HR-HU-IL-IT-NL-PT-SE-TN-TR-VA.gif" border="0"/><br/>Create Your Own Visited European Countries Map</OutboundLink>
+        <OutboundLink href="https://m.maploco.com/visited-europe/mine.php?euro=AT-BE-BG-DE-ES-FR-GB-GR-HR-HU-IL-IT-NL-PT-SE-TN-TR-VA"><img alt="Europe visited map" src="https://map1.maploco.com/visited-europe/ml/AT-BE-BG-DE-ES-FR-GB-GR-HR-HU-IL-IT-NL-PT-SE-TN-TR-VA.gif" border="0"/><br/>Create Your Own Visited European Countries Map</OutboundLink>
         <h4>USA</h4>
-        <OutboundLink href="https://m.maploco.com/visited-states/mine.php?states=CA-CO-NV"><img src="https://map1.maploco.com/visited-states/ml/CA-CO-NV.png" border="0"/><br/>Create Your Own Visited States Map</OutboundLink>
+        <OutboundLink href="https://m.maploco.com/visited-states/mine.php?states=CA-CO-NV"><img alt="USA visited map" src="https://map1.maploco.com/visited-states/ml/CA-CO-NV.png" border="0"/><br/>Create Your Own Visited States Map</OutboundLink>
         <h4>Cities and Places</h4>
         <p>(Except in Greece)</p>
-        <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zP4Wfadws8UE.k3XFlk7JYnNI" width="640" height="480" data-mce-fragment="1"></iframe>
+        <iframe title="Cities visited" src="https://mapsengine.google.com/map/u/0/embed?mid=zP4Wfadws8UE.k3XFlk7JYnNI" width="640" height="480" data-mce-fragment="1"></iframe>
       </div>
     </div>
-  </div>
+  </TemplateWrapper>
 )
 
 export default Me

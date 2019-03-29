@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import "../../static/css/base.scss"
-import './index.css'
+import './layout.css'
 import favicon from '../../static/favicon.png';
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
@@ -26,6 +26,7 @@ const Header = () => (
     <div id="navbarExampleTransparentExample" className="navbar-menu">
       <div className="navbar-end">
         <div className="navbar-item has-dropdown is-hoverable">
+          {/* eslint-disable-next-line */}
           <a className="navbar-link" href="#">
             About
           </a>
@@ -51,6 +52,7 @@ const Header = () => (
           Publications
         </Link>
         <div className="navbar-item has-dropdown is-hoverable">
+          {/* eslint-disable-next-line */}
           <a className="navbar-link" href="#">
             Resources
           </a>
@@ -106,7 +108,7 @@ const Sidebar = () => (
         <div className="column">
           <h4>About me</h4>
           <p>
-            <img src='/kyrcha.jpg' width='32%' height='32%' className='img-left'/>
+            <img src='/kyrcha.jpg' width='32%' height='32%' className='img-left' alt="Kyriakos"/>
             Hi! My name is Kyriakos Chatzidimitriou, 
             I am an Intelligent Systems, Data and Software Engineer. 
             This is my website.
@@ -120,7 +122,7 @@ const Sidebar = () => (
             <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank' rel="noopener noreferrer">
               <picture>
                 <source type="image/webp" srcset="images/pmlr-cover-small.webp"/>
-                <img src='/images/pmlr-cover-small.png' width='50%' className='img-left'/>
+                <img src='/images/pmlr-cover-small.png' width='50%' className='img-left' alt="practical machine learning in R book"/>
               </picture>
             </OutboundLink>
             Our recent book <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank'>Practical Machine Learning with R</OutboundLink> for quickly entering 

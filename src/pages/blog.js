@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'gatsby-link';
 import HeaderPage from '../components/header-page';
 import dateFormat from 'dateformat';
+import TemplateWrapper from '../components/layout';
 
 const BlogPage = ({data}) => {
     const { edges: posts} = data.allContentfulBlogPost
     return (
-        <div>
+        <TemplateWrapper>
             <HeaderPage title={'Blog'} subtitle={'This is my blog'} />
             <div className="columns">
                 <div className="column"></div>
@@ -26,7 +27,7 @@ const BlogPage = ({data}) => {
                     })}
                 </div>
             </div>
-        </div>    
+        </TemplateWrapper>    
     )
     
 }

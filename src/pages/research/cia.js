@@ -1,12 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
-import Publication from '../../components/publication'
+import TemplateWrapper from '../../components/layout';
 
 const CIA = ({data}) => {
     // const { edges: publications} = data.allContentfulPublications
-    const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Continuous Implicit Authentication'} subtitle={'Behavioral Biometrics'} />
         <div className="section">
             <div className="content">
@@ -32,7 +31,7 @@ const CIA = ({data}) => {
             } */}
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

@@ -1,12 +1,13 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
+import TemplateWrapper from '../../components/layout';
 
 const SoftwareQuality = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Software Quality'} subtitle={'Devising tools and models for assessing the quality of software and intelligent systems'} />
         <div className="section">
             <div className="content">
@@ -32,7 +33,7 @@ const SoftwareQuality = ({data}) => {
             }
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

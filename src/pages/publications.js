@@ -3,13 +3,14 @@ import HeaderPage from '../components/header-page'
 import Publication from '../components/publication'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import _ from 'lodash'
+import TemplateWrapper from '../components/layout';
 
 const Publications = ({data}) => {
   const { edges: publications} = data.allContentfulPublications
   const years = new Set();
   const typeCounts = _.countBy(publications, 'node.type');
   return (
-    <div>
+    <TemplateWrapper>
       <HeaderPage title={'Publications'} subtitle={'My Publish or Perish statistics and my publications'} />
       <div className="section">
           <div className="content">
@@ -84,7 +85,7 @@ const Publications = ({data}) => {
             }
           </div>
       </div>
-    </div>
+    </TemplateWrapper>
   );
 }
 

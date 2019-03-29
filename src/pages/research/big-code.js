@@ -2,12 +2,13 @@ import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const BigCode = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Big Code'} subtitle={'Mining Software Repositories and Software Analytics'} />
         <div className="section">
             <div className="content">
@@ -48,7 +49,7 @@ const BigCode = ({data}) => {
             }
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

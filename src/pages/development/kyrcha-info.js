@@ -1,16 +1,17 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const KyrchaInfo = () => {
     return (
-        <div>
+        <TemplateWrapper>
             <HeaderPage title={'kyrcha.info'} subtitle={'This website'} />
             <div className="section">
                 <div className="columns">
                     <div className="column is-3">
                         <figure className="image">
-                            <img src='/images/kyrcha-info.png' />
+                            <img src='/images/kyrcha-info.png' alt="kyrcha.info"/>
                         </figure>
                     </div>
                     <div className="column is-9">
@@ -40,7 +41,7 @@ const KyrchaInfo = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

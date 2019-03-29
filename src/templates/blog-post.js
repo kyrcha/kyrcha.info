@@ -2,14 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import dateFormat from 'dateformat';
 import ReactDisqusComments from 'react-disqus-comments';
-
+import TemplateWrapper from '../components/layout';
 import "katex/dist/katex.min.css"
 
-  class Template extends React.Component {
-
-    constructor(props) {
-      super(props);
-    }
+class Template extends React.Component {
 
   
   waitForGlobal = (name, timeout = 300) => {
@@ -63,7 +59,7 @@ import "katex/dist/katex.min.css"
   }
 
   render() {
-    const {data, location, pathContext} = this.props;
+    const {data, pathContext} = this.props;
     const { title, published, category, url, tags } = data.contentfulBlogPost
   const { next, prev } = pathContext
   tags.map(t => console.log(t))
@@ -72,6 +68,7 @@ import "katex/dist/katex.min.css"
     // <section className="section">
     //   <Helmet title={`${title} - My Blog`} />
     //   <div className="container">
+    <TemplateWrapper>
     <section className="section">
       <div>
         <p className="title is-3">{title}</p>
@@ -108,6 +105,7 @@ import "katex/dist/katex.min.css"
         />
         </div>
     </section>
+    </TemplateWrapper>
   )
 }}
 

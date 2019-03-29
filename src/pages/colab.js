@@ -1,6 +1,7 @@
 import React from 'react'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import HeaderPage from '../components/header-page'
+import TemplateWrapper from '../components/layout';
 
 const wufoo = `<iframe height="436"
 allowTransparency="true"
@@ -19,7 +20,7 @@ The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder<
 </div>`
 
 const CollabPage = () => (
-  <div>
+  <TemplateWrapper>
     <HeaderPage title={'Collaborations'} subtitle={"Let's work together"} />
     <div className="section">
       <div className="content">
@@ -43,7 +44,7 @@ const CollabPage = () => (
                                               
       </div>
     </div>
-  </div>
+  </TemplateWrapper>
 )
 
 export default CollabPage

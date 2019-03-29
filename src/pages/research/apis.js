@@ -3,12 +3,13 @@ import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Link from 'gatsby-link'
+import TemplateWrapper from '../../components/layout';
 
 const APIs = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Web Services and APIs'} subtitle={'Research on web services and APIs'} />
         <div className="section">
             <div className="content">
@@ -61,7 +62,7 @@ const APIs = ({data}) => {
             }
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

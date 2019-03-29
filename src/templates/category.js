@@ -2,12 +2,13 @@ import React from 'react';
 import Link from 'gatsby-link';
 import HeaderPage from '../components/header-page';
 import dateFormat from 'dateformat';
+import TemplateWrapper from '../components/layout';
 
 const CategoryPage = ({data, pathContext}) => {
     const { category } = pathContext
     const { edges: posts} = data.allContentfulBlogPost
     return (
-        <div>
+        <TemplateWrapper>
             <HeaderPage title={category} subtitle={`Posts in category ${category}`} />
             <div className="columns">
                 <div className="column"></div>
@@ -27,7 +28,7 @@ const CategoryPage = ({data, pathContext}) => {
                     })}
                 </div>
             </div>
-        </div>    
+        </TemplateWrapper>    
     )
     
 }

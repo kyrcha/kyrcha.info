@@ -1,10 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const NpmMiner = () => {
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'npm-miner'} subtitle={''} />
         <div className="section">
             <div className="content">
@@ -28,7 +29,7 @@ const NpmMiner = () => {
             <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/AuthEceSoftEng/npm-miner">GitHub</OutboundLink>
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

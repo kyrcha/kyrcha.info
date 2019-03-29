@@ -1,10 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const Cenote = () => {
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Cenote'} subtitle={'A Big Data Management System for event processing and analytics'} />
         <div className="section">
             <div className="content">
@@ -27,7 +28,7 @@ const Cenote = () => {
             <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/AuthEceSoftEng/cenote">cenote</OutboundLink>
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

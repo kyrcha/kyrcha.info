@@ -1,10 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const JSSA = () => {
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'JSSA'} subtitle={'An aggregation of javascript source code static analysis tools'} />
         <div className="section">
             <div className="content">
@@ -20,7 +21,7 @@ const JSSA = () => {
             <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/cyclopt/jssa">GitHub</OutboundLink>
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

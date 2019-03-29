@@ -1,12 +1,13 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
+import TemplateWrapper from '../../components/layout';
 
 const NEAR = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
     const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'NEAR'} subtitle={'NeuroEvolution of Augmented Reservoirs'} />
         <div className="section">
             <div className="content">
@@ -33,7 +34,7 @@ const NEAR = ({data}) => {
             }
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

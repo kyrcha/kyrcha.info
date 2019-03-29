@@ -1,10 +1,11 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import TemplateWrapper from '../../components/layout';
 
 const JSSK = () => {
     return (
-        <div>
+        <TemplateWrapper>
             <HeaderPage title={'js-starter-kit'} subtitle={'JS web application starter kit for the MERN stack along with a software development lifecycle proposal'} />
             <div className="section">
                 <div className="content">
@@ -31,7 +32,7 @@ const JSSK = () => {
                     <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/cyclopt/js-starter-kit">GitHub</OutboundLink>
                 </div>
             </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 

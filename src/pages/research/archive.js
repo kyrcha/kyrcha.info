@@ -1,11 +1,10 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
-import Publication from '../../components/publication'
+import TemplateWrapper from '../../components/layout';
 
 const Archive = ({data}) => {
-    const years = new Set();
     return (
-        <div>
+        <TemplateWrapper>
         <HeaderPage title={'Archive'} subtitle={'Past research'} />
         <div className="section">
             <div className="content">
@@ -15,7 +14,7 @@ const Archive = ({data}) => {
             </p>
             </div>
         </div>
-        </div>
+        </TemplateWrapper>
     );
 }
 
