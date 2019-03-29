@@ -205,7 +205,7 @@ const TemplateWrapper = ({ children }) => (
     <Header />
       <div className='columns is-gapless no-bottom-margin'>
         <div className='column is-three-quarters'>
-          {children()}
+          {children}
         </div>
         <div className='column'>
           <Sidebar/>

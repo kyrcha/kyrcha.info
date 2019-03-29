@@ -37,7 +37,7 @@ import "katex/dist/katex.min.css"
 
   componentDidMount() {
     this.waitForGlobal('MathJax').then(() => {
-      top.MathJax.Hub.Config({
+      window.top.MathJax.Hub.Config({
         tex2jax: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
           displayMath: [['$$', '$$'], ['[', ']']],
@@ -51,14 +51,14 @@ import "katex/dist/katex.min.css"
         },
       })
     })
-    if (top.MathJax != null) {
-      top.MathJax.Hub.Queue(['Typeset', top.MathJax.Hub])
+    if (window.top.MathJax != null) {
+      window.top.MathJax.Hub.Queue(['Typeset', window.top.MathJax.Hub])
     }
   }
 
   componentDidUpdate() {
-    if (top.MathJax != null) {
-      top.MathJax.Hub.Queue(['Typeset', top.MathJax.Hub])
+    if (window.top.MathJax != null) {
+      window.top.MathJax.Hub.Queue(['Typeset', window.top.MathJax.Hub])
     }
   }
 
