@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 import TemplateWrapper from '../../components/layout';
+import { graphql } from 'gatsby';
 
 const SoftwareQuality = ({data}) => {
     const { edges: publications} = data.allContentfulPublications

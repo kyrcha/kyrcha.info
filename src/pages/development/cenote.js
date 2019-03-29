@@ -32,4 +32,4 @@ const Cenote = () => {
     );
 }
 
-export default Cenote
+export default Cenote;

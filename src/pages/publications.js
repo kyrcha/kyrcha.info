@@ -4,6 +4,7 @@ import Publication from '../components/publication'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import _ from 'lodash'
 import TemplateWrapper from '../components/layout';
+import { graphql } from 'gatsby';
 
 const Publications = ({data}) => {
   const { edges: publications} = data.allContentfulPublications

@@ -4,6 +4,7 @@ import dateFormat from 'dateformat';
 import ReactDisqusComments from 'react-disqus-comments';
 import TemplateWrapper from '../components/layout';
 import "katex/dist/katex.min.css"
+import { graphql } from 'gatsby';
 
 class Template extends React.Component {
 

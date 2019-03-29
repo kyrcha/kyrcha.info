@@ -30,4 +30,4 @@ const SEAF = () => {
     );
 }
 
-export default SEAF
+export default SEAF;

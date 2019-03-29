@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import HeaderPage from '../components/header-page';
 import dateFormat from 'dateformat';
 import TemplateWrapper from '../components/layout';
+import { graphql } from 'gatsby';
 
 const BlogPage = ({data}) => {
     const { edges: posts} = data.allContentfulBlogPost

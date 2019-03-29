@@ -3,6 +3,7 @@ import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import TemplateWrapper from '../../components/layout';
+import { graphql } from 'gatsby';
 
 const BigCode = ({data}) => {
     const { edges: publications} = data.allContentfulPublications

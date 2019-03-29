@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderPage from '../../components/header-page'
 import TemplateWrapper from '../../components/layout';
+import { graphql } from 'gatsby';
 
 const CIA = ({data}) => {
     // const { edges: publications} = data.allContentfulPublications
