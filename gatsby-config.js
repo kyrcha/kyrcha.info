@@ -15,6 +15,17 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              // Optional:
+              // the github handler whose gists are to be accessed
+              username: 'kyrcha',
+              // a flag indicating whether the github default gist css should be included or not
+              // default: true
+              includeDefaultCss: true
+            }
+          },
+          {
             resolve: `gatsby-remark-katex`,
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
