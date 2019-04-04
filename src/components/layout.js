@@ -11,7 +11,8 @@ const Header = () => (
   <nav className="navbar is-black">
     <div className="navbar-brand">
       <Link className="navbar-item" to="/">
-        <img className="logo-img" src="/logo.png" alt="Kyriakos Chatzidimitriou"/>
+        <img className="logo-img is-hidden-touch" src="/logo.png" alt="Kyriakos Chatzidimitriou"/>
+        <img className="logo-img is-hidden-desktop" src="/logo_mobile.png" alt="Kyriakos Chatzidimitriou"/>
       </Link>
       <div
         className="navbar-burger burger nav-toggle"
