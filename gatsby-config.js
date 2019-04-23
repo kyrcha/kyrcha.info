@@ -26,12 +26,16 @@ module.exports = {
             }
           },
           {
+            resolve: `@raae/gatsby-remark-oembed`
+          },
+          {
             resolve: `gatsby-remark-katex`,
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
               strict: `ignore`
             }
-          }
+          },
+          `gatsby-remark-responsive-iframe`
         ],
       },
     },

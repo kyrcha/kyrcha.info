@@ -59,9 +59,16 @@ const Me = () => (
           <li>Code:
             <ul>
               <li><OutboundLink href="https://github.com/kyrcha">GitHub</OutboundLink></li>
+              <li><OutboundLink href="https://gist.github.com/kyrcha">My Gists</OutboundLink></li>
               <li><OutboundLink href="https://bitbucket.org/kyrcha">Bitbucket</OutboundLink></li>
               <li><OutboundLink href="http://stackoverflow.com/users/869151/kyrcha">stackoverflow</OutboundLink></li>
               <li><OutboundLink href="https://www.npmjs.com/~kyrcha/">npm</OutboundLink></li>
+            </ul>
+          </li>
+          <li>Presentations:
+            <ul>
+              <li><OutboundLink href="https://speakerdeck.com/kyrcha">Speaker Deck</OutboundLink></li>
+              <li><OutboundLink href="https://www.slideshare.net/kyrcha">SlideShare</OutboundLink></li>
             </ul>
           </li>
           <li>Research/Academic:

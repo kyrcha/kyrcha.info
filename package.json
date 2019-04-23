@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyriakos Chatzidimitriou <kyrcha@gmail.com>",
   "dependencies": {
+    "@raae/gatsby-remark-oembed": "0.0.6",
     "bulma": "^0.7.4",
     "bulma-extensions": "^6.2.4",
     "core-js": "^2.6.5",
@@ -22,6 +23,7 @@
     "gatsby-plugin-typography": "^2.2.10",
     "gatsby-remark-embed-gist": "^1.1.7",
     "gatsby-remark-katex": "^3.0.4",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
     "gatsby-source-contentful": "^2.0.45",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.3.8",

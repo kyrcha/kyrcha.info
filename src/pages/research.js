@@ -73,10 +73,10 @@ const Research = () => (
                 continuous implicity authentication through gestures in mobile devices and kiosks.
               </li> 
               <li>
-                <strong><OutboundLink href='https://www.seaf-h2020.eu/'>SEAF</OutboundLink></strong> <em>(European, H2020, 2017-2019)</em>
+                <strong><OutboundLink href='https://www.seaf-h2020.eu/'>SEAF</OutboundLink></strong> <em>(European, H2020, 2017-2019)</em>. SEAF bridges the gap between contractors and investors in Sustainable Energy Assets (SEA) through the development of a holistic IT Platform.
               </li>
               <li>
-                <strong><OutboundLink href='https://www.mobile-age.eu/'>Mobile-Age</OutboundLink></strong> <em>(European, H2020, 2017-2019)</em>
+                <strong><OutboundLink href='https://www.mobile-age.eu/'>Mobile-Age</OutboundLink></strong> <em>(European, H2020, 2017-2019)</em>. Mobile Age project focuses on open government data, mobile technology, and the provision of public services in relation to Europe’s elderly population.
               </li>
               <li>
                 <strong><OutboundLink href='https://cordis.europa.eu/project/rcn/110591/en'>S-CASE</OutboundLink>: Scaffolding Scallable Software Services</strong> <em>(European, FP7-ICT, 610717, 2013-2016)</em>. 

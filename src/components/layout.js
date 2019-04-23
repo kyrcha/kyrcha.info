@@ -122,7 +122,7 @@ const Sidebar = () => (
           <p>
             <OutboundLink href='https://leanpub.com/practical-machine-learning-r' target='_blank' rel="noopener noreferrer">
               <picture>
-                <source type="image/webp" srcset="images/pmlr-cover-small.webp"/>
+                <source type="image/webp" srcSet="/images/pmlr-cover-small.webp"/>
                 <img src='/images/pmlr-cover-small.png' width='50%' className='img-left' alt="practical machine learning in R book"/>
               </picture>
             </OutboundLink>
@@ -165,6 +165,7 @@ const Sidebar = () => (
               <li><Link to="/categories/development">Development</Link></li>
               <li><Link to="/categories/tutorials">Tutorials</Link></li>
               <li><Link to="/categories/books">Book Club</Link></li>
+              <li><Link to="/categories/talks">Talks</Link></li>
             </ul>
           </div>
         </div>
@@ -204,6 +205,7 @@ const TemplateWrapper = ({ children }) => (
     >
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+      <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
     </Helmet>
     <Header />
       <div className='columns is-gapless no-bottom-margin'>
@@ -219,7 +221,7 @@ const TemplateWrapper = ({ children }) => (
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.object,
 }
 
 export default TemplateWrapper
