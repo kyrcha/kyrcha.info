@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import "../../static/css/base.scss"
@@ -114,6 +113,10 @@ const Sidebar = () => (
             I am an Intelligent Systems, Data and Software Engineer. 
             This is my website.
           </p>
+          <h5>AMA</h5>
+          <p>
+            If you want to ask me something... anything... open an issue in my <OutboundLink href="https://github.com/kyrcha/ama">ama repo</OutboundLink>.
+          </p>
         </div>
       </div>
       <div className="columns">
@@ -219,9 +222,5 @@ const TemplateWrapper = ({ children }) => (
     <Footer />
   </div>
 )
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.object,
-}
 
 export default TemplateWrapper

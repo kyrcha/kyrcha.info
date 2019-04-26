@@ -32,8 +32,7 @@ const Me = () => (
           as much as possible so it is there were you will find the latest information about me.</p>
         <p>Occasionally I update my CVs in document format as well:</p>
         <ul>
-          <li>CV in English (under construction)</li>
-          <li><OutboundLink href="/files/chatzidimitriou-cv-2017.pdf">CV in Greek</OutboundLink> (13 pages, early 2017 version)</li>
+          <li><OutboundLink href="/files/chatzidimitriou-cv.pdf">My Research/Academic CV (in English)</OutboundLink> (13 pages, April 2019 version)</li>
         </ul>
 
         <p className="title is-3">Email</p>
@@ -77,6 +76,7 @@ const Me = () => (
               <li><OutboundLink href="https://www.researchgate.net/profile/Kyriakos_Chatzidimitriou">ResearchGate</OutboundLink></li>
               <li><OutboundLink href="https://independent.academia.edu/kyrcha">Academia.edu</OutboundLink></li>
               <li><OutboundLink href="http://orcid.org/0000-0003-0715-1197">ORCiD</OutboundLink></li>
+              <li><OutboundLink href="https://publons.com/researcher/1746872/kyriakos-chatzidimitriou/">Publons</OutboundLink></li>
             </ul>
           </li>
           <li>Reading:

@@ -3,7 +3,8 @@ import './publication.css'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Publication = ({pub}) => {
-    const lastAuthor = pub.authors.splice(-1, 1);
+    const authors = pub.authors.slice();
+    const lastAuthor = authors.pop();
     let color = 'is-light';
     switch(pub.type) {
         case 'journal':
@@ -26,7 +27,7 @@ const Publication = ({pub}) => {
     return (<div className='publication' key={pub.title}>
         <strong><span className={`tag ${color}`}>{pub.type}</span></strong>
         <span> </span>
-        {pub.authors.map(author => {
+        {authors.map(author => {
             return <span key={author}>{author}, </span>
         })}<span>{lastAuthor}: </span>
         <span> </span>
