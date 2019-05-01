@@ -14,7 +14,6 @@ const BlogPage = ({data}) => {
                 <div className="column"></div>
                 <div className="column is-11">
                     {posts.map(({node: post}) => {
-                        console.log(post.thumbnail)
                         return (
                             <section key={post.id} className="section post-excert">
                                 <h2 className="title">

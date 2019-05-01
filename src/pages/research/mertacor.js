@@ -25,7 +25,6 @@ const Mertacor = ({data}) => {
             <p className='title is-3'>Related Publications</p>
             {
               publications.map(({node: publication}, index) => {
-                // console.log(years.push([publication.year]))
                 return years.has(publication.year) ?
                   <div key={index}>
                     <Publication pub={publication} />
