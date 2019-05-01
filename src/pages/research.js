@@ -124,6 +124,15 @@ const Research = () => (
           </div>
           <div className="column">
             <PortfolioItem 
+              img={'/images/isabel2003.jpg'} 
+              path={'/research/tropical'}
+              title={'Tropical Cyclones'} 
+              description={'Predicting the intensification of Tropical Cyclones through Maching Learning models.'}/>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem 
               img={'/images/vault.png'} 
               path={'/research/archive'}
               title={'Older Research Projects'} 

@@ -8,13 +8,13 @@ const PortfolioItem = ({title, description, path, img, square, webp}) => (
             { square ? 
             <figure className="image is-128x128">
                 <picture>
-                    <source type="image/webp" srcset={webp}/>
+                    <source type="image/webp" srcSet={webp}/>
                     <img src={img} alt={title}/>
                 </picture>
             </figure> :
             <figure className="image is-128x128">
                 <picture>
-                    <source type="image/webp" srcset={webp}/>
+                    <source type="image/webp" srcSet={webp}/>
                     <img className='is-circular' src={img} alt={title}/>
                 </picture>
             </figure>

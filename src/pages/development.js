@@ -101,6 +101,14 @@ const Development = () => (
               square={true}
               description={"Old Cyclopt's Quality as a Service web application, built using the MERN stack. Dropped in favor of the bot above."}/>
           </div>
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/rt'}
+              title={'Ray Tracing'}
+              img={'/images/rt2.png'}
+              square={true}
+              description={"Ray tracing code in Java from my MSc course in image computation."}/>
+          </div>
         </div>
       </div>
     </div>

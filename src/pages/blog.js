@@ -14,15 +14,24 @@ const BlogPage = ({data}) => {
                 <div className="column"></div>
                 <div className="column is-11">
                     {posts.map(({node: post}) => {
+                        console.log(post.thumbnail)
                         return (
                             <section key={post.id} className="section post-excert">
-                                <h1 className="title">
+                                <h2 className="title">
                                     <Link to={post.url}>
                                         {post.title}
                                     </Link>
-                                </h1>
-                                <h2 className="subtitle">by Kyriakos Chatzidimitriou | {dateFormat(post.published, "mmm d, yyyy HH:MM")} | {post.category}</h2>
-                                <p className="has-text-grey-dark">{post.excert}</p>
+                                </h2>
+                                <h3 className=" subtitle">by Kyriakos Chatzidimitriou | {dateFormat(post.published, "mmm d, yyyy HH:MM")} | {post.category}</h3>
+                                <article class="media">
+                                    <figure class="media-left">
+                                        {post.thumbnail ? <img src={post.thumbnail.file.url} alt={post.thumbnail.title}/> : ''}
+                                    </figure>
+                                    <div class="media-content">
+                                        <p className="has-text-grey-dark">{post.excert}</p>
+                                    </div>
+                                </article>
+                                
                             </section>
                         )
                     })}
@@ -48,6 +57,12 @@ export const query = graphql`
                     category
                     excert
                     url
+                    thumbnail {
+                        title
+                        file {
+                            url
+                        }
+                    }
                     body {
                         id
                         body
