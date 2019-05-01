@@ -20,8 +20,7 @@ const Publications = ({data}) => {
             <p>
               <OutboundLink href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/c/Chatzidimitriou:Kyriakos_C=.html"> <strong>DBLP</strong> Computer Science Bibliography</OutboundLink>,
               <OutboundLink href="http://portal.acm.org/author_page.cfm?id=81100145185"> <strong>ACM</strong> Digital Library</OutboundLink>,
-              <OutboundLink href="http://citeseerx.ist.psu.edu/viewauth/summary?aid=48699"> <strong>CiteSeerX</strong></OutboundLink>,
-              <OutboundLink href="http://academic.research.microsoft.com/Author/3348000/kyriakos-c-chatzidimitrio"> <strong>Microsoft</strong> Academic Search</OutboundLink>,
+              <OutboundLink href="https://academic.microsoft.com/profile/i625065j-5770-45jg-911h-jg0he358hg92/kyrcha/publication/search?q=Kyriakos%20Chatzidimitriou&qe=%2540%2540%2540USER.PUBLICATIONS%253De625065f-5770-45fc-911d-fc0da358dc92&f=&orderBy=0"> <strong>Microsoft</strong> Academic Search</OutboundLink>,
               <OutboundLink href="http://scholar.google.com/citations?user=KRG5Mg8AAAA"> <strong>Google</strong> Scholar Profile</OutboundLink>,
               <OutboundLink href="https://www.mendeley.com/profiles/kyriakos-chatzidimitriou/stats/"> <strong>Mendeley</strong> Profile</OutboundLink>,
               <OutboundLink href="http://scholar.google.com/scholar?as_q=&amp;num=100&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=Kyriakos+Chatzidimitriou&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_sdt=1.&amp;as_sdtp=on&amp;as_sdtf=&amp;as_sdts=5&amp;btnG=Search+Scholar&amp;hl=en&amp;num=100"> <strong>Google</strong> Scholar Search</OutboundLink>,
