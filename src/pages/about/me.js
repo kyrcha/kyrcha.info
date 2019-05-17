@@ -64,6 +64,12 @@ const Me = () => (
               <li><OutboundLink href="https://www.npmjs.com/~kyrcha/">npm</OutboundLink></li>
             </ul>
           </li>
+          <li>Competitions:
+            <ul>
+              <li><OutboundLink href="https://www.hackerrank.com/kyrcha">HackerRank</OutboundLink></li>
+              <li><OutboundLink href="https://www.kaggle.com/kyrcha">Kaggle</OutboundLink></li>
+            </ul>
+          </li>
           <li>Presentations:
             <ul>
               <li><OutboundLink href="https://speakerdeck.com/kyrcha">Speaker Deck</OutboundLink></li>

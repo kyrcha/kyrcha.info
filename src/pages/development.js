@@ -90,6 +90,14 @@ const Development = () => (
           </div>
         </div>
         <hr/>
+        <p className="title is-3">Badges</p>
+        <p className="subtitle is-5">Programming and algorithmic badges</p>
+        <div className="columns">
+          <div className="column">
+              <img src="https://projecteuler.net/profile/kyrcha.png" alt="project euler badge" />
+          </div>
+        </div>
+        <hr/>
         <p className="title is-3">Project cemetary</p>
         <p className="subtitle is-5">Old, non-maintained projects</p>
         <div className="columns">
