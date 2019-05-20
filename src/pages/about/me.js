@@ -125,7 +125,9 @@ const Me = () => (
         <OutboundLink href="https://m.maploco.com/visited-states/mine.php?states=CA-CO-NV"><img alt="USA visited map" src="https://map1.maploco.com/visited-states/ml/CA-CO-NV.png" border="0"/><br/>Create Your Own Visited States Map</OutboundLink>
         <h4>Cities and Places</h4>
         <p>(Except in Greece)</p>
-        <iframe title="Cities visited" src="https://mapsengine.google.com/map/u/0/embed?mid=zP4Wfadws8UE.k3XFlk7JYnNI" width="640" height="480" data-mce-fragment="1"></iframe>
+        <div class="iframe-container">
+          <iframe title="Cities visited" src="https://mapsengine.google.com/map/u/0/embed?mid=zP4Wfadws8UE.k3XFlk7JYnNI" width="640" height="480" data-mce-fragment="1"></iframe>
+        </div>
       </div>
     </div>
   </TemplateWrapper>

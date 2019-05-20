@@ -208,7 +208,7 @@ const TemplateWrapper = ({ children }) => (
     >
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-      <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+      {/* <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> */}
     </Helmet>
     <Header />
       <div className='columns is-gapless no-bottom-margin'>

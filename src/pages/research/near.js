@@ -17,6 +17,10 @@ const NEAR = ({data}) => {
                 My PhD thesis, where I developed a methodology (NEAR) for building reservoir computing systems 
                 (echo state networks to be exact) through evolution and learning.
             </p>
+            <p className='title is-3'>Videos</p>
+            <div class="iframe-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/mjX2ZpsaWXI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
 
             <p className='title is-3'>Related Publications</p>
             {
