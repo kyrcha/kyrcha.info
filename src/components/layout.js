@@ -63,6 +63,9 @@ const Header = () => (
             <Link className="navbar-item" to="/resources/machine-learning">
               Machine Learning
             </Link>
+            <Link className="navbar-item" to="/resources/machine-learning-software-engineering">
+              ML on SE
+            </Link>
             <Link className="navbar-item" to="/resources/exercise-nutrition">
               Exercise & Nutrition
             </Link>
