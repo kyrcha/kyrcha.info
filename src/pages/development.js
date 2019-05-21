@@ -2,10 +2,11 @@ import React from 'react'
 import HeaderPage from '../components/header-page'
 import PortfolioItem from '../components/portfolio-item'
 import TemplateWrapper from '../components/layout';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const Development = () => (
   <TemplateWrapper>
-    <HeaderPage title={'Development'} subtitle={'My development portfolio'} />
+    <HeaderPage title={'Development'} subtitle={'My development and tech management portfolio'} />
     <div className="section">
       <div className="content">
         <div className="columns">
@@ -62,7 +63,7 @@ const Development = () => (
         </div>
         <hr/>
         <p className="title is-3">As a team leader - advisor</p>
-        <p className="subtitle is-5">Software projects I worked as a technical lead</p>
+        <p className="subtitle is-5">Software projects I worked as a technical lead/product owner</p>
         <div className="columns">
           <div className="column">
             <PortfolioItem 
@@ -81,14 +82,35 @@ const Development = () => (
               square={true}
               description={'A Big Data Management System for event processing and analytics'}/>
           </div>
-          <div className="column">
-            <PortfolioItem 
-              path={'/development/eslint-config-pop'}
-              title={'eslint-config-pop'} 
-              img={'/images/popular.png'}
-              description={'An eslint configuration with the most popular configurations found in the npm registry.'}/>
-          </div>
         </div>
+        <p className="subtitle is-5">Diploma theses I advised</p>
+        <p>
+          <u>Didn't write any code for those projects</u>, just provided the idea and the guidance 
+         to diploma thesis students of the <OutboundLink href="https://issel.ee.auth.gr/">Intelligent Systems and Software Engineering Labgroup</OutboundLink>. 
+         These are their works:
+        </p>
+        <div className="columns">
+          <div className="column content">
+            <ul>
+              <li><strong>Deep website aesthetics</strong>: In this work <OutboundLink href="https://github.com/AlexDelitzas">Alex Delitzas</OutboundLink> is trying to measure the aesthetics of webpages through deep learning and A LOT of <OutboundLink href="http://data.deep-website-aesthetics.com/">data gathering</OutboundLink>.</li>
+              <li><strong>eslint-config-pop</strong>: An eslint configuration with the most popular configurations found in the npm registry, by <OutboundLink href="https://github.com/pansakk">Panagiotis Sakkis</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/eslint-config-pop">eslint plugin</OutboundLink>]</li>
+              <li><strong>QATCH</strong>: Quality assessment toolchain by <OutboundLink href="https://github.com/siavvasm">Miltiadis Siavvas</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/qatch">GitHub</OutboundLink>] [<OutboundLink href="https://issel.ee.auth.gr/qatch">Web App</OutboundLink>]</li>
+              <li><strong>Keystroke dynamics for the web</strong>: A continuous implicit authentication system using keystrokes for the web by <OutboundLink href="https://github.com/tasoskakour">Anastasios Kakouris</OutboundLink>. If 
+                interested I have included the newer versions in Anastasios GitHub account:
+                <ul>
+                  <li>Old <OutboundLink href="https://github.com/AuthEceSoftEng/continuous-authentication-server">server code</OutboundLink>, <OutboundLink href="https://github.com/AuthEceSoftEng/continuous-authentication-website">demo website code</OutboundLink> and <OutboundLink href="https://github.com/AuthEceSoftEng/continuous-authentication-experiments">experiments repo</OutboundLink>.</li>
+                  <li>New <OutboundLink href="https://github.com/tasoskakour/continuous-authentication-service">server code</OutboundLink>, <OutboundLink href="https://github.com/tasoskakour/continuous-authentication-website">demo website code</OutboundLink> and <OutboundLink href="https://github.com/tasoskakour/continuous-authentication-experiments">experiments repo</OutboundLink>.</li>
+                </ul>
+              </li>
+              <li><strong>Call by meaning</strong>: Inspired by the Call by Meaning paper of Shamimi et al, 2014, an implementation by <OutboundLink href="https://iamnapo.me/#/">Napoleon-Christos Oikonomou</OutboundLink>. [<OutboundLink href="https://cbm.js.org/">Project website</OutboundLink>]</li>
+              <li><strong>Web recorder</strong>: Record end-to-end user tests through the Chrome plugin and replay them later automatically. A work by <OutboundLink href="https://github.com/dimitrisniras">Dimitris Niras</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/web-recorder-chrome-plugin">Chrome plugin code</OutboundLink>] [<OutboundLink href="https://github.com/AuthEceSoftEng/web-recorder-server">Server code</OutboundLink>]</li>
+              <li><strong>Chatops</strong>: Chatops bot in Slack implemented by <OutboundLink href="https://github.com/andreash92">Andreas Hadjithomas</OutboundLink> aggregating a daily standup meeting, GitHub, Trello and Jenkings APIs. [<OutboundLink href="https://github.com/AuthEceSoftEng/chatops">GitHub</OutboundLink>]</li>
+              <li><strong>rnn2source</strong>: Source code generation using deep recurrent neural networks by <OutboundLink href="https://github.com/AuthEceSoftEng/rnn2source">Vassilis Bountris</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/rnn2source">GitHub</OutboundLink>]</li>
+              <li><strong>ADS</strong>: Automated data scientist (AutoML) in R for binary classification by <OutboundLink href="https://github.com/elenanst">Eleni Nisioti</OutboundLink>. [<OutboundLink href="https://github.com/issel-ml-squad/ads">GitHub</OutboundLink>]</li>
+              <li><strong>Gherkin2OAS</strong>: Convert Gherkin specifications to an OpenAPI Specification by <OutboundLink href="https://github.com/anasdima">Anastasios Dimanidis</OutboundLink>. [<OutboundLink href="https://github.com/anasdima/gherkin2oas">GitHub</OutboundLink>]</li>
+            </ul>
+          </div>
+        </div> 
         <hr/>
         <p className="title is-3">Badges</p>
         <p className="subtitle is-5">Programming and algorithmic badges</p>
