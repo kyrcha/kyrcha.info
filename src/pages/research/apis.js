@@ -60,6 +60,11 @@ const APIs = ({data}) => {
                 }
               )
             }
+            <p className='title is-3'>Diploma Theses</p>
+            <p>I've worked on the subject with diploma theses students in the following proejcts:</p>
+            <ul>
+              <li><strong>Gherkin2OAS</strong>: Convert Gherkin specifications to an OpenAPI Specification by <OutboundLink href="https://github.com/anasdima">Anastasios Dimanidis</OutboundLink>. [<OutboundLink href="https://github.com/anasdima/gherkin2oas">GitHub</OutboundLink>]</li>
+            </ul>
             </div>
         </div>
         </TemplateWrapper>

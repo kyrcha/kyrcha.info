@@ -40,6 +40,12 @@ const MLSrc = ({data}) => {
                 }
               )
             } */}
+
+            <p className='title is-3'>Diploma Theses</p>
+            <p>I've worked on the subject with diploma theses students in the following proejcts:</p>
+            <ul>
+            <li><strong>rnn2source</strong>: Source code generation using deep recurrent neural networks by <OutboundLink href="https://github.com/AuthEceSoftEng/rnn2source">Vassilis Bountris</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/rnn2source">GitHub</OutboundLink>]</li>
+            </ul>
             </div>
         </div>
         </TemplateWrapper>

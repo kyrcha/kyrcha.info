@@ -37,7 +37,7 @@ const Timeline = () => (
             </div>
             <div className="timeline-content">
               <p className="heading">eTHMMY</p>
-              <p>Worked on eTHMMY, a e-learning platform for ECE, AUTH (Tech: Java, MS SQL, Apache Struts)</p>
+              <p><strong>1st position</strong> - Worked on eTHMMY, a e-learning platform for ECE, AUTH (Tech: Java, MS SQL, Apache Struts)</p>
             </div>
           </div>
           <div className="timeline-item">

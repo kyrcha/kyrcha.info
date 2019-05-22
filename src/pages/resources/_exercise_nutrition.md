@@ -16,11 +16,9 @@ I also like to run from time to time and participate in running events.
 
 Also a disclaimer. I am not a professional medical care or fitness provider or anything of that short. These resources are what I read, listen to, watch, follow, study and use for my personal exercise and nutritional needs.
 
-### My created resources
+### Handpicked resources
 
-Most of the things I've read, planning to read, use or would like to have can be found in this amazon store.
-  
-<iframe src="http://astore.amazon.com/sotarefs-20" width="90%" height="600" frameborder="0" scrolling="no"/></iframe>
+ToDo: Most of the things I've read, planning to read, use or would like to have can be found below: todo.
 
 ### Books (and eBooks)
 

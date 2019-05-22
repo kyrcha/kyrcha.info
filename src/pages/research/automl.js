@@ -3,6 +3,7 @@ import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 import TemplateWrapper from '../../components/layout';
 import { graphql } from 'gatsby';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const AutoML = ({data}) => {
     const { edges: publications} = data.allContentfulPublications
@@ -31,6 +32,11 @@ const AutoML = ({data}) => {
                 }
               )
             }
+            <p className='title is-3'>Diploma Theses</p>
+            <p>I've worked on the subject with diploma theses students in the following proejcts:</p>
+            <ul>
+            <li><strong>ADS</strong>: Automated data scientist (AutoML) in R for binary classification by <OutboundLink href="https://github.com/elenanst">Eleni Nisioti</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/ads">GitHub</OutboundLink>]</li>
+            </ul>
             </div>
         </div>
         </TemplateWrapper>

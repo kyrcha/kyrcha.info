@@ -18,7 +18,7 @@ Other cool official websites to augment the stack:
 
 ### Handpicked JS book resources
 
- - http://astore.amazon.com/meanstack-20
+ToDo
 
 ### Tutorials 
 

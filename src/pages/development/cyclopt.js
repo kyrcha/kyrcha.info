@@ -6,27 +6,36 @@ import TemplateWrapper from '../../components/layout';
 const Cyclopt = () => {
     return (
         <TemplateWrapper>
-        <HeaderPage title={'Cyclopt QaaS'} subtitle={''} />
-        <div className="section">
-            <div className="content">
-            <h2>Description</h2>
-            <p>
-                Cyclopt's Quality as a Service web application.
-            </p>
-            <h2>Tech Stack</h2>
-            <span className="tag is-rounded is-primary">javascript</span><span> </span>
-            <span className="tag is-rounded is-primary">node.js</span><span> </span>
-            <span className="tag is-rounded is-primary">react</span><span> </span>
-            <span className="tag is-rounded is-primary">express</span><span> </span>
-            <span className="tag is-rounded is-primary">heroku</span><span> </span>
-            <span className="tag is-rounded is-primary">bulma</span>
-            <span className="tag is-rounded is-primary">rabbitmq</span>
-            <span className="tag is-rounded is-primary">redis</span>
-            <span className="tag is-rounded is-primary">mongodb</span>
-            <h2>Links</h2>
-            <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="https://qaas.cyclopt.com">Website</OutboundLink>
+            <HeaderPage title={'Cyclopt QaaS'} subtitle={''} />
+            <div className="section">
+                <div className="columns">
+                    <div className="column is-3">
+                        <figure className="image">
+                            <img src='/images/qaas-cyclopt-com.png' alt="Quality-as-a-Service by Cyclopt"/>
+                        </figure>
+                    </div>
+                    <div className="column is-9">
+                        <div className="content">
+                            <h2>Description</h2>
+                            <p>
+                                Cyclopt's Quality as a Service web application.
+                            </p>
+                            <h2>Tech Stack</h2>
+                            <span className="tag is-rounded is-primary">javascript</span><span> </span>
+                            <span className="tag is-rounded is-primary">node.js</span><span> </span>
+                            <span className="tag is-rounded is-primary">react</span><span> </span>
+                            <span className="tag is-rounded is-primary">express</span><span> </span>
+                            <span className="tag is-rounded is-primary">heroku</span><span> </span>
+                            <span className="tag is-rounded is-primary">bulma</span>
+                            <span className="tag is-rounded is-primary">rabbitmq</span>
+                            <span className="tag is-rounded is-primary">redis</span>
+                            <span className="tag is-rounded is-primary">mongodb</span>
+                            <h2>Links</h2>
+                            <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="https://qaas.cyclopt.com">Website</OutboundLink>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
         </TemplateWrapper>
     );
 }

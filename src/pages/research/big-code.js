@@ -29,8 +29,8 @@ const BigCode = ({data}) => {
 
             <p className='title is-4'>npm-miner and mining the npm-registry</p>
             <p>
-                <OutboundLink href='http://npm-miner.com'>npm-miner</OutboundLink> is an infrastructure dedicated into mining the <OutboundLink href='https://www.npmjs.com'>npm registry</OutboundLink> 
-                (the biggest registry of software packages) and reporting the results of applying software quality open source tools to the packages.
+                <OutboundLink href='http://npm-miner.com'>npm-miner</OutboundLink> is an infrastructure dedicated into mining the <OutboundLink href='https://www.npmjs.com'>npm 
+                registry</OutboundLink> (the biggest registry of software packages) and reporting the results of applying software quality open source tools to the packages.
             </p>
 
             <p className='title is-3'>Related Publications</p>
@@ -47,6 +47,11 @@ const BigCode = ({data}) => {
                 }
               )
             }
+            <p className='title is-3'>Diploma Theses</p>
+            <p>I've worked on the subject with diploma theses students in the following proejcts:</p>
+            <ul>
+            <li><strong>eslint-config-pop</strong>: An eslint configuration with the most popular configurations found in the npm registry, by <OutboundLink href="https://github.com/pansakk">Panagiotis Sakkis</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/eslint-config-pop">eslint plugin</OutboundLink>]</li>
+            </ul>
             </div>
         </div>
         </TemplateWrapper>

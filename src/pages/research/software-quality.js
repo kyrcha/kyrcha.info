@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 import TemplateWrapper from '../../components/layout';
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { graphql } from 'gatsby';
 
 const SoftwareQuality = ({data}) => {
@@ -32,6 +33,12 @@ const SoftwareQuality = ({data}) => {
                 }
               )
             }
+            <p className='title is-3'>Diploma Theses</p>
+            <p>I've worked on the subject with diploma theses students in the following proejcts:</p>
+            <ul>
+              <li><strong>Deep website aesthetics</strong>: In this work <OutboundLink href="https://github.com/AlexDelitzas">Alex Delitzas</OutboundLink> is trying to measure the aesthetics of webpages through deep learning and A LOT of <OutboundLink href="http://data.deep-website-aesthetics.com/">data gathering</OutboundLink>.</li>
+              <li><strong>QATCH</strong>: Quality assessment toolchain by <OutboundLink href="https://github.com/siavvasm">Miltiadis Siavvas</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/qatch">GitHub</OutboundLink>] [<OutboundLink href="https://issel.ee.auth.gr/qatch">Web App</OutboundLink>]</li>
+            </ul>
             </div>
         </div>
         </TemplateWrapper>
