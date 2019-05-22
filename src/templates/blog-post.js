@@ -102,7 +102,7 @@ class Template extends React.Component {
           shortname="kyrcha"
           identifier={url}
           title={title}
-          url={`http://kyrcha.info${url}`}
+          url={`http://kyrcha.info/${url}`}
         />
         </div>
     </section>
