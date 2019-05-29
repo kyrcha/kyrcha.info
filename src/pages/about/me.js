@@ -32,8 +32,8 @@ const Me = () => (
           as much as possible so it is there were you will find the latest information about me.</p>
         <p>Occasionally I update my CVs in document format as well:</p>
         <ul>
-          <li><OutboundLink href="/files/chatzidimitriou-cv.pdf">My Research/Academic CV</OutboundLink> (13 pages, April 2019 version, in English)</li>
-          <li><OutboundLink href="/files/chatzidimitriou-cv-3-pager.pdf">My "Industry" CV</OutboundLink> (3 pages, May 2019 version, in English)</li>
+          <li><OutboundLink href="/files/chatzidimitriou-cv-kyrcha-info.pdf">My Research/Academic CV</OutboundLink> (13 pages, April 2019 version, in English)</li>
+          <li><OutboundLink href="/files/chatzidimitriou-cv-3-pager-kyrcha-info.pdf">My "Industry" CV</OutboundLink> (3 pages, May 2019 version, in English)</li>
         </ul>
 
         <p className="title is-3">Email</p>
