@@ -70,6 +70,7 @@ const Me = () => (
             <ul>
               <li><OutboundLink href="https://www.hackerrank.com/kyrcha">HackerRank</OutboundLink></li>
               <li><OutboundLink href="https://www.kaggle.com/kyrcha">Kaggle</OutboundLink></li>
+              <li><OutboundLink href="https://leetcode.com/kyrcha/">LeetCode</OutboundLink></li>
             </ul>
           </li>
           <li>Presentations:

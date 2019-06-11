@@ -61,6 +61,19 @@ const Development = () => (
               description={'JS starter kit: A JS web application starter kit for the MERN stack, along with a software development lifecycle proposal.'}/>
           </div>
         </div>
+        <div className="columns">
+          <div className="column">
+          </div>
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/gh-downloader'}
+              title={'gh-downloader'} 
+              img={'/images/arrow-circle-down-solid.svg'}
+              description={'Download GitHub repositories as zipballs given search criteria.'}/>
+          </div>
+          <div className="column">
+          </div>
+        </div>
         <hr/>
         <p className="title is-3">As a team leader - advisor</p>
         <p className="subtitle is-5">Software projects I worked as a technical lead/product owner</p>
