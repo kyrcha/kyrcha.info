@@ -154,6 +154,17 @@ const Sidebar = () => (
       </div>
       <div className="columns">
         <div className="column">
+          <h4>kyrcha.info subdomains</h4>
+          <div className="content">
+            <ul className='is-unstyled'>
+              <li><i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://ml-tutorials.kyrcha.info">Machine learning tutorials in R</OutboundLink></li>
+              <li><i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://se-ml-interviews.kyrcha.info">Software and machine learning interview questions and resources</OutboundLink></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="columns">
+        <div className="column">
           <h4>Subscribe to the blog</h4>
           <p>
             {/* <a href="http://eepurl.com/gfbyxX">Subscribe to kyrcha.info by Email</a> */}
