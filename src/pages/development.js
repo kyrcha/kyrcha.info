@@ -63,6 +63,13 @@ const Development = () => (
         </div>
         <div className="columns">
           <div className="column">
+            <div className="column">
+              <PortfolioItem 
+                path={'/development/character-position'}
+                title={'character-position'} 
+                img={'/images/character-position.png'}
+                description={'Visual Studio Code extension for revealing the character position'}/>
+            </div>
           </div>
           <div className="column">
             <PortfolioItem 
@@ -70,8 +77,6 @@ const Development = () => (
               title={'gh-downloader'} 
               img={'/images/arrow-circle-down-solid.svg'}
               description={'Download GitHub repositories as zipballs given search criteria.'}/>
-          </div>
-          <div className="column">
           </div>
         </div>
         <hr/>

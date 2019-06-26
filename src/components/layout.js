@@ -48,6 +48,22 @@ const Header = () => (
         <Link className="navbar-item" to="/development">
           Development
         </Link>
+        {/* <div className="navbar-item has-dropdown is-hoverable">
+          <a className="navbar-link" href="#">
+            Portfolios
+          </a>
+          <div className="navbar-dropdown is-boxed is-right">
+            <Link className="navbar-item" to="/research">
+              Research
+            </Link>
+            <Link className="navbar-item" to="/development">
+              Development
+            </Link>
+            <Link className="navbar-item" to="/machine-learning">
+              Machine Learning
+            </Link>
+          </div>
+        </div> */}
         <Link className="navbar-item" to="/publications">
           Publications
         </Link>
