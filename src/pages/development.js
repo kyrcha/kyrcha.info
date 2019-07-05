@@ -111,7 +111,12 @@ const Development = () => (
           <div className="column content">
             <ul>
               <li><strong>Deep website aesthetics</strong>: In this work <OutboundLink href="https://github.com/AlexDelitzas">Alex Delitzas</OutboundLink> is trying to measure the aesthetics of webpages through deep learning and A LOT of <OutboundLink href="http://data.deep-website-aesthetics.com/">data gathering</OutboundLink>.</li>
-              <li><strong>eslint-config-pop</strong>: An eslint configuration with the most popular configurations found in the npm registry, by <OutboundLink href="https://github.com/pansakk">Panagiotis Sakkis</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/eslint-config-pop">eslint plugin</OutboundLink>]</li>
+              <li>ESLint dataset and tools, by <OutboundLink href="https://github.com/pansakk">Panagiotis Sakkis</OutboundLink></li>
+              <ul>
+                <li><strong>eslint-config-pop</strong>: An eslint configuration with the most popular configurations found in the npm registry. [<OutboundLink href="https://github.com/AuthEceSoftEng/eslint-config-pop">eslint plugin</OutboundLink>]</li>
+                <li><strong>eslint-generator</strong>: A machine learning package for auto generating rules field in eslint configuration file. [<OutboundLink href="https://github.com/pansakk/eslint-generator">eslint generator</OutboundLink>]</li>
+                <li><strong>eslint-rules-value-suggestor</strong>: A machine learning algorithm that proposes an eslint rule value. It makes use of the random forest algorithm. [<OutboundLink href="https://github.com/pansakk/eslint-rules-value-suggestor">eslint rules suggestor</OutboundLink>]</li>
+              </ul>
               <li><strong>QATCH</strong>: Quality assessment toolchain by <OutboundLink href="https://github.com/siavvasm">Miltiadis Siavvas</OutboundLink>. [<OutboundLink href="https://github.com/AuthEceSoftEng/qatch">GitHub</OutboundLink>] [<OutboundLink href="https://issel.ee.auth.gr/qatch">Web App</OutboundLink>]</li>
               <li><strong>Keystroke dynamics for the web</strong>: A continuous implicit authentication system using keystrokes for the web by <OutboundLink href="https://github.com/tasoskakour">Anastasios Kakouris</OutboundLink>. If 
                 interested I have included the newer versions in Anastasios GitHub account:

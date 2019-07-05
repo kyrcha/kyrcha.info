@@ -67,6 +67,8 @@ ul.is-unstyled {
     overflow: hidden;
     padding-top: 56.25%;
     position: relative;
+    height: 75%;
+    width: 75%;
   }
    
   .iframe-container iframe {

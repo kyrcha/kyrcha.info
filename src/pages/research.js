@@ -12,29 +12,6 @@ const Research = () => (
         <div className="columns">
           <div className="column">
             <PortfolioItem 
-              title={'Big Code'} 
-              img={'/images/big-code.png'}
-              path={'/research/big-code'}
-              description={'... AKA mining software repositories (MSR) and software related data, software analytics etc. with the goal of improving the various facets the software lifecycle.'}/>
-          </div>
-          <div className="column">
-            <PortfolioItem 
-              title={'Software Quality'} 
-              img={'/images/software-quality.png'}
-              path={'/research/software-quality'}
-              description={'Research on assessing the quality of a software project and quantifying the various (ISO 25010) quality characteristics: Functional Suitability, Performance Efficiency, Maintainability, Usability, Security, Portability, Reliability, Compatibility.'}/>
-          </div>
-          <div className="column">
-            <PortfolioItem 
-              title={'Web Services and APIs'} 
-              img={'/images/api.png'}
-              path={'/research/apis'}
-              description={'Research on web services and APIs'}/>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column">
-            <PortfolioItem 
               img={'/images/neural-net.png'} 
               path={'/research/ml-src'}
               title={'Machine Learning on Source Code'} 
@@ -53,6 +30,29 @@ const Research = () => (
               path={'/research/automl'}
               title={'AutoML'} 
               description={'The making of an automated/autonomous data scientist.'}/>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem 
+              title={'Big Code'} 
+              img={'/images/big-code.png'}
+              path={'/research/big-code'}
+              description={'... AKA mining software repositories (MSR) and software related data, software analytics etc. with the goal of improving the various facets the software lifecycle.'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem 
+              title={'Software Quality'} 
+              img={'/images/software-quality.png'}
+              path={'/research/software-quality'}
+              description={'Research on assessing the quality of a software project and quantifying the various (ISO 25010) quality characteristics: Functional Suitability, Performance Efficiency, Maintainability, Usability, Security, Portability, Reliability, Compatibility.'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem 
+              title={'Web Services and APIs'} 
+              img={'/images/api.png'}
+              path={'/research/apis'}
+              description={'Research on web services and APIs'}/>
           </div>
         </div>
         <hr />

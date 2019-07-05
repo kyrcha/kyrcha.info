@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import HeaderPage from '../../components/header-page'
 import Publication from '../../components/publication'
 import TemplateWrapper from '../../components/layout';
@@ -15,9 +16,10 @@ const AutoML = ({data}) => {
             <div className="content">
             <p className='title is-3'>Description</p>
             <p>
-                Making perfomant and robust machine learning models without (much) human intervention.
+                Making perfomant and robust machine learning models without (much) human intervention. 
+                One of my first approaches on the subject was my <Link to='/research/near'>PhD thesis</Link> where 
+                I tried to evolve reservoir topologies (Echo State Networks) to better fit the task at hand.
             </p>
-
             <p className='title is-3'>Related Publications</p>
             {
               publications.map(({node: publication}, index) => {

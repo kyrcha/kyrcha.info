@@ -42,13 +42,13 @@ const Header = () => (
         <Link className="navbar-item" to="/blog">
           Blog
         </Link>
-        <Link className="navbar-item" to="/research">
+        {/* <Link className="navbar-item" to="/research">
           Research
         </Link>
         <Link className="navbar-item" to="/development">
           Development
-        </Link>
-        {/* <div className="navbar-item has-dropdown is-hoverable">
+        </Link> */}
+        <div className="navbar-item has-dropdown is-hoverable">
           <a className="navbar-link" href="#">
             Portfolios
           </a>
@@ -63,7 +63,7 @@ const Header = () => (
               Machine Learning
             </Link>
           </div>
-        </div> */}
+        </div>
         <Link className="navbar-item" to="/publications">
           Publications
         </Link>
