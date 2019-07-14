@@ -8,6 +8,8 @@ subtitle: "... for optimal health"
 
 Exercise and nutrition are the two variables one can tune in order to have a healthy life. My goal is to live an active and healthy life till my late days, of course excluding things out of my reach like genetics and accidents. This is my resource page of things I study and do with respect to exercise and nutrition, i.e. the physical aspect o [sharpening the saw](http://amzn.to/2gcl7Rc). And like the the ancients Greeks said: 
 
+> νους υγιής εν σώματι υγιεί 
+
 With respect to exercising, I am into strength training. I started with the [stronglifts program](https://stronglifts.com/) (now with [Madcow](https://stronglifts.com/madcow-5x5-training-programs/)) and worked with [progressive loading](https://en.wikipedia.org/wiki/Milo_of_Croton#Feats_of_strength) on the basic lifts: squats, bench presses, deadlifts, barbell rows, power cleans and overhead presses, along with some assistance exercises like: barbell curl, lying tricept extensions, dips, chinups pullups, hyper-extensions and sit-ups.
   
 I also like to run from time to time and participate in running events.
@@ -18,7 +20,7 @@ Also a disclaimer. I am not a professional medical care or fitness provider or a
 
 ### Handpicked resources
 
-ToDo: Most of the things I've read, planning to read, use or would like to have can be found below: todo.
+@TODO: Most of the things I've read, planning to read, use or would like to have can be found below.
 
 ### Books (and eBooks)
 
@@ -31,8 +33,10 @@ Some general books that include both nutrition and exercise (more related to wei
 Weight training specific books
   - Starting Strength
   - Programming
+  - The Muscle and Strength Training Pyramid, 2nd edition 
 
 More into nutrition:
+  - The Muscle and Strength Nutrition Pyramid, 2nd edition
   - Better than steroids
 
 ### Exercising
@@ -93,9 +97,9 @@ A great list of detailed guides about some basic lifts can be found on Strength 
 
 ##### Warmups & Stretching
 
-TODO
+@TODO
 
-#### Sites
+#### Websites
 
   - Strength
     - [Stronglifts 5x5](http://stronglifts.com/)
@@ -109,6 +113,7 @@ TODO
 ### Apps I use
 
   - My Fitness Pal for calorie counting
+  - Fitbit
 
 ### Gear
 
@@ -119,12 +124,13 @@ TODO
   - SBD wrist wraps
   - Straps
   - Rogue belt
+  - Fitbit Versa Lite
 
 #### Running
 
   - Garmin Forerunner I own this watch but at this time I would go for this or this watch
   - Mizuno Wave Enigma
-  - Fitbit surge 2
+  - Fitbit Versa Lite
   - iPhone 6
 
 ### YouTube channels

@@ -4,9 +4,9 @@ title: "Machine Learning"
 subtitle: "My machine learning resources"
 ---
 
-This page contains machine learning (aka data mining/statistical inference) resources I have created like tutorials, notes etc. and useful links to other websites.
+This page contains machine learning (aka data science/data mining/statistical inference) resources I have created like tutorials, notes etc. and useful links to other websites.
 
-I also keep a curated list of links in my [ml-directory github repo](https://github.com/kyrcha/ml-directory).
+In the [deep-learning-pipelines github repo](https://github.com/kyrcha/deep-learning-pipelines) there are notebooks with some end-to-end pipelines I've built as examples, while in the [ml-rants github repo](https://github.com/kyrcha/ml-rants) there are notebooks with various machine learning examples that do not include neural networks. I also keep a curated list of links in my [ml-directory github repo](https://github.com/kyrcha/ml-directory).
 
 ### Book
 
@@ -43,6 +43,10 @@ My github repo containing links to datasets or site hosting datasets for
 machine learning tasks:
 
 - [My currated collection in GitHub](https://github.com/kyrcha/datasets-directory) including 3rd party 'awesome' collections.
+
+### Lists
+
+- [awesome-datasience](https://github.com/bulutyazilim/awesome-datascience) - awesome list for data science
 
 ### My Learning Deep Learning notes
 

@@ -4,7 +4,11 @@ title: "JavaScript"
 subtitle: "'Any application that can be written in JavaScript, will eventually be written in JavaScript.' - Jeff Atwood"
 ---
 
-### Official MERN websites
+I started working with JavaScript in 2013 where I picked the MEAN stack as the stack of choice for building a web application at that time. The post [Going Mean](/2014/10/10/introductory-post-going-mean) explains the reasons. Since then I switched to the MERN stack. My [development portofilo page](/development) has some works I've done using it. Below some resources I gather now and then.
+
+### Official MERN stack websites
+
+The official sites of my favorite web building stack:
 
  - [MongoDB](https://www.mongodb.com/)
  - [Express](http://expressjs.com/)
@@ -22,8 +26,8 @@ ToDo
 
 ### Tutorials 
 
-  - [Egghead.io](https://egghead.io/)
-  - [thinkster](https://thinkster.io/)
+  - [egghead.io](https://egghead.io/)
+  - [thinkster.io](https://thinkster.io/)
     
 ### Lists
 
@@ -34,6 +38,12 @@ ToDo
  - [awesome-javascript](https://github.com/sorrycc/awesome-javascript) - awesome javascript
  - [js-must-watch](https://github.com/bolshchikov/js-must-watch) - awesome must watch JS talks
 
+### Talks
+
+Favorite JS talk
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WrbdNhPhkMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  ### JS rankings
 
-  - [Modulecounts](http://www.modulecounts.com/) - In module counts npm registry is the largest and fastest growing module repository among others.
+  - [Modulecounts](http://www.modulecounts.com/) - In module counts npm registry is the largest and fastest growing module repository among others due to its micropackaging culture and the lack of standard library.
