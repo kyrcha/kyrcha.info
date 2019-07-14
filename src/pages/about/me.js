@@ -68,11 +68,11 @@ const Me = () => (
               <li><OutboundLink href="https://leetcode.com/kyrcha/">LeetCode</OutboundLink></li>
             </ul>
           </li>
-          <li>Competitions:
+          {/* <li>Competitions:
             <ul>
               <li><OutboundLink href="https://www.kaggle.com/kyrcha">Kaggle</OutboundLink></li>
             </ul>
-          </li>
+          </li> */}
           <li>Presentations:
             <ul>
               <li><OutboundLink href="https://speakerdeck.com/kyrcha">Speaker Deck</OutboundLink></li>
