@@ -42,6 +42,7 @@ const Publication = ({pub}) => {
         {/* <span>, </span> */}
         {pub.pages ? <span>, pp. {pub.pages}</span> : ''}
         {pub.file ? <span> [<OutboundLink href={pub.file.file.url} target='_blank'>PDF</OutboundLink>] </span> : ''}
+        {pub.poster ? <span> [<OutboundLink href={pub.poster.file.url} target='_blank'>Poster</OutboundLink>] </span> : ''}
         {pub.dataset ? <span> [<OutboundLink href={pub.dataset} target='_blank'>Dataset</OutboundLink>] </span> : ''}
         {pub.code ? <span> [<OutboundLink href={pub.code} target='_blank'>Code</OutboundLink>] </span> : ''}
         {pub.presentation ? <span> [<OutboundLink href={pub.presentation} target='_blank'>Slides</OutboundLink>] </span> : ''}

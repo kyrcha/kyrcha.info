@@ -129,6 +129,13 @@ export const query = graphql`
                 contentType
               }
             }
+            poster {
+              file {
+                url
+                fileName
+                contentType
+              }
+            }
           }
         }
       }
