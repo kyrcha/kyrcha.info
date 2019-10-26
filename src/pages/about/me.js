@@ -16,15 +16,12 @@ const Me = () => (
           Science degree from the Computer Science department of Colorado State University (CSU), USA, 
           completed in 2006. In 2009, he received the excellence award as a PhD candidate by the Research 
           Committee of AUTH, while in 2012, with team Mertacor, he got the 1st place in the 
-          international Trading Agent Competition (TAC) Ad Auctions (AA) game. He has worked as a 
-          researcher and technical leader for European (Mobile-Age, SEAF, S-CASE, CASSANDRA, Agent 
-          Academy), national (eTHMMY) and private sector funded R&D projects and as a software engineer 
-          in the industry. He is currently a research and teaching associate at ECE, AUTH working as 
-          a technical lead and software architect in R&D projects. He is also an adjunct instructor 
-          in the "Advanced Computer and Communication Systems" postgraduate programme, giving 
-          lectures about Software Engineering, Databases and Data Mining. In 2017, along with 
-          Dr. Andreas Symeonidis they founded Cyclopt, a spin-off company of AUTH, focused on software 
-          quality assessment and software analytics.
+          international Trading Agent Competition (TAC) Ad Auctions (AA) game. In his time as a PhD student
+          and as a Postdoctoral researcher at ECE, AUTH he has worked for European (Mobile-Age, SEAF, S-CASE, 
+          CASSANDRA, Agent Academy), national (eTHMMY) and private sector funded R&D projects and as an adjunct 
+          instructor in the areas of Software Engineering, Big Data and Data Mining. In 2017, along with Dr. 
+          Andreas Symeonidis they founded Cyclopt, a spin-off company of AUTH, focused on software quality 
+          assessment and software analytics. Currently, he works as a Senior Quality Engineer at source{'{d}'}.
         </p>
         <p className="title is-3">CV</p>
         <p>
@@ -66,8 +63,10 @@ const Me = () => (
               <li><OutboundLink href="https://profile.codersrank.io/user/kyrcha">CodersRank</OutboundLink></li>
               <li><OutboundLink href="https://www.hackerrank.com/kyrcha">HackerRank</OutboundLink></li>
               <li><OutboundLink href="https://leetcode.com/kyrcha/">LeetCode</OutboundLink></li>
+              <li><OutboundLink href="http://rpubs.com/kyrcha">Rpubs</OutboundLink></li>
             </ul>
           </li>
+          
           {/* <li>Competitions:
             <ul>
               <li><OutboundLink href="https://www.kaggle.com/kyrcha">Kaggle</OutboundLink></li>

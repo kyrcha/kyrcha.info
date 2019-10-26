@@ -12,19 +12,18 @@ const Development = () => (
         <div className="columns">
           <div className="column">
             <PortfolioItem 
-              path={'/development/cyclopt-bot'}
-              title={'Cyclopt Chatbot'}
-              img={'/images/bot-cyclopt-com.png'}
-              square={true}
-              description={'My startup. Chatbot for Software and Team analytics, built as a GitHub App using the MERN stack.'}/>
-          </div>
-          <div className="column">
-            <PortfolioItem 
               path={'/development/npm-miner'}
               title={'npm-miner'} 
               img={'/images/npm-miner-com.png'}
               square={true}
               description={'Mining the npm registry'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/jssa'}
+              title={'jssa'} 
+              img={'/images/code-solid.svg'}
+              description={'JS static analyzer (jssa): An aggregation of javascript source code static analysis tools.'}/>
           </div>
           <div className="column">
             <PortfolioItem 
@@ -48,10 +47,10 @@ const Development = () => (
           </div>
           <div className="column">
             <PortfolioItem 
-              path={'/development/jssa'}
-              title={'jssa'} 
-              img={'/images/code-solid.svg'}
-              description={'JS static analyzer (jssa): An aggregation of javascript source code static analysis tools.'}/>
+              path={'/development/gh-downloader'}
+              title={'gh-downloader'} 
+              img={'/images/arrow-circle-down-solid.svg'}
+              description={'Download GitHub repositories as zipballs given search criteria.'}/>
           </div>
           <div className="column">
             <PortfolioItem 
@@ -70,13 +69,6 @@ const Development = () => (
                 img={'/images/character-position.png'}
                 description={'Visual Studio Code extension for revealing the character position'}/>
             </div>
-          </div>
-          <div className="column">
-            <PortfolioItem 
-              path={'/development/gh-downloader'}
-              title={'gh-downloader'} 
-              img={'/images/arrow-circle-down-solid.svg'}
-              description={'Download GitHub repositories as zipballs given search criteria.'}/>
           </div>
         </div>
         <hr/>
@@ -110,6 +102,7 @@ const Development = () => (
         <div className="columns">
           <div className="column content">
             <ul>
+              <li><strong>eslint-plugin-security-node</strong>: ESLint security plugin for Node.js by <OutboundLink href="https://github.com/gkouziik/">Ioannis Gkouziokas</OutboundLink>. [<OutboundLink href="https://github.com/gkouziik/eslint-plugin-security-node">eslint-plugin</OutboundLink>]</li>
               <li><strong>Deep website aesthetics</strong>: In this work <OutboundLink href="https://github.com/AlexDelitzas">Alex Delitzas</OutboundLink> is trying to measure the aesthetics of webpages through deep learning and A LOT of <OutboundLink href="http://data.deep-website-aesthetics.com/">data gathering</OutboundLink>.</li>
               <li>ESLint dataset and tools, by <OutboundLink href="https://github.com/pansakk">Panagiotis Sakkis</OutboundLink></li>
               <ul>
@@ -144,7 +137,7 @@ const Development = () => (
         </div>
         <hr/>
         <p className="title is-3">Project cemetary</p>
-        <p className="subtitle is-5">Old, non-maintained projects</p>
+        <p className="subtitle is-5">Old, non-maintained or taken-down projects</p>
         <div className="columns">
           <div className="column">
             <PortfolioItem 
@@ -153,6 +146,14 @@ const Development = () => (
               img={'/images/qaas-cyclopt-com.png'}
               square={true}
               description={"Old Cyclopt's Quality as a Service web application, built using the MERN stack. Dropped in favor of the bot above."}/>
+          </div>
+          <div className="column">
+          <PortfolioItem 
+              path={'/development/cyclopt-bot'}
+              title={'Cyclopt Chatbot'}
+              img={'/images/bot-cyclopt-com.png'}
+              square={true}
+              description={'My startup. Chatbot for Software and Team analytics, built as a GitHub App using the MERN stack.'}/>
           </div>
           <div className="column">
             <PortfolioItem 

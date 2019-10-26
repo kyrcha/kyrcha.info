@@ -8,7 +8,6 @@ import { graphql } from 'gatsby';
 
 class Template extends React.Component {
 
-  
   waitForGlobal = (name, timeout = 300) => {
     return new Promise((resolve, reject) => {
       let waited = 0

@@ -30,8 +30,6 @@ const Cyclopt = () => {
                             <span className="tag is-rounded is-primary">rabbitmq</span>
                             <span className="tag is-rounded is-primary">redis</span>
                             <span className="tag is-rounded is-primary">mongodb</span>
-                            <h2>Links</h2>
-                            <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="https://qaas.cyclopt.com">Website</OutboundLink>
                         </div>
                     </div>
                 </div>

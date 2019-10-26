@@ -32,8 +32,6 @@ const CycloptBot = () => {
                         <span className="tag is-rounded is-primary">mongodb</span>
                         <span className="tag is-rounded is-primary">GitHub Apps</span>
                         <span className="tag is-rounded is-primary">probot</span>
-                        <h2>Links</h2>
-                        <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="https://bot.cyclopt.com">Website</OutboundLink>
                     </div>
                 </div>
             </div>

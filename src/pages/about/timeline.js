@@ -223,8 +223,22 @@ const Timeline = () => (
             <div className="timeline-content">
               <p className="heading">April</p>
               <p>
-                Launched our <OutboundLink href='https://qaas.cyclopt.com'>Cyclopt Quality as a Service Minimum Viable Product</OutboundLink> that assesses your JavaScript source code a provides a rating 
+                Launched our <strong>Cyclopt Quality as a Service Minimum Viable Product</strong> that assesses your JavaScript source code a provides a rating 
                 for your project based on a benchmark.</p>
+            </div>
+          </div>
+          <header className="timeline-header">
+            <span className="tag is-primary">2019</span>
+          </header>
+          <div className="timeline-item">
+            <div className="timeline-marker">
+            </div>
+            <div className="timeline-content">
+              <p className="heading">October</p>
+              <p>
+                Moved from the Academia to the Industry by joining <OutboundLink href="https://sourced.tech/">source{'{d}'}</OutboundLink> as 
+                a Senior Quality Engineer
+              </p>
             </div>
           </div>
           <header className="timeline-header">
