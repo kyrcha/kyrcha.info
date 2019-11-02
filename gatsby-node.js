@@ -21,6 +21,7 @@
    const { createPage } = boundActionCreators
    const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
    const categoryTemplate = path.resolve(`src/templates/category.js`)
+   const tagTemplate = path.resolve(`src/templates/tag.js`)
    const resourcePageTemplate = path.resolve(`src/templates/resource-page.js`)
 
    const { createRedirect } = boundActionCreators
@@ -72,6 +73,7 @@
        const resources = result.data.allMarkdownRemark.edges
 
        const categorySet = new Set();
+       let tagDict = {}
 
        resources.forEach(({ node }) => {
         createPage({
@@ -100,6 +102,9 @@
  
        posts.forEach(({node}, index) =>  {
         categorySet.add(node.category);
+        node.tags.forEach(tag => {
+          tagDict[tag] = (tagDict[tag] || 0) + 1;
+        })
         createPage({
           path: node.url,
           component: blogPostTemplate,
@@ -113,7 +118,7 @@
 
       const categoryList = Array.from(categorySet);
       categoryList.forEach(category => {
-        console.log(_.kebabCase(category));
+        console.log(`Category: ${_.kebabCase(category)}`);
         createPage({
           path: `/categories/${_.kebabCase(category)}/`,
           component: categoryTemplate,
@@ -124,6 +129,18 @@
       });
 
       
+      tagDict = _(tagDict).toPairs().sortBy(0).fromPairs().value()
+      const tagList = _.chain(tagDict).toPairs().orderBy([1], ['desc']).fromPairs().keys().value()
+      tagList.forEach(tag => {
+        console.log(`Tag: ${_.kebabCase(tag)}`);
+        createPage({
+          path: `/tags/${_.kebabCase(tag)}/`,
+          component: tagTemplate,
+          context: {
+            tag
+          }
+        });
+      });
 
 
     })

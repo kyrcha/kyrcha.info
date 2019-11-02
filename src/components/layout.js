@@ -200,6 +200,10 @@ const Sidebar = () => (
               <li><Link to="/categories/books">Book Club</Link></li>
               <li><Link to="/categories/talks">Talks</Link></li>
             </ul>
+            <p>Plus the tag list</p>
+            <ul className='is-unstyled'>
+              <li><Link to="/tags">Tag List</Link></li>
+            </ul>
           </div>
         </div>
       </div>
