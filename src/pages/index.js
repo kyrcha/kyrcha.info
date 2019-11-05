@@ -11,26 +11,22 @@ const IndexPage = () => (
     <div className="section">
       <div className="content">
         <p>
-          My name is Kyriakos Chatzidimitriou and I strive to be a <OutboundLink href="https://www.sei.cmu.edu/architecture/research/previousresearch/duties.cfm">Software Architect</OutboundLink>, an 
-          (applied) Machine Learning Researcher and an Entrepreneur. Currently, I am working on my first company <OutboundLink href="http://cyclopt.com">Cyclopt</OutboundLink> and 
-          I am also a research fellow at the <OutboundLink href="http://www.auth.gr">Aristotle University of Thessaloniki</OutboundLink>, working as a team leader, software architect and researcher 
-          in R&amp;D projects with group <OutboundLink href="http://issel.ee.auth.gr">ISSEL</OutboundLink>, conducting research in the areas below.
+          My name is Kyriakos Chatzidimitriou and I am an Intelligent Systems, Data and Software Engineer and an Independent Researcher.
         </p>
         <p>
-          My research, development and business interests are in the broad area of <em><strong>Machine Learning and Big Data for and with Software Engineering and Software 
-            Development</strong></em> but more specifically in the area of <em><strong>Quality of Software Systems, which can be Applications, Big Data Systems or Intelligent Systems with Machine Learning models</strong></em>.
+          My research, development and business interests are in the broad area of <em><strong>Machine Learning and Big Data for and with Software Engineering</strong></em> and more 
+          specifically in the area of <em><strong>Quality of Software Systems: Applications, Big Data & Distributed Systems and Intelligent Systems with Machine Learning models</strong></em>.
           In particular:
         </p>
         <ul>
           <li>
-            Devising metrics, tools and models for assessing the <strong>quality of software (and 
-            intelligent - <OutboundLink href="https://medium.com/@karpathy/software-2-0-a64152b37c35">Software 2.0</OutboundLink>) systems</strong>,
+            Devising metrics, tools and models for assessing the <strong>quality of software (and intelligent -&nbsp;
+            <OutboundLink href="https://medium.com/@karpathy/software-2-0-a64152b37c35">Software 2.0</OutboundLink>) systems</strong>,
             for example based on the ISO 25010 standard.
           </li>
           <li>
-            Autonomously improve the quality of software systems (what is called autonomic computing), either in the automatic <strong>Find Bugs-Fix-Verify (Fi-Fi-Verify)</strong> 
-            sense for software systems or in the <strong>life-long learning</strong> sense for 
-            machine learning based systems.
+            Autonomously improve the quality of software systems (what was called autonomic computing), either in the automatic <strong>Find Bugs-Fix-Verify (Fi-Fi-Verify)</strong>
+            &nbsp;sense for software systems or in the <strong>life-long learning</strong> sense for machine learning based systems.
           </li>
           <li>
             <strong>Big Code</strong>: <strong>Software Analytics</strong> (Descriptive, Diagnostic, Predictive, 
@@ -38,23 +34,22 @@ const IndexPage = () => (
             for patterns to improve the various stages of the software lifecycle or the software itself.
           </li>
           <li>
-            Applying <strong>machine learning on the source code</strong> and building 
-            useful <strong>knowledge representations</strong> of software related artefacts.
+            Applying <strong>machine learning on the source code</strong> and building useful <strong>knowledge representations</strong> of software related artefacts.
           </li>
-          <li>
+          {/* <li>
             <strong>Engineering intelligent software systems (software agents)</strong> for automating 
             (and improving) various tasks humans do, with focus on lifelong machine learning techniques and their quality.
           </li>
           <li>
             Software tools for machine learning automation (<strong>AutoML</strong>), 
             for <OutboundLink href="https://seths.blog/2018/07/avoiding-the-gigo-trap/">garbage-in, gorgeous-out</OutboundLink> outcomes and autonomic systems.
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, 
             formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics 
             that can efficiently express big data operations and in particular enable the scalability 
             of machine learning algorithms.
-          </li>
+          </li> */}
         </ul>
         {/* <p>and some moonshot ideas like:</p>
         <ul>
@@ -62,8 +57,8 @@ const IndexPage = () => (
           <li>Devise <strong>new methods for training neural networks</strong> other than back propagation.</li>
           <li><strong>Quantum Computing</strong> and especially its repercussions to Machine Learning and Software Development (how we should program, what tools should we use, what abstractions, how to simulate the computations in classic hardware, etc.).</li>
         </ul> */}
-        <p>As a developer (and for the time being as these things change), I am fond of the MERN stack for building web applications, 
-          JavaScript and node.js but I also work with Python and R in projects. I left Java sometime ago. My site is structured as follows:</p>
+        <p>As a developer (and for the time being as these things change), I am fond of the MERN stack (MongoDB, Expressjs, React.js, Node.js) for building web applications, 
+          but I also work with Go, Python and R in projects. I left Java sometime ago. My site is structured as follows:</p>
         <ul>
           <li>About</li>
           <ul>

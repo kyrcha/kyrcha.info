@@ -132,6 +132,10 @@ const Sidebar = () => (
             I am an Intelligent Systems, Data and Software Engineer. 
             This is my website.
           </p>
+        </div>
+      </div>
+      <div className="columns">
+        <div className="column">
           <h5>AMA</h5>
           <p>
             If you want to ask me something... anything... open an issue in my <OutboundLink href="https://github.com/kyrcha/ama">ama repo</OutboundLink>.
@@ -199,9 +203,6 @@ const Sidebar = () => (
               <li><Link to="/categories/tutorials">Tutorials</Link></li>
               <li><Link to="/categories/books">Book Club</Link></li>
               <li><Link to="/categories/talks">Talks</Link></li>
-            </ul>
-            <p>Plus the tag list</p>
-            <ul className='is-unstyled'>
               <li><Link to="/tags">Tag List</Link></li>
             </ul>
           </div>
