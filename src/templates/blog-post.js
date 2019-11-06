@@ -4,6 +4,7 @@ import dateFormat from 'dateformat';
 import ReactDisqusComments from 'react-disqus-comments';
 import TemplateWrapper from '../components/layout';
 import "katex/dist/katex.min.css"
+import { Helmet } from "react-helmet"
 import { graphql } from 'gatsby';
 
 class Template extends React.Component {
@@ -60,7 +61,7 @@ class Template extends React.Component {
 
   render() {
     const {data, pathContext} = this.props;
-    const { title, published, category, url, tags } = data.contentfulBlogPost
+    const { title, published, category, url, tags, excert } = data.contentfulBlogPost
   const { next, prev } = pathContext
   tags.map(t => console.log(t))
 
@@ -69,6 +70,11 @@ class Template extends React.Component {
     //   <Helmet title={`${title} - My Blog`} />
     //   <div className="container">
     <TemplateWrapper>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{title} - Kyriakos Chatzidimitriou Blog</title>
+      <meta name="description" content={excert} />
+    </Helmet>
     <section className="section">
       <div>
         <p className="title is-3">{title}</p>

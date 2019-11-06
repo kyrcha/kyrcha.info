@@ -141,19 +141,19 @@ const Development = () => (
         <div className="columns">
           <div className="column">
             <PortfolioItem 
-              path={'/development/cyclopt'}
-              title={'Cyclopt QaaS'}
-              img={'/images/qaas-cyclopt-com.png'}
-              square={true}
-              description={"Old Cyclopt's Quality as a Service web application, built using the MERN stack. Dropped in favor of the bot above."}/>
-          </div>
-          <div className="column">
-          <PortfolioItem 
               path={'/development/cyclopt-bot'}
               title={'Cyclopt Chatbot'}
               img={'/images/bot-cyclopt-com.png'}
               square={true}
               description={'My startup. Chatbot for Software and Team analytics, built as a GitHub App using the MERN stack.'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/cyclopt'}
+              title={'Cyclopt QaaS'}
+              img={'/images/qaas-cyclopt-com.png'}
+              square={true}
+              description={"Old Cyclopt's Quality as a Service web application, built using the MERN stack. Dropped in favor of the bot next."}/>
           </div>
           <div className="column">
             <PortfolioItem 

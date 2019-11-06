@@ -16,10 +16,10 @@ const GHDownloader = () => {
                 projects.
             </p>
             <h2>Tech Stack</h2>
-            <span className="tag is-rounded is-primary">javascript</span><span> </span>
-            <span className="tag is-rounded is-primary">npm</span><span> </span>
-            <span className="tag is-rounded is-primary">node.js</span>
-            <span className="tag is-rounded is-primary">GitHub API</span>
+            <span className="tag is-rounded is-primary mr-5">javascript</span>
+            <span className="tag is-rounded is-primary mr-5">npm</span>
+            <span className="tag is-rounded is-primary mr-5">node.js</span>
+            <span className="tag is-rounded is-primary mr-5">GitHub API</span>
             <h2>Links</h2>
             <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/kyrcha/gh-downloader">GitHub</OutboundLink>
             </div>

@@ -21,14 +21,14 @@ const SEAF = () => {
                         The project enables investment in small to medium sized projects in Sustainable Energy Assets (SEA) such as Demand Response, Energy Efficiency and Distributed Renewable Generation through a holistic online platform
                         </p>
                         <h2>Tech Stack</h2>
-                        <span className="tag is-rounded is-primary">javascript</span><span> </span>
-                        <span className="tag is-rounded is-primary">angularjs</span><span> </span>
-                        <span className="tag is-rounded is-primary">node.js</span><span> </span>
-                        <span className="tag is-rounded is-primary">mongodb</span>
-                        <span className="tag is-rounded is-primary">express</span>
-                        <span className="tag is-rounded is-primary">Bootstrap</span>
-                        <span className="tag is-rounded is-primary">HTML</span>
-                        <span className="tag is-rounded is-primary">CSS</span>
+                        <span className="tag is-rounded is-primary mr-5">javascript</span>
+                        <span className="tag is-rounded is-primary mr-5">angularjs</span>
+                        <span className="tag is-rounded is-primary mr-5">node.js</span>
+                        <span className="tag is-rounded is-primary mr-5">mongodb</span>
+                        <span className="tag is-rounded is-primary mr-5">express</span>
+                        <span className="tag is-rounded is-primary mr-5">Bootstrap</span>
+                        <span className="tag is-rounded is-primary mr-5">HTML</span>
+                        <span className="tag is-rounded is-primary mr-5">CSS</span>
                         <h2>Links</h2>
                         <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="https://app.equadcapital.com/">Website</OutboundLink>
                     </div>

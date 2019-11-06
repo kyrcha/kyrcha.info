@@ -22,16 +22,16 @@ const CycloptBot = () => {
                             be installed into any account (user or organization).
                         </p>
                         <h2>Tech Stack</h2>
-                        <span className="tag is-rounded is-primary">javascript</span><span> </span>
-                        <span className="tag is-rounded is-primary">node.js</span><span> </span>
-                        <span className="tag is-rounded is-primary">react</span><span> </span>
-                        <span className="tag is-rounded is-primary">express</span><span> </span>
-                        <span className="tag is-rounded is-primary">heroku</span><span> </span>
-                        <span className="tag is-rounded is-primary">bulma</span>
-                        <span className="tag is-rounded is-primary">rabbitmq</span>
-                        <span className="tag is-rounded is-primary">mongodb</span>
-                        <span className="tag is-rounded is-primary">GitHub Apps</span>
-                        <span className="tag is-rounded is-primary">probot</span>
+                        <span className="tag is-rounded is-primary mr-5">javascript</span>
+                        <span className="tag is-rounded is-primary mr-5">node.js</span>
+                        <span className="tag is-rounded is-primary mr-5">react</span>
+                        <span className="tag is-rounded is-primary mr-5">express</span>
+                        <span className="tag is-rounded is-primary mr-5">heroku</span>
+                        <span className="tag is-rounded is-primary mr-5">bulma</span>
+                        <span className="tag is-rounded is-primary mr-5">rabbitmq</span>
+                        <span className="tag is-rounded is-primary mr-5">mongodb</span>
+                        <span className="tag is-rounded is-primary mr-5">GitHub Apps</span>
+                        <span className="tag is-rounded is-primary mr-5">probot</span>
                     </div>
                 </div>
             </div>

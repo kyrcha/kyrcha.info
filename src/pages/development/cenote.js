@@ -24,13 +24,13 @@ const Cenote = () => {
                             learn about scalable systems in the process.
                         </p>
                         <h2>Tech Stack</h2>
-                        <span className="tag is-rounded is-primary">javascript</span><span> </span>
-                        <span className="tag is-rounded is-primary">python</span><span> </span>
-                        <span className="tag is-rounded is-primary">java</span><span> </span>
-                        <span className="tag is-rounded is-primary">mongodb</span>
-                        <span className="tag is-rounded is-primary">kafka</span><span> </span>
-                        <span className="tag is-rounded is-primary">storm</span><span> </span>
-                        <span className="tag is-rounded is-primary">cassandra</span><span> </span>
+                        <span className="tag is-rounded is-primary mr-5">javascript</span>
+                        <span className="tag is-rounded is-primary mr-5">python</span>
+                        <span className="tag is-rounded is-primary mr-5">java</span>
+                        <span className="tag is-rounded is-primary mr-5">mongodb</span>
+                        <span className="tag is-rounded is-primary mr-5">kafka</span>
+                        <span className="tag is-rounded is-primary mr-5">storm</span>
+                        <span className="tag is-rounded is-primary mr-5">cassandra</span>
                         <h2>Links</h2>
                         <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/AuthEceSoftEng/cenote">cenote</OutboundLink>
                     </div>

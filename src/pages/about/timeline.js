@@ -6,7 +6,7 @@ import TemplateWrapper from '../../components/layout';
 
 const Timeline = () => (
   <TemplateWrapper>
-    <HeaderPage title={'Timline'} subtitle={'Some major milestones ...'} />
+    <HeaderPage title={'Timeline'} subtitle={'Some major milestones ...'} />
     <div className="section">
       <div className="content">
         <h1 className="title">Timeline</h1>

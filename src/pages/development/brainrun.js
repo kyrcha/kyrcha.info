@@ -27,10 +27,10 @@ const BrainRun = () => {
                                 (number 345) in the Google Play Store.
                             </p>
                             <h2>Tech Stack</h2>
-                            <span className="tag is-rounded is-primary">javascript</span><span> </span>
-                            <span className="tag is-rounded is-primary">react native</span><span> </span>
-                            <span className="tag is-rounded is-primary">node.js</span><span> </span>
-                            <span className="tag is-rounded is-primary">mongodb</span>
+                            <span className="tag is-rounded is-primary mr-5">javascript</span>
+                            <span className="tag is-rounded is-primary mr-5">react native</span>
+                            <span className="tag is-rounded is-primary mr-5">node.js</span>
+                            <span className="tag is-rounded is-primary mr-5">mongodb</span>
                             <h2>Links</h2>
                             <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://brainrun.issel.ee.auth.gr/">Website</OutboundLink>
                         </div>
