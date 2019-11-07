@@ -4,15 +4,15 @@ My personal website built with **Gatsbyjs**
 
 ## Stack
 
-- Gatsbyjs
-- Bulma.io
-- Contentful
-- surge.sh
-- GitHub
+- [Gatsbyjs](https://www.gatsbyjs.org/)
+- [Bulma.io](https://bulma.io/)
+- [Contentful](https://www.contentful.com/)
+- [surge.sh](https://surge.sh/)
+- [GitHub](https://github.com/)
 
 ## Setup
 
-Create an `.env` file with the following environment variables:
+Create an `.env` file with the following environment variables (see the `.env.sample`):
 
 - CONTENTFUL_SPACE_ID
 - CONTENTFUL_ACCESS_TOKEN
@@ -25,6 +25,10 @@ Install `gatsby-cli` globally to use it easily:
 Install all dependencies:
 
 `npm install`
+
+Start the development server:
+
+`gatsby develop`
 
 ## Test production build
 
@@ -54,3 +58,9 @@ Feel free to copy any code you like and don't forget to:
 - Use your own CNAME file with your own domain
 - Use your own redirects
 - Use your own pages, images, files etc.
+
+## Specs
+
+Some specs to remember especially with respect to images.
+
+- Thumbnail size for contentful: 240x135 (16:9)
