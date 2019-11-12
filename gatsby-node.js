@@ -84,7 +84,7 @@
       });
 
       // Create blog post list pages
-      const postsPerPage = 10;
+      const postsPerPage = 1000; // No worries less amount of data than JS bundles...I will have a search function
       const numPages = Math.ceil(posts.length / postsPerPage);
 
       Array.from({ length: numPages }).forEach((_, i) => {
