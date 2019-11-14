@@ -79,6 +79,9 @@ const Header = () => (
             <Link className="navbar-item" to="/resources/machine-learning">
               Machine Learning
             </Link>
+            <Link className="navbar-item" to="/resources/quality">
+              Quality for Software 1.0 and 2.0
+            </Link>
             <Link className="navbar-item" to="/resources/machine-learning-software-engineering">
               ML on SE
             </Link>
@@ -212,8 +215,8 @@ const Sidebar = () => (
         <div className="column">
           <h4>Let's work together</h4>
           <p>
-            For <OutboundLink href="/colab">hiring our team</OutboundLink> or <OutboundLink href="/colab">pursuing
-            other joint research, development and writing activities </OutboundLink>(like H2020 EU proposals, tenders etc.) 
+            For <OutboundLink href="/colab">hiring me</OutboundLink> or <OutboundLink href="/colab">pursuing
+            other joint research, development and writing activities </OutboundLink>
             feel free to <OutboundLink href="/colab">contact me</OutboundLink>.
           </p>
         </div>

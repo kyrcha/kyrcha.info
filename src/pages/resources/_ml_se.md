@@ -26,32 +26,64 @@ In this section I am collecting summary paragraphs of the resources (mainly the 
 
 #### Source Code Analysis and Language modeling
 
+TODO
+
 #### Neural Network Architectures and Algorithms
+
+TODO
 
 #### Embeddings in Software Engineering
 
+TODO
+
 #### Program Translation
+
+TODO
 
 #### Code Suggestion and Completion
 
+TODO
+
 #### Program Repair and Bug Detection
+
+TODO
 
 #### APIs and Code Mining
 
+TODO
+
 #### Code Optimization
+
+TODO
 
 #### Topic Modeling
 
+TODO
+
 #### Sentiment Analysis
+
+TODO
 
 #### Code Summarization
 
+TODO
+
 #### Clone Detection
+
+TODO
 
 #### Differentiable Interpreters
 
+TODO
+
 #### Binary Data Modeling
+
+TODO
 
 #### Soft Clustering Using T-mixture Models
 
+TODO
+
 #### Misc
+
+TODO
