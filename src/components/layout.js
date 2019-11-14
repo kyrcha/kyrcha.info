@@ -80,7 +80,7 @@ const Header = () => (
               Machine Learning
             </Link>
             <Link className="navbar-item" to="/resources/quality">
-              Quality for Software 1.0 and 2.0
+              Quality
             </Link>
             <Link className="navbar-item" to="/resources/machine-learning-software-engineering">
               ML on SE

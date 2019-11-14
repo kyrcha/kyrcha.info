@@ -57,8 +57,11 @@ const IndexPage = () => (
           <li>Devise <strong>new methods for training neural networks</strong> other than back propagation.</li>
           <li><strong>Quantum Computing</strong> and especially its repercussions to Machine Learning and Software Development (how we should program, what tools should we use, what abstractions, how to simulate the computations in classic hardware, etc.).</li>
         </ul> */}
-        <p>As a developer (and for the time being as these things change), I am fond of the MERN stack (MongoDB, Expressjs, React.js, Node.js) for building web applications, 
-          but I also work with Go, Python and R in projects. I left Java sometime ago. My site is structured as follows:</p>
+        <p>
+          As a developer (and for the time being as these things change), I am fond of the MERN stack (MongoDB, Expressjs, React.js, Node.js) for building web applications, 
+          but I also work with Go, Python and R in projects.
+        </p>
+        <p>My site is structured as follows:</p>
         <ul>
           <li>About</li>
           <ul>

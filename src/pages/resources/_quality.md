@@ -1,7 +1,7 @@
 ---
 path: "/resources/quality"
 title: "Quality Assurance for Software, Systems and Machine Learning"
-subtitle: "My machine learning resources"
+subtitle: "My quality assurance resources"
 ---
 
 This page contains my notes on several aspects of quality on software, systems and machine learning.
