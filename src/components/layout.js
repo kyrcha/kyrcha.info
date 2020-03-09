@@ -42,12 +42,6 @@ const Header = () => (
         <Link className="navbar-item" to="/blog">
           Blog
         </Link>
-        {/* <Link className="navbar-item" to="/research">
-          Research
-        </Link>
-        <Link className="navbar-item" to="/development">
-          Development
-        </Link> */}
         <div className="navbar-item has-dropdown is-hoverable">
           <a className="navbar-link" href="#">
             Portfolios
@@ -73,6 +67,12 @@ const Header = () => (
             Resources
           </a>
           <div className="navbar-dropdown is-boxed is-right">
+            <Link className="navbar-item" to="/bits">
+              Bits
+            </Link>
+            <Link className="navbar-item" to="/notes">
+              Notes
+            </Link>
             <Link className="navbar-item" to="/resources/javascript">
               JavaScript
             </Link>

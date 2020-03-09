@@ -15,11 +15,29 @@
   }
 };
 
+exports.string_to_slug = (str) => {
+  str = str.replace(/^\s+|\s+$/g, ''); // trim
+  str = str.toLowerCase();
+
+  // remove accents, swap ñ for n, etc
+  var from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+  var to   = "aaaaeeeeiiiioooouuuunc------";
+  for (var i=0, l=from.length ; i<l ; i++) {
+      str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+  }
+
+  str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+      .replace(/\s+/g, '-') // collapse whitespace and replace by -
+      .replace(/-+/g, '-'); // collapse dashes
+
+  return str;
+}
 
  
  exports.createPages = ({ boundActionCreators, graphql }) => {
    const { createPage } = boundActionCreators
    const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
+   const bitsTemplate = path.resolve(`src/templates/bits-post.js`)
    const categoryTemplate = path.resolve(`src/templates/category.js`)
    const tagTemplate = path.resolve(`src/templates/tag.js`)
    const resourcePageTemplate = path.resolve(`src/templates/resource-page.js`)
@@ -50,6 +68,18 @@
         }
       }
     }
+    allContentfulBits {
+      edges {
+          node {
+          id
+          title
+              childContentfulBitsBitTextNode {
+                  id
+                  bit
+              }
+          }
+      }
+  }
     allMarkdownRemark(
       filter: {fileAbsolutePath: {regex: "/(resources)\/.*\.md$/"}}
     ) {
@@ -69,6 +99,24 @@
        }
  
        const posts = result.data.allContentfulBlogPost.edges
+
+       const bits = result.data.allContentfulBits.edges
+
+       createPage({
+        path: '/bits',
+        component: path.resolve('src/templates/bits-list.js'),
+        context: {}, // additional data can be passed via context
+      });
+
+      bits.forEach(({node}, index) =>  {
+        createPage({
+          path: `/bits/${this.string_to_slug(node.title)}`,
+          component: bitsTemplate,
+          context: {
+            title: node.title,
+          }
+        })
+      });
 
        const resources = result.data.allMarkdownRemark.edges
 

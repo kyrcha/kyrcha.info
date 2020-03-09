@@ -7,7 +7,7 @@ import "katex/dist/katex.min.css"
 import { Helmet } from "react-helmet"
 import { graphql } from 'gatsby';
 
-class Template extends React.Component {
+class BitsTemplate extends React.Component {
 
   waitForGlobal = (name, timeout = 300) => {
     return new Promise((resolve, reject) => {
@@ -61,8 +61,9 @@ class Template extends React.Component {
 
   render() {
     const {data, pathContext} = this.props;
-    const { title, published, category, url, tags, excert } = data.contentfulBlogPost
-  const { next, prev } = pathContext
+    console.log(data);
+    console.log(pathContext);
+    const { title, summary } = data.contentfulBits
 
     return (
     // <section className="section">
@@ -72,64 +73,35 @@ class Template extends React.Component {
     <Helmet>
       <meta charSet="utf-8" />
       <title>{title} - Kyriakos Chatzidimitriou Blog</title>
-      <meta name="description" content={excert} />
+      <meta name="description" content={summary} />
     </Helmet>
     <section className="section">
       <div>
         <p className="title is-3">{title}</p>
-        <p className="subtitle is-5">by Kyriakos Chatzidimitriou | {dateFormat(published, "mmm d, yyyy HH:MM")} | <Link to={`/categories/${category}`}>{category}</Link></p>
-        <div className="tags">
-          { tags.map(tag => {
-              return (<span key={tag} className="tag is-light">{tag}</span>)
-            })
-          }
-        </div>
         <div 
           className="content blog-post"
-          dangerouslySetInnerHTML={{__html: data.contentfulBlogPost.body.childMarkdownRemark.html}} 
+          dangerouslySetInnerHTML={{__html: data.contentfulBits.childContentfulBitsBitTextNode.childMarkdownRemark.html}} 
           />
-      </div>
-      <p>
-          {prev && (
-            <Link to={prev.url}
-            className='button is-rounded tooltip is-tooltip-right'
-            data-tooltip={prev.title}>Previous</Link> 
-          )}
-          {next && (
-            <Link to={next.url} 
-            className='is-pulled-right button is-rounded tooltip is-tooltip-left' 
-            data-tooltip={next.title}>Next</Link> 
-          )}
-        </p>
-        <div>
-        <ReactDisqusComments
-          shortname="kyrcha"
-          identifier={url}
-          title={title}
-          url={`http://kyrcha.info/${url}`}
-        />
-        </div>
+    </div>
+    <p>
+        <Link to={'/bits'} className='button is-rounded'>Back to bits</Link> 
+    </p>
     </section>
     </TemplateWrapper>
   )
 }}
 
 export const pageQuery = graphql`
-  query BlogPostByUrl($url: String!) {
-    contentfulBlogPost(url: { eq: $url}) {
-      id
-      title
-      published
-      tags
-      category
-      excert
-      url
-      body {
-        childMarkdownRemark {
-          html
+    query BitsQueryByTitle($title: String!) {
+        contentfulBits(title: { eq: $title}) {
+            id
+            title
+            childContentfulBitsBitTextNode {
+              childMarkdownRemark {
+                html
+              }
+            }
         }
-      }
     }
-  }
 `
-export default Template;
+export default BitsTemplate;
