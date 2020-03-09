@@ -236,8 +236,30 @@ const Timeline = () => (
             <div className="timeline-content">
               <p className="heading">October</p>
               <p>
-                Moved from the Academia to the Industry by joining <OutboundLink href="https://sourced.tech/">source{'{d}'}</OutboundLink> as 
-                a Senior Quality Engineer
+                Moved from the Academia to the Industry by joining source{'{d}'} as a Senior Quality Engineer
+              </p>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-marker">
+            </div>
+            <div className="timeline-content">
+              <p className="heading">November</p>
+              <p>
+                Source{'{d}'} failed. 
+              </p>
+            </div>
+          </div>
+          <header className="timeline-header">
+            <span className="tag is-primary">2020</span>
+          </header>
+          <div className="timeline-item">
+            <div className="timeline-marker">
+            </div>
+            <div className="timeline-content">
+              <p className="heading">January</p>
+              <p>
+                Joined SGA and PerformAnts as a solution architect and a full-stack developer.
               </p>
             </div>
           </div>
