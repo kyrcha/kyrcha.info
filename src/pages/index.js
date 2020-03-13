@@ -11,31 +11,36 @@ const IndexPage = () => (
     <div className="section">
       <div className="content">
         <p>
-          My name is Kyriakos Chatzidimitriou and I am an Intelligent Systems, Data and Software Engineer and an Independent Researcher.
+          My name is Kyriakos Chatzidimitriou and I am an intelligent systems, data and software engineer as well as an indy researcher.
         </p>
         <p>
           My research, development and business interests are in the broad area of <em><strong>Software Engineering and Machine Learning</strong></em>. In particular:
         </p>
         <ul>
           <li>
-            <strong>Engineering intelligent software systems (software agents)</strong> for automating (and improving) various tasks humans do, 
-            with focus on lifelong machine learning techniques and their quality. Example domains are trading, energy, software, e-commerce.
+            <strong>Engineering intelligent software systems (software agents), algorithms and models</strong> for automating (and improving) various tasks humans do, 
+            with focus on lifelong machine learning techniques and their quality. Example domains are trading, energy, bioinformatics, software, 
+            e-commerce, etc.
           </li>
           <li>
+            <strong>Building web applications</strong>, tools and libraries that provide value to the users.
+          </li>
+          <li>
+            <p>Devising metrics, tools and models for assessing the <strong>quality</strong> of software (functional suitability, 
+            reliability, performance efficiency, compatibility, usability, reliability, security, maintainability, portability) 
+            and intelligent (<OutboundLink href="https://medium.com/@karpathy/software-2-0-a64152b37c35">Software 2.0</OutboundLink>) 
+            systems.</p>
+          </li>
+          {/* <li>
             <strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, 
             formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics 
             that can efficiently express big data operations and in particular enable the scalability 
             of machine learning algorithms.
-          </li> 
-          <li>
-            Devising metrics, tools and models for assessing the <strong>quality of software (and intelligent -&nbsp;
-            <OutboundLink href="https://medium.com/@karpathy/software-2-0-a64152b37c35">Software 2.0</OutboundLink>) systems</strong>,
-            for example based on the ISO 25010 standard.
-          </li>
-          <li>
+          </li>  */}
+          {/* <li>
             Autonomously improve the quality of software systems (what was called autonomic computing), either in the automatic <strong>Find Bugs-Fix-Verify (Fi-Fi-Verify)</strong>
             &nbsp;sense for software systems or in the <strong>life-long learning</strong> sense for machine learning based systems.
-          </li>
+          </li> */}
           {/* <li>
             <strong>Big Code</strong>: <strong>Software Analytics</strong> (Descriptive, Diagnostic, Predictive, 
             Prescriptive, etc.) and <strong>Mining Software Repositories</strong> and software related data streams 
