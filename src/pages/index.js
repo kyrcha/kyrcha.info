@@ -29,7 +29,7 @@ const IndexPage = () => (
             <p>Devising metrics, tools and models for assessing the <strong>quality</strong> of software (functional suitability, 
             reliability, performance efficiency, compatibility, usability, reliability, security, maintainability, portability) 
             and intelligent (<OutboundLink href="https://medium.com/@karpathy/software-2-0-a64152b37c35">Software 2.0</OutboundLink>) 
-            systems.</p>
+            systems (interpretability, trust, accountability, energy efficiency, privacy etc.)</p>
           </li>
           {/* <li>
             <strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, 
