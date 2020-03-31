@@ -64,7 +64,7 @@ const Header = () => (
         <div className="navbar-item has-dropdown is-hoverable">
           {/* eslint-disable-next-line */}
           <a className="navbar-link" href="#">
-            Resources
+            Content
           </a>
           <div className="navbar-dropdown is-boxed is-right">
             <Link className="navbar-item" to="/bits">
@@ -73,6 +73,17 @@ const Header = () => (
             <Link className="navbar-item" to="/notes">
               Notes
             </Link>
+            <Link className="navbar-item" to="/external">
+              External
+            </Link>
+          </div>
+        </div>
+        <div className="navbar-item has-dropdown is-hoverable">
+          {/* eslint-disable-next-line */}
+          <a className="navbar-link" href="#">
+            Resources
+          </a>
+          <div className="navbar-dropdown is-boxed is-right">
             <Link className="navbar-item" to="/resources/javascript">
               JavaScript
             </Link>
@@ -190,7 +201,7 @@ const Sidebar = () => (
         <div className="column">
           <h4>Subscribe to the blog</h4>
           <p>
-            <a href="http://eepurl.com/gfbyxX">Subscribe to kyrcha.info by Email</a>
+            <OutboundLink href="http://eepurl.com/gfbyxX">Subscribe to kyrcha.info by Email</OutboundLink>
             {/* <a href="https://feedburner.google.com/fb/a/mailverify?uri=kyrcha&amp;loc=en_US">Subscribe to kyrcha.info by Email</a> */}
           </p>
         </div>
@@ -237,8 +248,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Kyriakos Chatzidimitriou"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Personal website of Kyriakos Chatzidimitriou' },
+        { name: 'keywords', content: 'kyriakos, chatzidimitriou' },
       ]}
       link={[
         { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }

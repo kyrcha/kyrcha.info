@@ -1,13 +1,9 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import HeaderPage from '../components/header-page';
-import dateFormat from 'dateformat';
 import TemplateWrapper from '../components/layout';
 import { graphql } from 'gatsby';
-
-const figureStyle = {
-    width: '240px'
-};
 
 const Notes = ({data}) => {
     const { edges: notes} = data.allContentfulNotes;
@@ -24,7 +20,7 @@ const Notes = ({data}) => {
                                 {notes.map(({node: note}) => {
                                     return (
                                     <li key={note.id}>
-                                        <a href={note.url} target="_blank" rel="noreferrer noopener">{note.title}</a>
+                                        <OutboundLink href={note.url} target="_blank" rel="noreferrer noopener">{note.title}</OutboundLink>
                                     </li>
                                     )
                                 })}

@@ -76,6 +76,7 @@ const IndexPage = () => (
           <li><Link to="/blog">Blog</Link>: my blog on personal, research and development activities, tutorials and 'how tos', personal opinions, book reviews, exercise and nutrition posts etc.</li>
           <li><Link to="/bits">Bits</Link>: where I list short snippets of code and knowledge in various domains.</li>
           <li><Link to="/notes">Notes</Link>: links to notes I keep on various subjects.</li>
+          <li><Link to="/external">External</Link>: links to pieces that I created and exist on external platforms like medium, twitter, substack etc.</li>
           <li><Link to="/research">Research</Link>: my portfolio of research projects that includes areas of research and funded projects I worked or I am working on.</li>
           <li><Link to="/development">Development</Link>: my portfolio of development projects that includes open source software, libraries and tools I am involved in (as a developer or as a manager/team leader), as well as any running applications web or mobile.</li>
           <li><Link to="/publications">Publications</Link>: my publish or perish statistics profile and my publications list.</li>
