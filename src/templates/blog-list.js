@@ -36,7 +36,7 @@ export default class BlogList extends React.Component {
                                     <article className="media">
                                         <figure className="media-left" style={figureStyle}>
                                             <p className="image is-16by9">
-                                                {post.thumbnail ? <img src={post.thumbnail.file.url} alt={post.thumbnail.title}/> : <img src="/images/filler.jpg" alt="Random image"/>}
+                                                {post.thumbnail ? <img src={post.thumbnail.file.url} alt={post.thumbnail.title}/> : <img src="/images/filler.jpg" alt="Random"/>}
                                             </p>
                                         </figure>
                                         <div className="media-content">

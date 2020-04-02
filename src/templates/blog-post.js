@@ -73,6 +73,7 @@ class Template extends React.Component {
       <meta charSet="utf-8" />
       <title>{title} - Kyriakos Chatzidimitriou Blog</title>
       <meta name="description" content={excert} />
+      <meta name="keywords" content={tags} />
     </Helmet>
     <section className="section">
       <div>

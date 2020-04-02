@@ -20,15 +20,15 @@ const NEAR = ({data}) => {
             <p className='title is-3'>Videos</p>
             <p className='title is-5'>Double pole balancing with incomplete state information using NEAR</p>
             <div class="iframe-container">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/mjX2ZpsaWXI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe title="Double pole balancing with incomplete state information using NEAR" width="560" height="315" src="https://www.youtube.com/embed/mjX2ZpsaWXI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
             <p className='title is-5'>Double pole balancing with incomplete state information and damping fitness using NEAR</p>
             <div class="iframe-container">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Jug_sXnY8jo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="Double pole balancing with incomplete state information and damping fitness using NEAR" width="560" height="315" src="https://www.youtube.com/embed/Jug_sXnY8jo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p className='title is-5'>Double pole balancing with complete state information using NEAR</p>
             <div class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/PIi0A8QUigg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Double pole balancing with complete state information using NEAR" width="560" height="315" src="https://www.youtube.com/embed/PIi0A8QUigg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <p className='title is-3'>Related Publications</p>

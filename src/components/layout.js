@@ -43,6 +43,7 @@ const Header = () => (
           Blog
         </Link>
         <div className="navbar-item has-dropdown is-hoverable">
+          {/* eslint-disable-next-line */}
           <a className="navbar-link" href="#">
             Portfolios
           </a>

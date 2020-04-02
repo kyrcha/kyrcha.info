@@ -1,7 +1,7 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import HeaderPage from '../components/header-page';
-import dateFormat from 'dateformat';
 import TemplateWrapper from '../components/layout';
 import { graphql } from 'gatsby';
 import { string_to_slug } from '../../gatsby-node'
@@ -9,13 +9,11 @@ import { string_to_slug } from '../../gatsby-node'
 export default class BitsList extends React.Component {
     render() {
         const { edges: bits} = this.props.data.allContentfulBits
-        // const { currentPage, numPages } = this.props.pageContext
-        // const isFirst = currentPage === 1
-        // const isLast = currentPage === numPages
-        // const prevPage = (currentPage + 1).toString()
-        // const nextPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
         return (
             <TemplateWrapper>
+                <Helmet>
+                <meta name="description" content="Small snippets of knowledge" />
+                </Helmet>
                 <HeaderPage title={'Bits'} subtitle={'Small snippets of knowledge'} />
                 <div className="columns">
                     <div className="column">
@@ -44,13 +42,14 @@ export default class BitsList extends React.Component {
 
 export const query = graphql`
     query BitsQuery {
-        allContentfulBits {
+        allContentfulBits(sort: {order: DESC, fields: createdAt}) {
             totalCount
             edges {
                 node {
-                    id
-                    title
-                    summary
+                createdAt
+                id
+                title
+                summary
                 }
             }
         }

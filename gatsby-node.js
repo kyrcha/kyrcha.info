@@ -81,7 +81,7 @@ exports.string_to_slug = (str) => {
       }
   }
     allMarkdownRemark(
-      filter: {fileAbsolutePath: {regex: "/(resources)\/.*\.md$/"}}
+      filter: {fileAbsolutePath: {regex: "/(resources)/.*.md$/"}}
     ) {
       edges {
         node {

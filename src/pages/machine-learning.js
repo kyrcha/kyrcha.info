@@ -2,11 +2,6 @@ import React from 'react'
 import HeaderPage from '../components/header-page'
 import PortfolioItem from '../components/portfolio-item'
 import TemplateWrapper from '../components/layout';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
-
-// CIA
-// Automl
-// Tropical Cyclones
 
 const MachineLearning = () => (
   <TemplateWrapper>

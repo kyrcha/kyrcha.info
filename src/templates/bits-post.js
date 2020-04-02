@@ -1,7 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import dateFormat from 'dateformat';
-import ReactDisqusComments from 'react-disqus-comments';
 import TemplateWrapper from '../components/layout';
 import "katex/dist/katex.min.css"
 import { Helmet } from "react-helmet"
@@ -60,20 +58,16 @@ class BitsTemplate extends React.Component {
   }
 
   render() {
-    const {data, pathContext} = this.props;
-    console.log(data);
-    console.log(pathContext);
-    const { title, summary } = data.contentfulBits
+    const { data } = this.props;
+    const { title, summary, keywords } = data.contentfulBits
 
     return (
-    // <section className="section">
-    //   <Helmet title={`${title} - My Blog`} />
-    //   <div className="container">
     <TemplateWrapper>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>{title} - Kyriakos Chatzidimitriou Blog</title>
+      <title>{title} - Kyriakos Chatzidimitriou Bits</title>
       <meta name="description" content={summary} />
+      <meta name="keywords" content={keywords} />
     </Helmet>
     <section className="section">
       <div>
@@ -95,7 +89,9 @@ export const pageQuery = graphql`
     query BitsQueryByTitle($title: String!) {
         contentfulBits(title: { eq: $title}) {
             id
+            summary
             title
+            keywords
             childContentfulBitsBitTextNode {
               childMarkdownRemark {
                 html
