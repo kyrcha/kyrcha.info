@@ -64,3 +64,5 @@ Feel free to copy any code you like and don't forget to:
 Some specs to remember especially with respect to images.
 
 - Thumbnail size for contentful: 240x135 (16:9)
+
+In Contentful don't try embed.ly embeds in the long text properties. Just copy-paste the iframe.
