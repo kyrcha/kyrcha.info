@@ -34,7 +34,7 @@ const External = ({data}) => {
                 <div className="column is-10">
                     <div class="section">
                         <div class="content">
-                            <div className="columns">
+                            <div className="columns is-multiline">
                             {externals.map(({node: external}) => {
                                 return(
                                 <div className="column is-4" key={external.id}>
