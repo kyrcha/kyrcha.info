@@ -6,7 +6,7 @@ subtitle: "... for optimal health"
 
 ### About the Exercise & Nutrition page
 
-Exercise and nutrition are the two variables one can tune in order to have a healthy life. My goal is to live an active and healthy life till my late days, of course excluding things out of my reach like genetics and accidents. This is my resource page of things I study and do with respect to exercise and nutrition, i.e. the physical aspect o [sharpening the saw](http://amzn.to/2gcl7Rc). And like the the ancients Greeks said: 
+Exercise and nutrition are the two variables one can tune in order to have a healthy life. My goal is to live an active and healthy life till my late days, of course excluding things out of my reach like genetics and accidents. This is my resource page of things I study and do with respect to exercise and nutrition, i.e. the physical aspect o [sharpening the saw](https://amzn.to/2yfl8x0). And like the the ancients Greeks said: 
 
 > νους υγιής εν σώματι υγιεί 
 

@@ -92,10 +92,7 @@ const Header = () => (
               Machine Learning
             </Link>
             <Link className="navbar-item" to="/resources/quality">
-              Quality
-            </Link>
-            <Link className="navbar-item" to="/resources/machine-learning-software-engineering">
-              ML on SE
+              System Quality
             </Link>
             <Link className="navbar-item" to="/resources/exercise-nutrition">
               Exercise & Nutrition
@@ -255,9 +252,15 @@ const TemplateWrapper = ({ children }) => (
       link={[
         { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
+      script={[{ 
+        type: 'text/javascript', 
+        innerHTML: 'window.replybox = { site: "oDanDbbR7A" }' 
+      }]} 
     >
+      <script src="https://cdn.getreplybox.com/js/embed.js"></script>
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+      <script src="https://profile.codersrank.io/widget/widget.js"></script>
       {/* <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> */}
     </Helmet>
     <Header />

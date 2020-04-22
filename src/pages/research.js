@@ -12,6 +12,15 @@ const Research = () => (
         <div className="columns">
           <div className="column">
             <PortfolioItem 
+              img={'/images/bioinformatics.jpg'} 
+              path={'/research/bioinformatics'}
+              title={'Bioinformatics'} 
+              description={'Applying machine learning and deep learning representations on biological data.'}/>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem 
               img={'/images/neural-net.png'} 
               path={'/research/ml-src'}
               title={'Machine Learning on Source Code'} 

@@ -37,7 +37,7 @@ const Me = () => (
         <img className="alignnone size-full wp-image-179" src="/images/email.png" alt="" width="243" height="18"/>
 
         <p className="title is-3">Social Media</p>
-        <p>You can find me on the following social media (even though in favor of <OutboundLink href='https://amzn.to/2jl9Qwt'>deep work</OutboundLink>, I abstain from them):</p>
+        <p>You can find me on the following social media (even though in favor of <OutboundLink href='https://amzn.to/2K2zjrW'>deep work</OutboundLink>, I abstain from them):</p>
         <ul>
           <li>Updates:
             <ul>

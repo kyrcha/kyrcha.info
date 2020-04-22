@@ -12,6 +12,24 @@ const Development = () => (
         <div className="columns">
           <div className="column">
             <PortfolioItem 
+              path={'/development/performants'}
+              title={'PerformAnts'} 
+              img={'/images/performants.png'}
+              square={true}
+              description={'Meet PerformAnts, your concert partner.'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem 
+              path={'/development/gh-metrics'}
+              title={'gh-metrics'} 
+              img={'/images/gh-metrics.png'}
+              square={true}
+              description={'Calculate pull-request and issue metrics.'}/>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column">
+            <PortfolioItem 
               path={'/development/npm-miner'}
               title={'npm-miner'} 
               img={'/images/npm-miner-com.png'}
@@ -131,8 +149,11 @@ const Development = () => (
         <p className="title is-3">Badges</p>
         <p className="subtitle is-5">Programming and algorithmic badges</p>
         <div className="columns">
-          <div className="column">
-              <img src="https://projecteuler.net/profile/kyrcha.png" alt="project euler badge" />
+          <div className="column is-3">
+            <img src="https://projecteuler.net/profile/kyrcha.png" alt="project euler badge" />
+          </div>
+          <div className="column is-3">
+            <codersrank-widget username="kyrcha"></codersrank-widget>
           </div>
         </div>
         <hr/>

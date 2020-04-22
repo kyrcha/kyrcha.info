@@ -37,7 +37,7 @@ const NpmMiner = () => {
                             <span className="tag is-rounded is-primary mr-5">express</span>
                             <h2>Links</h2>
                             <i className="fas fa-lg fa-link mr-5" aria-hidden="true"></i><OutboundLink href="http://npm-miner.com">Website</OutboundLink><br/>
-                            <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/AuthEceSoftEng/npm-miner">GitHub</OutboundLink>
+                            <i className="fab fa-lg fa-github mr-5" aria-hidden="true"></i><OutboundLink href="https://github.com/kyrcha/npm-miner">GitHub</OutboundLink>
                         </div>
                     </div>
                 </div>

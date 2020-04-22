@@ -5,3 +5,8 @@
 .is-circular {
     border-radius: 50%;
 }
+
+.is-196x128 {
+    height: 128px;
+    width: 196px;
+}

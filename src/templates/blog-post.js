@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import dateFormat from 'dateformat';
-import ReactDisqusComments from 'react-disqus-comments';
+// import ReactDisqusComments from 'react-disqus-comments';
 import TemplateWrapper from '../components/layout';
 import "katex/dist/katex.min.css"
 import { Helmet } from "react-helmet"
@@ -65,9 +65,6 @@ class Template extends React.Component {
   const { next, prev } = pathContext
 
     return (
-    // <section className="section">
-    //   <Helmet title={`${title} - My Blog`} />
-    //   <div className="container">
     <TemplateWrapper>
     <Helmet>
       <meta charSet="utf-8" />
@@ -102,14 +99,15 @@ class Template extends React.Component {
             data-tooltip={next.title}>Next</Link> 
           )}
         </p>
-        <div>
+        {/* <div>
         <ReactDisqusComments
           shortname="kyrcha"
           identifier={url}
           title={title}
           url={`http://kyrcha.info/${url}`}
         />
-        </div>
+        </div> */}
+        <div id="replybox"></div>
     </section>
     </TemplateWrapper>
   )

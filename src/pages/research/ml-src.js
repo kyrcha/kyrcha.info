@@ -22,8 +22,8 @@ const MLSrc = ({data}) => {
             <p className='title is-3'>Projects</p>
             <p className='title is-4'>Codrep 2019 competitions</p>
             <p>
-                We are participating in the <OutboundLink href="https://github.com/KTH/codrep-2019">CodRep 2019</OutboundLink> competition,
-                 organized by KTH.
+                We got the 2nd place in the <OutboundLink href="https://github.com/KTH/codrep-2019">CodRep 2019</OutboundLink> competition,
+                 organized by KTH. Our approach is summarized in this <OutboundLink href="https://gist.github.com/kyrcha/4d4ebf960051ccfc8764d1f0f7ca6a05">gist</OutboundLink>.
             </p>
 
             <p className='title is-3'>Tools</p>

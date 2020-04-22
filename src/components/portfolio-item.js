@@ -6,7 +6,7 @@ const PortfolioItem = ({title, description, path, img, square, webp}) => (
     <div className="has-text-centered ">
         <div className='is-flex is-horizontal-center'>
             { square ? 
-            <figure className="image is-128x128">
+            <figure className="image is-196x128">
                 <picture>
                     <source type="image/webp" srcSet={webp}/>
                     <img src={img} alt={title}/>
