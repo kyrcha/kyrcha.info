@@ -20,6 +20,14 @@ const Development = () => (
           </div>
           <div className="column">
             <PortfolioItem 
+              path={'/development/e-gov'}
+              title={'Applications for e-governance'} 
+              img={'/images/filler.jpg'}
+              square={true}
+              description={'Various applications to faciliate the digital transformation of e-government services to the cloud.'}/>
+          </div>
+          <div className="column">
+            <PortfolioItem 
               path={'/development/gh-metrics'}
               title={'gh-metrics'} 
               img={'/images/gh-metrics.png'}
