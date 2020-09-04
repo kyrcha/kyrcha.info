@@ -30,7 +30,7 @@
     "gatsby-transformer-remark": "^2.7.4",
     "katex": "^0.10.2",
     "lodash": "^4.17.15",
-    "marked": "^0.6.3",
+    "marked": "^0.7.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-disqus-comments": "^1.4.0",
