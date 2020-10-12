@@ -11,12 +11,24 @@ const IndexPage = () => (
     <div className="section">
       <div className="content">
         <p>
-          My name is Kyriakos Chatzidimitriou and I am an intelligent systems, data and software engineer as well as an indy researcher.
-        </p>
-        <p>
-          My research, development and business interests are in the broad area of <em><strong>Software Engineering and Machine Learning</strong></em>. In particular:
+          My name is Kyriakos Chatzidimitriou. Since I prefer my work to talk about who I am, I will just say
+          that my background is Software Engineering (programmer, architect, team manager) and Machine Learning 
+          (PhD and as a researcher) and so are my research, development and business interests.
+          At the moment my main interests are:
         </p>
         <ul>
+          <li>Architecting and programming solid, high quality web applications</li>
+          <li>Automated trading</li>
+          <li>Applying machine learning in various domains</li>
+          <li>Looking for my next startup gig after two failures (one founded, one joined)</li>
+          <li>Writing programming and machine learning books and posts, producing courses on the subjects</li>
+          <li>Learning how to draw</li>
+          <li>Getting from fat to savage</li>
+          <li>Learning STEM stuff and robotics to my kids and produce content around it</li>
+          <li>Learn and get better in online selling and marketing (so please bare some affiliate links :)). As Naval Ravikant says: ADD TWEET</li>
+          <li>Coding open source software</li>
+        </ul>
+        {/* <ul>
           <li>
             <strong>Engineering intelligent software systems (software agents), algorithms and models</strong> for automating (and improving) various tasks humans do, 
             with focus on lifelong machine learning techniques and their quality. Example domains are trading, energy, bioinformatics, software, 
@@ -30,7 +42,7 @@ const IndexPage = () => (
             reliability, performance efficiency, compatibility, usability, reliability, security, maintainability, portability) 
             and intelligent (<OutboundLink href="https://medium.com/@karpathy/software-2-0-a64152b37c35">Software 2.0</OutboundLink>) 
             systems (interpretability, trust, accountability, energy efficiency, privacy etc.)</p>
-          </li>
+          </li> */}
           {/* <li>
             <strong>Big Data/Machine Learning with Software Engineering</strong>: Architectures, 
             formalisms,  patterns, paradigms, algorithms, infrastructure as code and heuristics 
@@ -55,7 +67,7 @@ const IndexPage = () => (
             for <OutboundLink href="https://seths.blog/2018/07/avoiding-the-gigo-trap/">garbage-in, gorgeous-out</OutboundLink> outcomes and autonomic systems.
           </li> */}
           {/* */}
-        </ul>
+        {/* </ul> */}
         {/* <p>and some moonshot ideas like:</p>
         <ul>
           <li><strong>Learn machines to learn how to code (Software 3.0)</strong></li>
@@ -63,8 +75,10 @@ const IndexPage = () => (
           <li><strong>Quantum Computing</strong> and especially its repercussions to Machine Learning and Software Development (how we should program, what tools should we use, what abstractions, how to simulate the computations in classic hardware, etc.).</li>
         </ul> */}
         <p>
-          As a developer (and for the time being as these things change), I am fond of the MERN stack (MongoDB, Expressjs, React.js, Node.js) for building web applications, 
-          but I also work with Angular, C#, Go, Python and R in projects.
+          As a developer (and for the time being as these things change), I am fond of the 
+          MERN stack (MongoDB, Expressjs, React.js, Node.js) for building web applications, 
+          React Native for building mobile apps but I also work with Angular, NestJS, C#, Go, 
+          Python and R in projects.
         </p>
         <p>My site is structured as follows:</p>
         <ul>
