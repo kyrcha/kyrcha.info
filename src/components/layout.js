@@ -117,9 +117,10 @@ const Footer = () => (
     <p>
       Powered by <strong><OutboundLink href="https://www.gatsbyjs.org">Gatsby</OutboundLink></strong> |
       Styled using <strong><OutboundLink href="https://bulma.io">Bulma</OutboundLink></strong> |
-      Deployed on <strong><OutboundLink href="http://surge.sh/">Surge</OutboundLink></strong> |
+      Deployed on <strong><OutboundLink href="http://netlify.com/">Netlify</OutboundLink></strong> |
       Edited through <strong><OutboundLink href="https://www.contentful.com/">Contentful</OutboundLink></strong> |
-      Source on <strong><OutboundLink href="https://github.com/kyrcha/kyrcha.info">GitHub</OutboundLink></strong>
+      Source on <strong><OutboundLink href="https://github.com/kyrcha/kyrcha.info">GitHub</OutboundLink></strong> |
+      Analyzed by <strong><OutboundLink href="https://usefathom.com/ref/QENLSJ">useFathom</OutboundLink></strong>
     </p>
     <p>
       The website content is licensed <OutboundLink href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</OutboundLink>.
