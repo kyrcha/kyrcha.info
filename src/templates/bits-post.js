@@ -4,6 +4,7 @@ import TemplateWrapper from "../components/layout";
 import "katex/dist/katex.min.css";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+import Comments from "../components/Comments";
 
 class BitsTemplate extends React.Component {
   waitForGlobal = (name, timeout = 300) => {
